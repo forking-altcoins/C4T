@@ -1286,7 +1286,7 @@ Molimo pričekajte nekoliko minuta (zalog za Masternode zahtjeva %1 potvrda).</t
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the sapphire.conf file
+You will only have to paste the data in the coin4trade.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1294,7 +1294,7 @@ this controller wallet (select the Masternode in the list and press "start").
 na udaljenom poslužitelju u medjuspremnik.
 
 
-Podatke ćete morati zalijepiti u datoteku sapphire.conf
+Podatke ćete morati zalijepiti u datoteku coin4trade.conf
 na udaljenom poslužitelju i pokrenuti ga, a zatim pokrenite Masternode
 koristeći ovaj controller novčanik (na popisu odaberite Masternode i pritisnite "start").
 </translation>
@@ -1474,8 +1474,8 @@ NODEOVI</translation>
         <translation>Parsirani podaci preveliki</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "sapphire" prefix</source>
-        <translation>Nevažeći URI, ne počinje "sapphire" prefiksom</translation>
+        <source>Invalid URI, not starting with "coin4trade" prefix</source>
+        <translation>Nevažeći URI, ne počinje "coin4trade" prefiksom</translation>
     </message>
 </context>
 <context>
@@ -1836,8 +1836,8 @@ Adresa: %4
         <translation>Nevažeća adresa za plaćanje %1</translation>
     </message>
     <message>
-        <source>Cannot start sapphire: click-to-pay handler</source>
-        <translation>Ne može se pokrenuti sapphire: clik-to-pay handler</translation>
+        <source>Cannot start coin4trade: click-to-pay handler</source>
+        <translation>Ne može se pokrenuti coin4trade: clik-to-pay handler</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
@@ -3703,8 +3703,8 @@ Zahtjevi:
         <translation>Ne može se otvoriti mapa sigurnosne kopije</translation>
     </message>
     <message>
-        <source>Unable to open sapphire.conf with default application</source>
-        <translation>Nije moguće otvoriti sapphire.conf sa zadanom aplikacijom</translation>
+        <source>Unable to open coin4trade.conf with default application</source>
+        <translation>Nije moguće otvoriti coin4trade.conf sa zadanom aplikacijom</translation>
     </message>
     <message>
         <source>In:</source>

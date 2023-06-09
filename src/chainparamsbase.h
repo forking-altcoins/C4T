@@ -11,8 +11,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between sapphire-cli and sapphired)
- * of a given instance of the sapphire system.
+ * CBaseChainParams defines the base parameters (shared between coin4trade-cli and coin4traded)
+ * of a given instance of the coin4trade system.
  */
 class CBaseChainParams
 {

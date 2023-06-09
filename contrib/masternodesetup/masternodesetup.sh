@@ -1,14 +1,14 @@
 #!/bin/bash
 
 TMP_FOLDER=$(mktemp -d)
-CONFIG_FILE='sapphire.conf'
-CONFIGFOLDER='/root/.sapphire'
-COIN_DAEMON='sapphired'
-COIN_CLI='sapphire-cli'
+CONFIG_FILE='coin4trade.conf'
+CONFIGFOLDER='/root/.coin4trade'
+COIN_DAEMON='coin4traded'
+COIN_CLI='coin4trade-cli'
 COIN_PATH='/usr/local/bin/'
 COIN_TGZ=`curl -s https://api.github.com/repos/decenomy/SAPP/releases/latest | grep "browser_download_url.*Linux\\.zip" | cut -d : -f 2,3 | tr -d \" | xargs`
 COIN_ZIP=$(echo $COIN_TGZ | awk -F'/' '{print $NF}')
-COIN_NAME='sapphire'
+COIN_NAME='coin4trade'
 COIN_PORT=45328
 RPC_PORT=45329
 

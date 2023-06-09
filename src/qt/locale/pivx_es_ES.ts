@@ -1280,14 +1280,14 @@ Espere unos minutos más (las garantías de masternode requieren %1 confirmacion
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the sapphire.conf file
+You will only have to paste the data in the coin4trade.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
         <translation>Estás a punto de exportar los datos necesarios para ejecutar un Masternode de un servidor remoto a tu portapapeles.
 
 
-Sólo tendrás que pegar los datos en el archivo sapphire.conf de tu servidor remoto e iniciarlo, luego inicia el Masternode usando esta wallet de controladores (selecciona el Masternode en la lista y presione "start").
+Sólo tendrás que pegar los datos en el archivo coin4trade.conf de tu servidor remoto e iniciarlo, luego inicia el Masternode usando esta wallet de controladores (selecciona el Masternode en la lista y presione "start").
 </translation>
     </message>
     <message>
@@ -1461,8 +1461,8 @@ MAESTROS</translation>
         <translation>Los datos analizados son demasiado grandes</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "sapphire" prefix</source>
-        <translation>URI inválido, no empezar con el prefijo "sapphire"</translation>
+        <source>Invalid URI, not starting with "coin4trade" prefix</source>
+        <translation>URI inválido, no empezar con el prefijo "coin4trade"</translation>
     </message>
 </context>
 <context>
@@ -1823,8 +1823,8 @@ Dirección: %4
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start sapphire: click-to-pay handler</source>
-        <translation>No se puede iniciar sapphire: módulo click-to-pay</translation>
+        <source>Cannot start coin4trade: click-to-pay handler</source>
+        <translation>No se puede iniciar coin4trade: módulo click-to-pay</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
@@ -3607,8 +3607,8 @@ Requisitos:
         <translation>No se puede abrir la carpeta de copias de seguridad</translation>
     </message>
     <message>
-        <source>Unable to open sapphire.conf with default application</source>
-        <translation>No se puede abrir sapphire.conf con la aplicación predeterminada</translation>
+        <source>Unable to open coin4trade.conf with default application</source>
+        <translation>No se puede abrir coin4trade.conf con la aplicación predeterminada</translation>
     </message>
     <message>
         <source>In:</source>

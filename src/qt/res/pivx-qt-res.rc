@@ -22,10 +22,10 @@ BEGIN
             VALUE "CompanyName",        "Coin4Trade"
             VALUE "FileDescription",    "Coin4Trade Core (OSS GUI client for Coin4Trade)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "sapphire-qt"
+            VALUE "InternalName",       "coin4trade-qt"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "sapphire-qt.exe"
+            VALUE "OriginalFilename",   "coin4trade-qt.exe"
             VALUE "ProductName",        "Coin4Trade Core"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

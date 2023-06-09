@@ -13,8 +13,8 @@ The following are some helpful notes on how to run Coin4Trade Core on your nativ
 
 Unpack the files into a directory and run:
 
-- `bin/sapphire-qt` (GUI) or
-- `bin/sapphired` (headless)
+- `bin/coin4trade-qt` (GUI) or
+- `bin/coin4traded` (headless)
 
 ### Windows
 

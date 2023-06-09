@@ -65,15 +65,15 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += sapphired
+  bin_PROGRAMS += coin4traded
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += sapphire-cli sapphire-tx
+  bin_PROGRAMS += coin4trade-cli coin4trade-tx
 endif
 
 .PHONY: FORCE check-symbols check-security
-# sapphire core #
+# coin4trade core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   activemasternodeman.h \
@@ -212,7 +212,7 @@ obj/build.h: FORCE
 	  "$(abs_top_srcdir)"
 libbitcoin_util_a-clientversion.$(OBJEXT): obj/build.h
 
-# server: shared between sapphired and sapphire-qt
+# server: shared between coin4traded and coin4trade-qt
 libbitcoin_server_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_server_a_SOURCES = \
@@ -263,7 +263,7 @@ libbitcoin_zmq_a_SOURCES = \
   zmq/zmqpublishnotifier.cpp
 endif
 
-# wallet: shared between sapphired and sapphire-qt, but only linked
+# wallet: shared between coin4traded and coin4trade-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_wallet_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -355,7 +355,7 @@ crypto_libbitcoin_crypto_a_SOURCES = \
   crypto/fugue.c \
   crypto/sph_sha2big.c
 
-# common: shared between sapphired, and sapphire-qt and non-server tools
+# common: shared between coin4traded, and coin4trade-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_common_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_common_a_SOURCES = \
@@ -427,7 +427,7 @@ if GLIBC_BACK_COMPAT
 AM_LDFLAGS += $(COMPAT_LDFLAGS)
 endif
 
-# cli: shared between sapphire-cli and sapphire-qt
+# cli: shared between coin4trade-cli and coin4trade-qt
 libbitcoin_cli_a_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
 libbitcoin_cli_a_SOURCES = \
@@ -437,16 +437,16 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# sapphired binary #
-sapphired_SOURCES = pivxd.cpp
-sapphired_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-sapphired_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-sapphired_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# coin4traded binary #
+coin4traded_SOURCES = pivxd.cpp
+coin4traded_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+coin4traded_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+coin4traded_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-sapphired_SOURCES += pivxd-res.rc
+coin4traded_SOURCES += pivxd-res.rc
 endif
-sapphired_LDADD = \
+coin4traded_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_WALLET) \
   $(LIBBITCOIN_COMMON) \
@@ -459,45 +459,45 @@ sapphired_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
-sapphired_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+coin4traded_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
-# sapphire-cli binary #
-sapphire_cli_SOURCES = pivx-cli.cpp
-sapphire_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
-sapphire_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-sapphire_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# coin4trade-cli binary #
+coin4trade_cli_SOURCES = pivx-cli.cpp
+coin4trade_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+coin4trade_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+coin4trade_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-sapphire_cli_SOURCES += pivx-cli-res.rc
+coin4trade_cli_SOURCES += pivx-cli-res.rc
 endif
 
-sapphire_cli_LDADD = \
+coin4trade_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
-sapphire_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+coin4trade_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
-# sapphire-tx binary #
-sapphire_tx_SOURCES = pivx-tx.cpp
-sapphire_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
-sapphire_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
-sapphire_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+# coin4trade-tx binary #
+coin4trade_tx_SOURCES = pivx-tx.cpp
+coin4trade_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+coin4trade_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+coin4trade_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
-sapphire_tx_SOURCES += pivx-tx-res.rc
+coin4trade_tx_SOURCES += pivx-tx-res.rc
 endif
 
-sapphire_tx_LDADD = \
+coin4trade_tx_LDADD = \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
-sapphire_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+coin4trade_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
 #
 
 # bitcoinconsensus library #

@@ -79,12 +79,12 @@ UniValue importprivkey(const JSONRPCRequest& request)
 {
     if (request.fHelp || request.params.size() < 1 || request.params.size() > 4)
         throw std::runtime_error(
-            "importprivkey \"sapphireprivkey\" ( \"label\" rescan fStakingAddress )\n"
+            "importprivkey \"coin4tradeprivkey\" ( \"label\" rescan fStakingAddress )\n"
             "\nAdds a private key (as returned by dumpprivkey) to your wallet.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"sapphireprivkey\"      (string, required) The private key (see dumpprivkey)\n"
+            "1. \"coin4tradeprivkey\"      (string, required) The private key (see dumpprivkey)\n"
             "2. \"label\"            (string, optional, default=\"\") An optional label\n"
             "3. rescan               (boolean, optional, default=true) Rescan the wallet for transactions\n"
 
@@ -376,13 +376,13 @@ UniValue dumpprivkey(const JSONRPCRequest& request)
 {
     if (request.fHelp || request.params.size() != 1)
         throw std::runtime_error(
-            "dumpprivkey \"sapphireaddress\"\n"
-            "\nReveals the private key corresponding to 'sapphireaddress'.\n"
+            "dumpprivkey \"coin4tradeaddress\"\n"
+            "\nReveals the private key corresponding to 'coin4tradeaddress'.\n"
             "Then the importprivkey can be used with this output\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"sapphireaddress\"   (string, required) The sapphire address for the private key\n"
+            "1. \"coin4tradeaddress\"   (string, required) The coin4trade address for the private key\n"
 
             "\nResult:\n"
             "\"key\"                (string) The private key\n"
@@ -557,12 +557,12 @@ UniValue bip38encrypt(const JSONRPCRequest& request)
 {
     if (request.fHelp || request.params.size() != 2)
         throw std::runtime_error(
-            "bip38encrypt \"sapphireaddress\" \"passphrase\"\n"
-            "\nEncrypts a private key corresponding to 'sapphireaddress'.\n" +
+            "bip38encrypt \"coin4tradeaddress\" \"passphrase\"\n"
+            "\nEncrypts a private key corresponding to 'coin4tradeaddress'.\n" +
             HelpRequiringPassphrase() + "\n"
 
             "\nArguments:\n"
-            "1. \"sapphireaddress\"   (string, required) The sapphire address for the private key (you must hold the key already)\n"
+            "1. \"coin4tradeaddress\"   (string, required) The coin4trade address for the private key (you must hold the key already)\n"
             "2. \"passphrase\"   (string, required) The passphrase you want the private key to be encrypted with - Valid special chars: !#$%&'()*+,-./:;<=>?`{|}~ \n"
 
             "\nResult:\n"
@@ -603,7 +603,7 @@ UniValue bip38decrypt(const JSONRPCRequest& request)
 {
     if (request.fHelp || request.params.size() != 2)
         throw std::runtime_error(
-            "bip38decrypt \"sapphireaddress\" \"passphrase\"\n"
+            "bip38decrypt \"coin4tradeaddress\" \"passphrase\"\n"
             "\nDecrypts and then imports password protected private key.\n" +
             HelpRequiringPassphrase() + "\n"
 

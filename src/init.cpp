@@ -917,7 +917,7 @@ void InitLogging()
     LogPrintf("Coin4Trade version %s (%s)\n", version_string, CLIENT_DATE);
 }
 
-/** Initialize sapphire.
+/** Initialize coin4trade.
  *  @pre Parameters should be parsed and config file should be read.
  */
 bool AppInit2()

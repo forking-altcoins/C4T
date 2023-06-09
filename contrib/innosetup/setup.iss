@@ -4,7 +4,7 @@
 #define MyAppName "Coin4Trade Core"
 #define MyAppPublisher "2022 DECENOMY Core Developers"
 #define MyAppURL "https://sappcoin.com"
-#define MyAppExeName "sapphire-qt.exe"
+#define MyAppExeName "coin4trade-qt.exe"
 #define MyAppExtraData "https://explorer.decenomy.net/bootstraps/SAPP/bootstrap.zip"
 #define MyAppVersion GetVersionNumbersString(".\package\" + MyAppExeName)
 
@@ -60,7 +60,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 6.1; Check: not IsAdminInstallMode
 
 [Files]
-Source: ".\package\sapphire-qt.exe"; DestDir: "{app}"; Flags: ignoreversion; Components: app
+Source: ".\package\coin4trade-qt.exe"; DestDir: "{app}"; Flags: ignoreversion; Components: app
 Source: ".\package\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs; Components: app
 Source: ".\7za.exe"; DestDir: "{tmp}"; Flags: deleteafterinstall; Components: bootstrap
 

@@ -1,21 +1,21 @@
 
 Debian
 ====================
-This directory contains files used to package sapphired/sapphire-qt
-for Debian-based Linux systems. If you compile sapphired/sapphire-qt yourself, there are some useful files here.
+This directory contains files used to package coin4traded/coin4trade-qt
+for Debian-based Linux systems. If you compile coin4traded/coin4trade-qt yourself, there are some useful files here.
 
-## sapphire: URI support ##
+## coin4trade: URI support ##
 
 
-sapphire-qt.desktop  (Gnome / Open Desktop)
+coin4trade-qt.desktop  (Gnome / Open Desktop)
 To install:
 
-	sudo desktop-file-install sapphire-qt.desktop
+	sudo desktop-file-install coin4trade-qt.desktop
 	sudo update-desktop-database
 
 If you build yourself, you will either need to modify the paths in
-the .desktop file or copy or symlink your sapphire-qt binary to `/usr/bin`
+the .desktop file or copy or symlink your coin4trade-qt binary to `/usr/bin`
 and the `../../share/pixmaps/pivx128.png` to `/usr/share/pixmaps`
 
-sapphire-qt.protocol (KDE)
+coin4trade-qt.protocol (KDE)
 

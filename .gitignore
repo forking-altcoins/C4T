@@ -17,13 +17,13 @@ src/test/test___decenomy__
 src/qt/test/test___decenomy__-qt
 
 # Coin4Trade
-src/bench/bench_sapphire
-src/sapphire-cli
-src/sapphire-tx
-src/sapphired
-src/qt/sapphire-qt
-src/test/test_sapphire
-src/qt/test/test_sapphire-qt
+src/bench/bench_coin4trade
+src/coin4trade-cli
+src/coin4trade-tx
+src/coin4traded
+src/qt/coin4trade-qt
+src/test/test_coin4trade
+src/qt/test/test_coin4trade-qt
 
 # Kyanite
 src/bench/bench_kyanite
@@ -71,14 +71,14 @@ src/trittium-tx
 src/trittiumd
 
 # Coin4Trade
-src/sapphire
-src/sapphired
-src/sapphire-cli
-src/sapphire-tx
-src/bench/bench_sapphire
-src/test/test_sapphire
-src/qt/test/test_sapphire-qt
-src/qt/sapphire-qt
+src/coin4trade
+src/coin4traded
+src/coin4trade-cli
+src/coin4trade-tx
+src/bench/bench_coin4trade
+src/test/test_coin4trade
+src/qt/test/test_coin4trade-qt
+src/qt/coin4trade-qt
 
 # Aezora
 src/bench/bench_aezora

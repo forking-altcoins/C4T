@@ -17,13 +17,13 @@ BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
             VALUE "CompanyName",        "Coin4Trade"
-            VALUE "FileDescription",    "sapphire-tx (CLI Coin4Trade transaction editor utility)"
+            VALUE "FileDescription",    "coin4trade-tx (CLI Coin4Trade transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "sapphire-tx"
+            VALUE "InternalName",       "coin4trade-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "sapphire-tx.exe"
-            VALUE "ProductName",        "sapphire-tx"
+            VALUE "OriginalFilename",   "coin4trade-tx.exe"
+            VALUE "ProductName",        "coin4trade-tx"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

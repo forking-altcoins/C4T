@@ -15,7 +15,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.sapphire.Coin4Trade-Qt";
+        return @"io.coin4trade.Coin4Trade-Qt";
     } else {
         return [self __bundleIdentifier];
     }

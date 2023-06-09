@@ -360,22 +360,22 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true },
 
         /* SAPP features */
-        {"sapphire", "listmasternodes", &listmasternodes, true },
-        {"sapphire", "getmasternodecount", &getmasternodecount, true },
-        {"sapphire", "createmasternodebroadcast", &createmasternodebroadcast, true },
-        {"sapphire", "decodemasternodebroadcast", &decodemasternodebroadcast, true },
-        {"sapphire", "relaymasternodebroadcast", &relaymasternodebroadcast, true },
-        {"sapphire", "masternodecurrent", &masternodecurrent, true },
-        {"sapphire", "startmasternode", &startmasternode, true },
-        {"sapphire", "createmasternodekey", &createmasternodekey, true },
-        {"sapphire", "getmasternodeoutputs", &getmasternodeoutputs, true },
-        {"sapphire", "listmasternodeconf", &listmasternodeconf, true },
-        {"sapphire", "getactivemasternodecount", &getactivemasternodecount, true },
-        {"sapphire", "getmasternodestatus", &getmasternodestatus, true },
-        {"sapphire", "getmasternodewinners", &getmasternodewinners, true },
-        {"sapphire", "getmasternodescores", &getmasternodescores, true },
-        {"sapphire", "mnsync", &mnsync, true },
-        {"sapphire", "spork", &spork, true },
+        {"coin4trade", "listmasternodes", &listmasternodes, true },
+        {"coin4trade", "getmasternodecount", &getmasternodecount, true },
+        {"coin4trade", "createmasternodebroadcast", &createmasternodebroadcast, true },
+        {"coin4trade", "decodemasternodebroadcast", &decodemasternodebroadcast, true },
+        {"coin4trade", "relaymasternodebroadcast", &relaymasternodebroadcast, true },
+        {"coin4trade", "masternodecurrent", &masternodecurrent, true },
+        {"coin4trade", "startmasternode", &startmasternode, true },
+        {"coin4trade", "createmasternodekey", &createmasternodekey, true },
+        {"coin4trade", "getmasternodeoutputs", &getmasternodeoutputs, true },
+        {"coin4trade", "listmasternodeconf", &listmasternodeconf, true },
+        {"coin4trade", "getactivemasternodecount", &getactivemasternodecount, true },
+        {"coin4trade", "getmasternodestatus", &getmasternodestatus, true },
+        {"coin4trade", "getmasternodewinners", &getmasternodewinners, true },
+        {"coin4trade", "getmasternodescores", &getmasternodescores, true },
+        {"coin4trade", "mnsync", &mnsync, true },
+        {"coin4trade", "spork", &spork, true },
 
 #ifdef ENABLE_WALLET
         /* Wallet */
@@ -573,7 +573,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(std::string methodname, std::string args)
 {
-    return "> sapphire-cli " + methodname + " " + args + "\n";
+    return "> coin4trade-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(std::string methodname, std::string args)

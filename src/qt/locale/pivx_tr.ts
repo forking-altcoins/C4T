@@ -1133,7 +1133,7 @@ and vote on the treasury system receiving a periodic reward.</source>
 on a remote server to your clipboard.
 
 
-You will only have to paste the data in the sapphire.conf file
+You will only have to paste the data in the coin4trade.conf file
 of your remote server and start it, then start the Masternode using
 this controller wallet (select the Masternode in the list and press "start").
 </source>
@@ -1141,7 +1141,7 @@ this controller wallet (select the Masternode in the list and press "start").
 panoya almak üzeresiniz.
 
 
-Bilgiyi uzak sunucunuzdaki sapphire.conf dosyasına yapıştırmanız ve
+Bilgiyi uzak sunucunuzdaki coin4trade.conf dosyasına yapıştırmanız ve
  başlatmanız gerekecektir, ondan sonra bu kontrol cüzdanını kullanan
 Masternodu başlatın (Listeden Masternodu seçip "başlat" tuşuna basın).
 </translation>
@@ -1269,8 +1269,8 @@ Emin misiniz?</translation>
         <translation>Ayrıştırılmış bilgi çok büyük</translation>
     </message>
     <message>
-        <source>Invalid URI, not starting with "sapphire" prefix</source>
-        <translation>Geçersiz URI, "sapphire" ön adıyla başlamıyor</translation>
+        <source>Invalid URI, not starting with "coin4trade" prefix</source>
+        <translation>Geçersiz URI, "coin4trade" ön adıyla başlamıyor</translation>
     </message>
 </context>
 <context>
@@ -1631,7 +1631,7 @@ Adres: %4
         <translation>Geçersiz ödeme adresi %1</translation>
     </message>
     <message>
-        <source>Cannot start sapphire: click-to-pay handler</source>
+        <source>Cannot start coin4trade: click-to-pay handler</source>
         <translation>Coin4Trade başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
@@ -3142,8 +3142,8 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
         <translation>Yedek klasörü açılamadı</translation>
     </message>
     <message>
-        <source>Unable to open sapphire.conf with default application</source>
-        <translation>sapphire.conf dosyası uygulama tarafından açılamadı</translation>
+        <source>Unable to open coin4trade.conf with default application</source>
+        <translation>coin4trade.conf dosyası uygulama tarafından açılamadı</translation>
     </message>
     <message>
         <source>In:</source>

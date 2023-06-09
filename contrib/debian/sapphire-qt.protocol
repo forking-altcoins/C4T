@@ -1,6 +1,6 @@
 [Protocol]
-exec=sapphire-qt '%u'
-protocol=sapphire
+exec=coin4trade-qt '%u'
+protocol=coin4trade
 input=none
 output=none
 helper=true

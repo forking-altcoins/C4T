@@ -207,8 +207,8 @@ bool Intro::pickDataDirectory()
     }
 
     /* Only override -datadir if different from the default, to make it possible to
-     * override -datadir in the sapphire.conf file in the default data directory
-     * (to be consistent with sapphired behavior)
+     * override -datadir in the coin4trade.conf file in the default data directory
+     * (to be consistent with coin4traded behavior)
      */
 
     if (dataDir != getDefaultDataDirectory())

@@ -75,9 +75,9 @@ static bool AppInitRPC(int argc, char* argv[])
         std::string strUsage = _("Coin4Trade RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  sapphire-cli [options] <command> [params]  " + _("Send command to Coin4Trade") + "\n" +
-                        "  sapphire-cli [options] help                " + _("List commands") + "\n" +
-                        "  sapphire-cli [options] help <command>      " + _("Get help for a command") + "\n";
+                        "  coin4trade-cli [options] <command> [params]  " + _("Send command to Coin4Trade") + "\n" +
+                        "  coin4trade-cli [options] help                " + _("List commands") + "\n" +
+                        "  coin4trade-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessageCli();
         }

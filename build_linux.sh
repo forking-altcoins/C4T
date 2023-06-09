@@ -51,6 +51,6 @@ esac
 	cd ..
 
 # Create zip file of binaries
-	cp SAPP/src/sapphired SAPP/src/sapphire-cli SAPP/src/sapphire-tx SAPP/src/qt/sapphire-qt .
-	zip SAPP-$(git describe --abbrev=0 --tags | sed s/v//)-Linux.zip sapphired sapphire-cli sapphire-tx sapphire-qt
-	rm -f sapphired sapphire-cli sapphire-tx sapphire-qt
+	cp SAPP/src/coin4traded SAPP/src/coin4trade-cli SAPP/src/coin4trade-tx SAPP/src/qt/coin4trade-qt .
+	zip SAPP-$(git describe --abbrev=0 --tags | sed s/v//)-Linux.zip coin4traded coin4trade-cli coin4trade-tx coin4trade-qt
+	rm -f coin4traded coin4trade-cli coin4trade-tx coin4trade-qt

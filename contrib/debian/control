@@ -1,4 +1,4 @@
-Source: sapphire
+Source: coin4trade
 Section: utils
 Priority: optional
 Maintainer: Fuzzbawls <fuzzbawls@gmail.com>
@@ -32,7 +32,7 @@ Homepage: https://sappcoin.com
 Vcs-Git: git://github.com/decenomy/SAPP.git
 Vcs-Browser: https://github.com/decenomy/SAPP
 
-Package: sapphired
+Package: coin4traded
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - daemon
@@ -45,10 +45,10 @@ Description: peer-to-peer network based digital currency - daemon
  Full transaction history is stored locally at each client.  This
  requires 18.5+ GB of space, slowly growing.
  .
- This package provides the daemon, sapphired, and the CLI tool
- sapphire-cli to interact with the daemon.
+ This package provides the daemon, coin4traded, and the CLI tool
+ coin4trade-cli to interact with the daemon.
 
-Package: sapphire-qt
+Package: coin4trade-qt
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: peer-to-peer network based digital currency - Qt GUI

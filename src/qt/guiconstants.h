@@ -51,7 +51,7 @@ static const int MAX_URI_LENGTH = 255;
 
 
 #define QAPP_ORG_NAME "Coin4Trade"
-#define QAPP_ORG_DOMAIN "sapphire.org"
+#define QAPP_ORG_DOMAIN "coin4trade.org"
 #define QAPP_APP_NAME_DEFAULT "Coin4Trade-Qt"
 #define QAPP_APP_NAME_TESTNET "Coin4Trade-Qt-testnet"
 

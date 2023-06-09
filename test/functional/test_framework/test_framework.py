@@ -72,9 +72,9 @@ TMPDIR_PREFIX = "pivx_func_test_"
 
 
 class PivxTestFramework():
-    """Base class for a sapphire test script.
+    """Base class for a coin4trade test script.
 
-    Individual sapphire test scripts should subclass this class and override the set_test_params() and run_test() methods.
+    Individual coin4trade test scripts should subclass this class and override the set_test_params() and run_test() methods.
 
     Individual tests can also override the following methods to customize the test setup:
 
@@ -102,11 +102,11 @@ class PivxTestFramework():
 
         parser = optparse.OptionParser(usage="%prog [options]")
         parser.add_option("--nocleanup", dest="nocleanup", default=False, action="store_true",
-                          help="Leave sapphireds and test.* datadir on exit or error")
+                          help="Leave coin4tradeds and test.* datadir on exit or error")
         parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
-                          help="Don't stop sapphireds after the test execution")
+                          help="Don't stop coin4tradeds after the test execution")
         parser.add_option("--srcdir", dest="srcdir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__))+"/../../../src"),
-                          help="Source directory containing sapphired/sapphire-cli (default: %default)")
+                          help="Source directory containing coin4traded/coin4trade-cli (default: %default)")
         parser.add_option("--cachedir", dest="cachedir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__)) + "/../../cache"),
                           help="Directory for caching pregenerated datadirs")
         parser.add_option("--tmpdir", dest="tmpdir", help="Root directory for datadirs")
@@ -125,7 +125,7 @@ class PivxTestFramework():
         parser.add_option("--pdbonfailure", dest="pdbonfailure", default=False, action="store_true",
                           help="Attach a python debugger if test fails")
         parser.add_option("--usecli", dest="usecli", default=False, action="store_true",
-                          help="use sapphire-cli instead of RPC for all commands")
+                          help="use coin4trade-cli instead of RPC for all commands")
         self.add_options(parser)
         (self.options, self.args) = parser.parse_args()
 
@@ -180,7 +180,7 @@ class PivxTestFramework():
         else:
             for node in self.nodes:
                 node.cleanup_on_exit = False
-            self.log.info("Note: sapphireds were not stopped and may still be running")
+            self.log.info("Note: coin4tradeds were not stopped and may still be running")
 
         if not self.options.nocleanup and not self.options.noshutdown and success != TestStatus.FAILED:
             self.log.info("Cleaning up")
@@ -271,7 +271,7 @@ class PivxTestFramework():
             self.nodes.append(TestNode(i, self.options.tmpdir, extra_args[i], rpchost, timewait=timewait, binary=binary[i], stderr=None, mocktime=self.mocktime, coverage_dir=self.options.coveragedir, use_cli=self.options.usecli))
 
     def start_node(self, i, *args, **kwargs):
-        """Start a sapphired"""
+        """Start a coin4traded"""
 
         node = self.nodes[i]
 
@@ -284,7 +284,7 @@ class PivxTestFramework():
             coverage.write_all_rpc_commands(self.options.coveragedir, node.rpc)
 
     def start_nodes(self, extra_args=None, *args, **kwargs):
-        """Start multiple sapphireds"""
+        """Start multiple coin4tradeds"""
 
         if extra_args is None:
             extra_args = [None] * self.num_nodes
@@ -306,12 +306,12 @@ class PivxTestFramework():
                 coverage.write_all_rpc_commands(self.options.coveragedir, node.rpc)
 
     def stop_node(self, i):
-        """Stop a sapphired test node"""
+        """Stop a coin4traded test node"""
         self.nodes[i].stop_node()
         self.nodes[i].wait_until_stopped()
 
     def stop_nodes(self):
-        """Stop multiple sapphired test nodes"""
+        """Stop multiple coin4traded test nodes"""
         for node in self.nodes:
             # Issue RPC to stop nodes
             node.stop_node()
@@ -332,7 +332,7 @@ class PivxTestFramework():
                 self.start_node(i, extra_args, stderr=log_stderr, *args, **kwargs)
                 self.stop_node(i)
             except Exception as e:
-                assert 'sapphired exited' in str(e)  # node must have shutdown
+                assert 'coin4traded exited' in str(e)  # node must have shutdown
                 self.nodes[i].running = False
                 self.nodes[i].process = None
                 if expected_msg is not None:
@@ -342,9 +342,9 @@ class PivxTestFramework():
                         raise AssertionError("Expected error \"" + expected_msg + "\" not found in:\n" + stderr)
             else:
                 if expected_msg is None:
-                    assert_msg = "sapphired should have exited with an error"
+                    assert_msg = "coin4traded should have exited with an error"
                 else:
-                    assert_msg = "sapphired should have exited with expected error " + expected_msg
+                    assert_msg = "coin4traded should have exited with expected error " + expected_msg
                 raise AssertionError(assert_msg)
 
     def wait_for_node_exit(self, i, timeout):
@@ -401,7 +401,7 @@ class PivxTestFramework():
         # User can provide log level as a number or string (eg DEBUG). loglevel was caught as a string, so try to convert it to an int
         ll = int(self.options.loglevel) if self.options.loglevel.isdigit() else self.options.loglevel.upper()
         ch.setLevel(ll)
-        # Format logs the same as sapphired's debug.log with microprecision (so log files can be concatenated and sorted)
+        # Format logs the same as coin4traded's debug.log with microprecision (so log files can be concatenated and sorted)
         formatter = logging.Formatter(fmt='%(asctime)s.%(msecs)03d000 %(name)s (%(levelname)s): %(message)s', datefmt='%Y-%m-%d %H:%M:%S')
         formatter.converter = time.gmtime
         fh.setFormatter(formatter)
@@ -430,7 +430,7 @@ class PivxTestFramework():
                 from_dir = get_datadir_path(origin, i)
                 to_dir = get_datadir_path(destination, i)
                 shutil.copytree(from_dir, to_dir)
-                initialize_datadir(destination, i)  # Overwrite port/rpcport in sapphire.conf
+                initialize_datadir(destination, i)  # Overwrite port/rpcport in coin4trade.conf
 
         def clone_cache_from_node_1(cachedir, from_num=4):
             """ Clones cache subdir from node 1 to nodes from 'from_num' to MAX_NODES"""
@@ -445,7 +445,7 @@ class PivxTestFramework():
                 for subdir in ["blocks", "chainstate", "sporks"]:
                     copy_and_overwrite(os.path.join(node_0_datadir, subdir),
                                     os.path.join(node_i_datadir, subdir))
-                initialize_datadir(cachedir, i)  # Overwrite port/rpcport in sapphire.conf
+                initialize_datadir(cachedir, i)  # Overwrite port/rpcport in coin4trade.conf
 
         def cachedir_valid(cachedir):
             for i in range(MAX_NODES):
@@ -492,7 +492,7 @@ class PivxTestFramework():
                     # Add .incomplete flagfile
                     # (removed at the end during clean_cache_subdir)
                     open(os.path.join(datadir, ".incomplete"), 'a').close()
-                args = [os.getenv("BITCOIND", "sapphired"), "-spendzeroconfchange=1", "-server", "-keypool=1",
+                args = [os.getenv("BITCOIND", "coin4traded"), "-spendzeroconfchange=1", "-server", "-keypool=1",
                         "-datadir=" + datadir, "-discover=0"]
                 self.nodes.append(
                     TestNode(i, ddir, extra_args=[], rpchost=None, timewait=None, binary=None, stderr=None,
@@ -526,7 +526,7 @@ class PivxTestFramework():
             # blocks are created with timestamps 1 minutes apart
             # starting from 331 minutes in the past
 
-            # Create cache directories, run sapphireds:
+            # Create cache directories, run coin4tradeds:
             create_cachedir(powcachedir)
             self.log.info("Creating 'PoW-chain': 200 blocks")
             start_nodes_from_dir(powcachedir, 4)
@@ -595,7 +595,7 @@ class PivxTestFramework():
             # Then 337-350 will mature last 14 pow blocks mined by node 3.
             # Then staked blocks start maturing at height 351.
 
-            # Create cache directories, run sapphireds:
+            # Create cache directories, run coin4tradeds:
             create_cachedir(poscachedir)
             self.log.info("Creating 'PoS-chain': 330 blocks")
             self.log.info("Copying 200 initial blocks from pow cache")
@@ -668,7 +668,7 @@ class PivxTestFramework():
             initialize_datadir(self.options.tmpdir, i)
 
 
-    ### sapphire Specific TestFramework ###
+    ### coin4trade Specific TestFramework ###
     ###################################
     def init_dummy_key(self):
         self.DUMMY_KEY = CECKey()
@@ -1056,7 +1056,7 @@ class PivxTestFramework():
 class ComparisonTestFramework(PivxTestFramework):
     """Test framework for doing p2p comparison testing
 
-    Sets up some sapphired binaries:
+    Sets up some coin4traded binaries:
     - 1 binary: test binary
     - 2 binaries: 1 test binary, 1 ref binary
     - n>2 binaries: 1 test binary, n-1 ref binaries"""
@@ -1067,11 +1067,11 @@ class ComparisonTestFramework(PivxTestFramework):
 
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
-                          default=os.getenv("BITCOIND", "sapphired"),
-                          help="sapphired binary to test")
+                          default=os.getenv("BITCOIND", "coin4traded"),
+                          help="coin4traded binary to test")
         parser.add_option("--refbinary", dest="refbinary",
-                          default=os.getenv("BITCOIND", "sapphired"),
-                          help="sapphired binary to use for reference nodes (if any)")
+                          default=os.getenv("BITCOIND", "coin4traded"),
+                          help="coin4traded binary to use for reference nodes (if any)")
 
     def setup_network(self):
         extra_args = [['-whitelist=127.0.0.1']] * self.num_nodes

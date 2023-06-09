@@ -47,10 +47,10 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Coin4Trade sapphire-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Coin4Trade coin4trade-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
-                               "  sapphire-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded sapphire transaction") + "\n" +
-                               "  sapphire-tx [options] -create [commands]   " + _("Create hex-encoded sapphire transaction") + "\n" +
+                               "  coin4trade-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded coin4trade transaction") + "\n" +
+                               "  coin4trade-tx [options] -create [commands]   " + _("Create hex-encoded coin4trade transaction") + "\n" +
                                "\n";
 
         fprintf(stdout, "%s", strUsage.c_str());
@@ -595,7 +595,7 @@ static int CommandLineRawTx(int argc, char* argv[])
             if (argc < 2)
                 throw std::runtime_error("too few parameters");
 
-            // param: hex-encoded sapphire transaction
+            // param: hex-encoded coin4trade transaction
             std::string strHexTx(argv[1]);
             if (strHexTx == "-") // "-" implies standard input
                 strHexTx = readStdin();

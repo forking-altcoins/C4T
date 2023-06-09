@@ -33,9 +33,9 @@ sudo bash -c "echo 0 > /proc/sys/fs/binfmt_misc/status"
 	cd ..
 
 # Create zip file of binaries
-	cp SAPP/src/sapphired.exe SAPP/src/sapphire-cli.exe SAPP/src/sapphire-tx.exe SAPP/src/qt/sapphire-qt.exe .
-	zip SAPP-Windows.zip sapphired.exe sapphire-cli.exe sapphire-tx.exe sapphire-qt.exe
-	rm -f sapphired.exe sapphire-cli.exe sapphire-tx.exe sapphire-qt.exe
+	cp SAPP/src/coin4traded.exe SAPP/src/coin4trade-cli.exe SAPP/src/coin4trade-tx.exe SAPP/src/qt/coin4trade-qt.exe .
+	zip SAPP-Windows.zip coin4traded.exe coin4trade-cli.exe coin4trade-tx.exe coin4trade-qt.exe
+	rm -f coin4traded.exe coin4trade-cli.exe coin4trade-tx.exe coin4trade-qt.exe
 
 # Enable WSL support for Win32 applications.
 	sudo bash -c "echo 1 > /proc/sys/fs/binfmt_misc/status"

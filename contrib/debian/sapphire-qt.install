@@ -1,6 +1,6 @@
-usr/local/bin/sapphire-qt usr/bin
+usr/local/bin/coin4trade-qt usr/bin
 share/pixmaps/pivx32.xpm usr/share/pixmaps
 share/pixmaps/pivx16.xpm usr/share/pixmaps
 share/pixmaps/pivx128.png usr/share/pixmaps
-debian/sapphire-qt.desktop usr/share/applications
-debian/sapphire-qt.protocol usr/share/kde4/services/
+debian/coin4trade-qt.desktop usr/share/applications
+debian/coin4trade-qt.protocol usr/share/kde4/services/

@@ -86,8 +86,8 @@
 #include <openssl/crypto.h>
 #include <openssl/rand.h>
 
-const char * const PIVX_CONF_FILENAME = "sapphire.conf";
-const char * const PIVX_PID_FILENAME = "sapphire.pid";
+const char * const PIVX_CONF_FILENAME = "coin4trade.conf";
+const char * const PIVX_PID_FILENAME = "coin4trade.pid";
 const char * const PIVX_MASTERNODE_CONF_FILENAME = "masternode.conf";
 const char * const PIVX_ACTIVE_MASTERNODE_CONF_FILENAME = "activemasternode.conf";
 
@@ -270,7 +270,7 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "sapphire";
+    const char* pszModule = "coin4trade";
 #endif
     if (pex)
         return strprintf(
@@ -290,10 +290,10 @@ void PrintExceptionContinue(const std::exception* pex, const char* pszThread)
 
 fs::path GetDefaultDataDir()
 {
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\sapphire
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\sapphire
-// Mac: ~/Library/Application Support/sapphire
-// Unix: ~/.sapphire
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\coin4trade
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\coin4trade
+// Mac: ~/Library/Application Support/coin4trade
+// Unix: ~/.coin4trade
 #ifdef WIN32
     // Windows
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Coin4Trade";
@@ -311,7 +311,7 @@ fs::path GetDefaultDataDir()
     return pathRet / "Coin4Trade";
 #else
     // Unix
-    return pathRet / ".sapphire";
+    return pathRet / ".coin4trade";
 #endif
 #endif
 }
@@ -377,7 +377,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
 {
     fs::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good()) {
-        // Create empty sapphire.conf if it does not exist
+        // Create empty coin4trade.conf if it does not exist
         FILE* configFile = fsbridge::fopen(GetConfigFile(), "a");
         if (configFile != NULL)
             fclose(configFile);
@@ -388,7 +388,7 @@ void ReadConfigFile(std::map<std::string, std::string>& mapSettingsRet,
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it) {
-        // Don't overwrite existing settings so command line settings override sapphire.conf
+        // Don't overwrite existing settings so command line settings override coin4trade.conf
         std::string strKey = std::string("-") + it->string_key;
         std::string strValue = it->value[0];
         InterpretNegativeSetting(strKey, strValue);

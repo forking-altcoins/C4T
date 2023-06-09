@@ -19,10 +19,10 @@ BEGIN
             VALUE "CompanyName",        "Coin4Trade"
             VALUE "FileDescription",    "Coin4Trade-cli (OSS RPC client for Coin4Trade)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "sapphire-cli"
+            VALUE "InternalName",       "coin4trade-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "sapphire-cli.exe"
+            VALUE "OriginalFilename",   "coin4trade-cli.exe"
             VALUE "ProductName",        "Coin4Trade-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END

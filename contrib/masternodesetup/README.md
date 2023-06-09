@@ -43,14 +43,14 @@ bash masternodesetup.sh
 
 * Last thing script will ask you is to provide Masternode Genkey. Copy the one you got previously (createmasternodekey) and press enter.
 
-Remember to do `sapphire-cli getblockcount` to check if VPS catching blocks till it synced with chain, if not follow this procedure:
+Remember to do `coin4trade-cli getblockcount` to check if VPS catching blocks till it synced with chain, if not follow this procedure:
 
-* Go to your wallet-qt and check peers list (tools - peers list) and select one ip from the list. With that ip do the follow command at VPS `sapphire-cli addnode "ip" onetry`
+* Go to your wallet-qt and check peers list (tools - peers list) and select one ip from the list. With that ip do the follow command at VPS `coin4trade-cli addnode "ip" onetry`
 
       Example:
-		  sapphire-cli addnode 45.32.144.158 onetry
+		  coin4trade-cli addnode 45.32.144.158 onetry
     
-* Check now if VPS already downloading blocks with the command `sapphire-cli getblockcount`, and if yes give it time now to catch last block number 
+* Check now if VPS already downloading blocks with the command `coin4trade-cli getblockcount`, and if yes give it time now to catch last block number 
 
 Do not close your terminal/ command prompt window at this point.
 
@@ -76,7 +76,7 @@ Do not close your terminal/ command prompt window at this point.
 ***Go back to Putty***
 
 ```
-sapphire-cli getmasternodestatus
+coin4trade-cli getmasternodestatus
 ```
 
 You need to get **"status" : 4** 

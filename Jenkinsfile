@@ -4,7 +4,7 @@ pipeline {
 
     environment {
         NAME = 'Coin4Trade'
-        BASE_NAME = 'sapphire'
+        BASE_NAME = 'coin4trade'
         ZIP_NAME = 'SAPP'
     }
 

@@ -38,7 +38,7 @@
   <true/>
 
   <key>CFBundleIdentifier</key>
-  <string>io.sapphire.Coin4Trade-Qt</string>
+  <string>io.coin4trade.Coin4Trade-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
