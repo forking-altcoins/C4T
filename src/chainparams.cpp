@@ -337,15 +337,7 @@ public:
         nDefaultPort = 45328;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back(CDNSSeedData("seeder", "seeder.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed1",  "seed1.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed2",  "seed2.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed3",  "seed3.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed4",  "seed4.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed5",  "seed5.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed6",  "seed6.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed7",  "seed7.sappcoin.com", true));
-        vSeeds.emplace_back(CDNSSeedData("seed8",  "seed8.sappcoin.com", true));
+        vSeeds.emplace_back(CDNSSeedData("",  "", true));
 
         base58Prefixes[PUBKEY_ADDRESS]  = std::vector<unsigned char>(1, 63);
         base58Prefixes[SCRIPT_ADDRESS]  = std::vector<unsigned char>(1, 18);
