@@ -3479,8 +3479,8 @@ Es gab ein Problem bei dem Versuch die Adressen unter %1 zu speichern. Bitte ver
         <translation>2) Wieso kann ich meine C4T nicht ausgeben?</translation>
     </message>
     <message>
-        <source>https://sappcoin.com/</source>
-        <translation>https://sappcoin.com/</translation>
+        <source>https://coin4trade.ml/</source>
+        <translation>https://coin4trade.ml/</translation>
     </message>
     <message>
         <source>1</source>

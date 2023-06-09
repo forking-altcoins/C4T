@@ -38,7 +38,7 @@ Create a project folder with the following elements
     * Application Name: `Coin4Trade Core`
     * Application Version: `1.2.0.0`
     * Application Publisher: `2020 Coin4Trade Core Developers`
-    * Application Website: `https://sappcoin.com/`
+    * Application Website: `https://coin4trade.ml/`
 * Setup the destination folder:
     * Program Files Folder
     * Folder name: `Coin4Trade`

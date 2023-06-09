@@ -3409,8 +3409,8 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>2) Zašto se moji C4T ne mogu potrošiti?</translation>
     </message>
     <message>
-        <source>https://sappcoin.com/</source>
-        <translation>https://sappcoin.com/</translation>
+        <source>https://coin4trade.ml/</source>
+        <translation>https://coin4trade.ml/</translation>
     </message>
     <message>
         <source>1</source>

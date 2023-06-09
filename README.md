@@ -12,7 +12,7 @@ Coin4Trade wallet repository
 • Prefix: C4T addresses start with the capital letter "S"   
 • Ports: 45328 (p2p) / 45329 (rpc)   
 • Explorer https://explorer.forking-altcoins.net/C4T/blocks   
-• Website https://sappcoin.com/
+• Website https://coin4trade.ml/
 
 ### Rewards Breakdown
 ---

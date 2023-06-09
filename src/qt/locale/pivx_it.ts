@@ -3483,8 +3483,8 @@ Si è verificato un errore nel tentativo di salvare l'elenco degli indirizzi in 
         <translation>2) Perché i miei C4T non sono spendibili?</translation>
     </message>
     <message>
-        <source>https://sappcoin.com/</source>
-        <translation>https://sappcoin.com/</translation>
+        <source>https://coin4trade.ml/</source>
+        <translation>https://coin4trade.ml/</translation>
     </message>
     <message>
         <source>1</source>

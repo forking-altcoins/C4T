@@ -3480,8 +3480,8 @@ Ha habido un error al tratar de guardar la libreta de direcciones en %1. Por fav
         <translation>2) ¿Por qué mis C4T no se pueden gastar?</translation>
     </message>
     <message>
-        <source>https://sappcoin.com/</source>
-        <translation>https://sappcoin.com/</translation>
+        <source>https://coin4trade.ml/</source>
+        <translation>https://coin4trade.ml/</translation>
     </message>
     <message>
         <source>1</source>

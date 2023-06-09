@@ -28,7 +28,7 @@ Build-Depends: debhelper,
  libzmq3-dev,
  dh-systemd
 Standards-Version: 3.9.2
-Homepage: https://sappcoin.com
+Homepage: https://coin4trade.ml
 Vcs-Git: git://github.com/forking-altcoins/C4T.git
 Vcs-Browser: https://github.com/forking-altcoins/C4T
 

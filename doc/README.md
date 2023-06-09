@@ -3,7 +3,7 @@ Coin4Trade Core
 
 Setup
 ---------------------
-[Coin4Trade Core](https://sappcoin.com/) is the original Coin4Trade client and it builds the backbone of the network. However, it downloads and stores the entire history of Coin4Trade transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
+[Coin4Trade Core](https://coin4trade.ml/) is the original Coin4Trade client and it builds the backbone of the network. However, it downloads and stores the entire history of Coin4Trade transactions; depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more. Thankfully you only have to do this once.
 
 Running
 ---------------------
@@ -55,7 +55,7 @@ The Coin4Trade repo's [root README](/README.md) contains relevant information on
 - [Dnsseed Policy](dnsseed-policy.md)
 
 ### Resources
-* Discuss on the [Coin4Trade Homepage](https://sappcoin.com/).
+* Discuss on the [Coin4Trade Homepage](https://coin4trade.ml/).
 * Join the [Coin4Trade Discord](https://discord.gg/zgcXB76).
 
 ### Miscellaneous

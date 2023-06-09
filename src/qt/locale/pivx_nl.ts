@@ -3479,8 +3479,8 @@ Er was een fout opgetreden tijdens het opslaan van deze adreslijst naar %1. Prob
         <translation>2) Waarom is mijn C4T niet besteedbaar?</translation>
     </message>
     <message>
-        <source>https://sappcoin.com/</source>
-        <translation>https://sappcoin.com/</translation>
+        <source>https://coin4trade.ml/</source>
+        <translation>https://coin4trade.ml/</translation>
     </message>
     <message>
         <source>1</source>

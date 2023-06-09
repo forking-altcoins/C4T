@@ -3,7 +3,7 @@
 
 #define MyAppName "Coin4Trade Core"
 #define MyAppPublisher "2022 DECENOMY Core Developers"
-#define MyAppURL "https://sappcoin.com"
+#define MyAppURL "https://coin4trade.ml"
 #define MyAppExeName "coin4trade-qt.exe"
 #define MyAppExtraData "https://explorer.forking-altcoins.net/bootstraps/C4T/bootstrap.zip"
 #define MyAppVersion GetVersionNumbersString(".\package\" + MyAppExeName)
