@@ -13,7 +13,7 @@ fi
 
 # Clone code from official Github repository
 	rm -rf C4T
-	git clone https://github.com/sappcoin-com/C4T.git
+	git clone https://github.com/forking-altcoins/C4T.git
 
 # Entering directory
 	cd C4T
