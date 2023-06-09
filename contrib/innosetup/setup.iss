@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Coin4Trade Core"
-#define MyAppPublisher "2022 DECENOMY Core Developers"
+#define MyAppPublisher "2023 Coin4Trade Core Developers"
 #define MyAppURL "https://coin4trade.ml"
 #define MyAppExeName "coin4trade-qt.exe"
 #define MyAppExtraData "https://explorer.forking-altcoins.net/bootstraps/C4T/bootstrap.zip"
