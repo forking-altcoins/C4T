@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        NAME = 'Sapphire'
+        NAME = 'Coin4Trade'
         BASE_NAME = 'sapphire'
         ZIP_NAME = 'SAPP'
     }

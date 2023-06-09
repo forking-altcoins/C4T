@@ -848,16 +848,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>versiyon</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sapphire</source>
-        <translation>Sapphire Hakkında </translation>
+        <source>About Coin4Trade</source>
+        <translation>Coin4Trade Hakkında </translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -907,16 +907,16 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>Welcome to Sapphire.</source>
-        <translation>Sapphire'a hoşgeldiniz.</translation>
+        <source>Welcome to Coin4Trade.</source>
+        <translation>Coin4Trade'a hoşgeldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sapphire will store its data.</source>
-        <translation>Program ilk başlatıldığında Sapphire'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
+        <source>As this is the first time the program is launched, you can choose where Coin4Trade will store its data.</source>
+        <translation>Program ilk başlatıldığında Coin4Trade'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Sapphire will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sapphire, SAPP blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
+        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade, SAPP blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -935,8 +935,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>TAMAM</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1536,8 +1536,8 @@ Emin misiniz?</translation>
 <context>
     <name>PIVXGUI</name>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1564,8 +1564,8 @@ Emin misiniz?</translation>
         <translation>Uygulamayı sonlandır</translation>
     </message>
     <message>
-        <source>Sapphire client</source>
-        <translation>Sapphire istemci</translation>
+        <source>Coin4Trade client</source>
+        <translation>Coin4Trade istemci</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1632,7 +1632,7 @@ Adres: %4
     </message>
     <message>
         <source>Cannot start sapphire: click-to-pay handler</source>
-        <translation>Sapphire başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
+        <translation>Coin4Trade başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
         <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
@@ -1765,8 +1765,8 @@ Adres: %4
         <translation>Onarılamaz bir hata oluştu. SAPP güvenli bir şekilde çalışamaz, kapanacaktır.</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1785,8 +1785,8 @@ Adres: %4
         <translation>Masternode konfigürasyon dosyası okuma hatası: %1</translation>
     </message>
     <message>
-        <source>Sapphire didn't yet exit safely...</source>
-        <translation>Sapphire henüz güvenle kapanmadı..</translation>
+        <source>Coin4Trade didn't yet exit safely...</source>
+        <translation>Coin4Trade henüz güvenle kapanmadı..</translation>
     </message>
     <message>
         <source>Unknown</source>
@@ -3720,8 +3720,8 @@ Emin misiniz?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sapphire is shutting down...</source>
-        <translation>Sapphire kapanıyor ...</translation>
+        <source>Coin4Trade is shutting down...</source>
+        <translation>Coin4Trade kapanıyor ...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3750,8 +3750,8 @@ Emin misiniz?
         <translation>Yükleniyor...</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
 </context>
 <context>
@@ -4098,8 +4098,8 @@ Emin misiniz?
     </message>
     <message>
         <source>Welcome to
-Sapphire Wallet</source>
-        <translation>Sapphire Cüzdanı'na
+Coin4Trade Wallet</source>
+        <translation>Coin4Trade Cüzdanı'na
 Hoşgeldiniz</translation>
     </message>
     <message>
@@ -4150,8 +4150,8 @@ Hoşgeldiniz</translation>
         <translation>JSON-RPC bağlantılarını dinlemek için verilen adrese bağlanın. IPv6 için [host]: port gösterimini kullanın. Bu seçenek birden çok kez belirtilebilir (varsayılan: tüm arabirimlere bağlanır)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sapphire is probably already running.</source>
-        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Sapphire muhtemelen zaten çalışıyor.</translation>
+        <source>Cannot obtain a lock on data directory %s. Coin4Trade is probably already running.</source>
+        <translation>Veri dizini %s üzerinde bir kilit elde edemiyor. Coin4Trade muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -4298,8 +4298,8 @@ Hoşgeldiniz</translation>
         <translation>Ağ versiyon dizisi toplam uzunluğu(%i) maksimum uzunluğu aşıyor(%i). Yorumların büyüklüğünü veya sayısını azaltın.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sapphire is probably already running.</source>
-        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. Sapphire muhtemelen zaten çalışıyor.</translation>
+        <source>Unable to bind to %s on this computer. Coin4Trade is probably already running.</source>
+        <translation>Bu bilgisayarda %s 'e bağlanılamıyor. Coin4Trade muhtemelen zaten çalışıyor.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -4314,8 +4314,8 @@ Hoşgeldiniz</translation>
         <translation>Uyarı: paytxfee değeri çok yüksek ayarlanmış! Bu para gönderirken ödeyeceğiniz transfer ücretidir.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sapphire will not work properly.</source>
-        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise Sapphire düzgün çalışmayacaktır. </translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Coin4Trade will not work properly.</source>
+        <translation>Uyarı: Bilgisayarınızın tarih ve saat ayarlarının doğruluğunu kontrol edin! Saatiniz yanlış ise Coin4Trade düzgün çalışmayacaktır. </translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4518,8 +4518,8 @@ Hoşgeldiniz</translation>
         <translation>Bilgi</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sapphire is shutting down.</source>
-        <translation>Sağlama kontrolü başlatımı başarısız. Sapphire kapatılıyor.</translation>
+        <source>Initialization sanity check failed. Coin4Trade is shutting down.</source>
+        <translation>Sağlama kontrolü başlatımı başarısız. Coin4Trade kapatılıyor.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5038,8 +5038,8 @@ Hoşgeldiniz</translation>
         <translation>Cüzdan %s bilgi dizini %s dışında bulunuyor</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sapphire to complete</source>
-        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için Sapphire uygulamasını tekrar başlatın.</translation>
+        <source>Wallet needed to be rewritten: restart Coin4Trade to complete</source>
+        <translation>Cüzdanın tekrar yazılması gerekiyor: tamamlamak için Coin4Trade uygulamasını tekrar başlatın.</translation>
     </message>
     <message>
         <source>Wallet options:</source>

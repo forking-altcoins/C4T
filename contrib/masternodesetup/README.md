@@ -1,6 +1,6 @@
 ![Example-Logo](https://avatars.githubusercontent.com/u/60038376?v=4)
 
-# Sapphire Masternode Setup Guide
+# Coin4Trade Masternode Setup Guide
 ***
 ## Required
 1) **SAPP collateral value at current block** ([consult the collateral table](../../README.md#rewards-breakdown))
@@ -81,4 +81,4 @@ sapphire-cli getmasternodestatus
 
 You need to get **"status" : 4** 
 
-## Congratulations your Sapphire node it's running
+## Congratulations your Coin4Trade node it's running

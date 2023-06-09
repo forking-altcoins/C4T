@@ -773,7 +773,7 @@ inline uint256 HashX11KV(const T1 pbegin, const T1 pend)
 /* - X11, from the original 11 algos used on DASH -------------------------- */
 /* - K, from Kyanite ------------------------------------------------------- */
 /* - V, from Variable, variation of the number iterations on the X11K algo - */
-/* - S, from Sapphire ------------------------------------------------------ */
+/* - S, from Coin4Trade ------------------------------------------------------ */
 
 static inline uint32_t le32dec(const void* pp)
 {

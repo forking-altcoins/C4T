@@ -53,7 +53,7 @@
 
 
 #if defined(NDEBUG)
-#error "Sapphire cannot be compiled without assertions."
+#error "Coin4Trade cannot be compiled without assertions."
 #endif
 
 /**
@@ -3109,7 +3109,7 @@ bool CheckBlock(const CBlock& block, CValidationState& state, bool fCheckPOW, bo
             }
         }
 
-        // Sapphire
+        // Coin4Trade
         // It is entirely possible that we don't have enough data and this could fail
         // (i.e. the block could indeed be valid). Store the block for later consideration
         // but issue an initial reject message.
@@ -4811,7 +4811,7 @@ bool static ProcessMessage(CNode* pfrom, std::string strCommand, CDataStream& vR
             pfrom->fDisconnect = true;
         }
 
-        // Sapphire: We use certain sporks during IBD, so check to see if they are
+        // Coin4Trade: We use certain sporks during IBD, so check to see if they are
         // available. If not, ask the first peer connected for them.
         // TODO: Move this to an instant broadcast of the sporks.
         bool fMissingSporks = !pSporkDB->SporkExists(SPORK_14_MIN_PROTOCOL_ACCEPTED);

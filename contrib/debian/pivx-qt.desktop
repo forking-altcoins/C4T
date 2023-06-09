@@ -1,6 +1,6 @@
 [Desktop Entry]
 Version=1.0
-Name=Sapphire
+Name=Coin4Trade
 Comment= SAPP P2P Cryptocurrency
 Comment[fr]= SAPP, monnaie virtuelle cryptographique pair à pair
 Comment[tr]= SAPP, eşten eşe kriptografik sanal para birimi
@@ -10,4 +10,4 @@ Type=Application
 Icon=pivx128
 MimeType=x-scheme-handler/pivx;
 Categories=Office;Finance;
-StartupWMClass=Sapphire-qt
+StartupWMClass=Coin4Trade-qt

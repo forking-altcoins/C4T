@@ -34,7 +34,7 @@ class WalletModel;
 
 
 /**
-  Sapphire GUI main class. This class represents the main window of the Sapphire UI. It communicates with both the client and
+  Coin4Trade GUI main class. This class represents the main window of the Coin4Trade UI. It communicates with both the client and
   wallet models to give the user an up-to-date view of the current core state.
 */
 class PIVXGUI : public QMainWindow

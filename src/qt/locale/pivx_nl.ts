@@ -896,16 +896,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>versie</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sapphire</source>
-        <translation>Over Sapphire</translation>
+        <source>About Coin4Trade</source>
+        <translation>Over Coin4Trade</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -959,16 +959,16 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Welkom</translation>
     </message>
     <message>
-        <source>Welcome to Sapphire.</source>
-        <translation>Welkom bij Sapphire.</translation>
+        <source>Welcome to Coin4Trade.</source>
+        <translation>Welkom bij Coin4Trade.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sapphire will store its data.</source>
-        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Sapphire zijn data opslaat.</translation>
+        <source>As this is the first time the program is launched, you can choose where Coin4Trade will store its data.</source>
+        <translation>Aangezien dit de eerste keer is dat het programma is gestart, kun je kiezen waar Coin4Trade zijn data opslaat.</translation>
     </message>
     <message>
-        <source>Sapphire will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sapphire zal een kopie van de SAPP blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
+        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade zal een kopie van de SAPP blockchain downloaden en opslaan. Tenminste %1GB aan data zal worden opgeslagen in deze map en het zal over de tijd groeien. De portemonnee zal ook in deze map worden opgeslagen.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -987,8 +987,8 @@ Het zal automatisch starten zodra de portemonnee voldoende bevestigingen heeft o
         <translation>Akkoord</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1777,8 +1777,8 @@ NODES</translation>
 <context>
     <name>PIVXGUI</name>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1805,8 +1805,8 @@ NODES</translation>
         <translation>Programma afsluiten</translation>
     </message>
     <message>
-        <source>Sapphire client</source>
-        <translation>Sapphire client</translation>
+        <source>Coin4Trade client</source>
+        <translation>Coin4Trade client</translation>
     </message>
     <message>
         <source>Error</source>
@@ -2010,8 +2010,8 @@ Adres: %4
         <translation>Een kritieke fout is opgelopen. SAPP kan niet langer veilig uitgevoerd worden en zal afsluiten.</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -2030,8 +2030,8 @@ Adres: %4
         <translation>Fout bij het lezen van het masternode configuratiebestand: %1</translation>
     </message>
     <message>
-        <source>Sapphire didn't yet exit safely...</source>
-        <translation>Sapphire is nog niet veilig afgesloten...</translation>
+        <source>Coin4Trade didn't yet exit safely...</source>
+        <translation>Coin4Trade is nog niet veilig afgesloten...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -4472,8 +4472,8 @@ Weet je zeker dat?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sapphire is shutting down...</source>
-        <translation>Sapphire is aan het afsluiten...</translation>
+        <source>Coin4Trade is shutting down...</source>
+        <translation>Coin4Trade is aan het afsluiten...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4502,8 +4502,8 @@ Weet je zeker dat?
         <translation>Laden...</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
 </context>
 <context>
@@ -5022,9 +5022,9 @@ Selecteer minder invoeren met muntcontrole.</translation>
     </message>
     <message>
         <source>Welcome to
-Sapphire Wallet</source>
+Coin4Trade Wallet</source>
         <translation>Welkom bij
-Sapphire Portemonnee</translation>
+Coin4Trade Portemonnee</translation>
     </message>
     <message>
         <source>SAPP is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
@@ -5074,8 +5074,8 @@ Sapphire Portemonnee</translation>
         <translation>Bind naar het opgegeven adres om te luisteren naar JSON-RPC verbindingen. Gebruik [host]:poort notatie voor IPv6. Deze optie kan meerdere keren worden opgegeven (standaard: bind aan alle interfaces)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sapphire is probably already running.</source>
-        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Sapphire loopt waarschijnlijk al.</translation>
+        <source>Cannot obtain a lock on data directory %s. Coin4Trade is probably already running.</source>
+        <translation>Kan geen vergrendeling op data directory %s verkrijgen. Coin4Trade loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -5226,8 +5226,8 @@ Sapphire Portemonnee</translation>
         <translation>De totale lengte van de netwerkversie (%i) overschrijdt de maximale lengte (%i). Verminder het aantal of de grootte van uacommentaren.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sapphire is probably already running.</source>
-        <translation>Niet mogelijk te binden aan %s op deze computer. Sapphire loopt waarschijnlijk al.</translation>
+        <source>Unable to bind to %s on this computer. Coin4Trade is probably already running.</source>
+        <translation>Niet mogelijk te binden aan %s op deze computer. Coin4Trade loopt waarschijnlijk al.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5242,8 +5242,8 @@ Sapphire Portemonnee</translation>
         <translation>Waarschuwing: -paytxfee is zeer hoog ingesteld! Dit zijn de transactie kosten die je betaalt als je een transactie verstuurt.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sapphire will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Sapphire niet goed.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Coin4Trade will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd staat, werkt Coin4Trade niet goed.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5446,8 +5446,8 @@ Sapphire Portemonnee</translation>
         <translation>Informatie</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sapphire is shutting down.</source>
-        <translation>Initialisatie saniteitscontrole mislukt. Sapphire wordt afgesloten.</translation>
+        <source>Initialization sanity check failed. Coin4Trade is shutting down.</source>
+        <translation>Initialisatie saniteitscontrole mislukt. Coin4Trade wordt afgesloten.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5750,8 +5750,8 @@ Sapphire Portemonnee</translation>
         <translation>Minimum geldige waarde (in SAPP) toegestaan bij GUI en RPC voor de staking splitsdrempel (standaard: %s)</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sapphire will not work properly.</source>
-        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt Sapphire niet goed.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Coin4Trade will not work properly.</source>
+        <translation>Controleer of de datum en tijd van je computer juist zijn! Als je klok verkeerd ingesteld staat, werkt Coin4Trade niet goed.</translation>
     </message>
     <message>
         <source>Query for peer addresses via DNS lookup, if low on addresses (default: 1 unless -connect/-noconnect)</source>
@@ -6148,8 +6148,8 @@ Sapphire Portemonnee</translation>
         <translation>Portemonnee %s verblijft buiten de data directory %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sapphire to complete</source>
-        <translation>Wallet moest worden herschreven: start Sapphire opnieuw om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Coin4Trade to complete</source>
+        <translation>Wallet moest worden herschreven: start Coin4Trade opnieuw om te voltooien</translation>
     </message>
     <message>
         <source>Wallet options:</source>

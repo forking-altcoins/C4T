@@ -47,7 +47,7 @@ static bool AppInitRawTx(int argc, char* argv[])
 
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help")) {
         // First part of help message is specific to this utility
-        std::string strUsage = _("Sapphire sapphire-tx utility version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("Coin4Trade sapphire-tx utility version") + " " + FormatFullVersion() + "\n\n" +
                                _("Usage:") + "\n" +
                                "  sapphire-tx [options] <hex-tx> [commands]  " + _("Update hex-encoded sapphire transaction") + "\n" +
                                "  sapphire-tx [options] -create [commands]   " + _("Create hex-encoded sapphire transaction") + "\n" +

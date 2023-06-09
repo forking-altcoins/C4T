@@ -43,7 +43,7 @@ public:
     GUIException(const std::string &message) : message(message) {}
 };
 
-/** Utility functions used by the Sapphire Qt UI.
+/** Utility functions used by the Coin4Trade Qt UI.
  */
 namespace GUIUtil
 {

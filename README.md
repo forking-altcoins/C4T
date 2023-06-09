@@ -1,4 +1,4 @@
-Sapphire wallet repository
+Coin4Trade wallet repository
 =====================================
 
 ### Coin Specs

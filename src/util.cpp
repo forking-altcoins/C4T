@@ -92,7 +92,7 @@ const char * const PIVX_MASTERNODE_CONF_FILENAME = "masternode.conf";
 const char * const PIVX_ACTIVE_MASTERNODE_CONF_FILENAME = "activemasternode.conf";
 
 
-// Sapphire only features
+// Coin4Trade only features
 // Masternode
 bool fMasterNode = false;
 bool fStaking = false;
@@ -296,7 +296,7 @@ fs::path GetDefaultDataDir()
 // Unix: ~/.sapphire
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Sapphire";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Coin4Trade";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -308,7 +308,7 @@ fs::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Sapphire";
+    return pathRet / "Coin4Trade";
 #else
     // Unix
     return pathRet / ".sapphire";

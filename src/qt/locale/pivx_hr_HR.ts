@@ -880,16 +880,16 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>verzija</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About Sapphire</source>
-        <translation>O Sapphire-u</translation>
+        <source>About Coin4Trade</source>
+        <translation>O Coin4Trade-u</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -943,16 +943,16 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Dobrodošli</translation>
     </message>
     <message>
-        <source>Welcome to Sapphire.</source>
-        <translation>Dobrodošli u Sapphire.</translation>
+        <source>Welcome to Coin4Trade.</source>
+        <translation>Dobrodošli u Coin4Trade.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Sapphire will store its data.</source>
-        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Sapphire pohraniti svoje podatke.</translation>
+        <source>As this is the first time the program is launched, you can choose where Coin4Trade will store its data.</source>
+        <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Coin4Trade pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>Sapphire will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Sapphire preuzima i pohranjuje kopiju SAPP blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade preuzima i pohranjuje kopiju SAPP blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -971,8 +971,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>OK</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1741,8 +1741,8 @@ NODEOVI</translation>
 <context>
     <name>PIVXGUI</name>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1769,8 +1769,8 @@ NODEOVI</translation>
         <translation>Napusti aplikaciju</translation>
     </message>
     <message>
-        <source>Sapphire client</source>
-        <translation>Sapphire Klijent</translation>
+        <source>Coin4Trade client</source>
+        <translation>Coin4Trade Klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1978,8 +1978,8 @@ Adresa: %4
         <translation>Dogodila se fatalna pogreška. SAPP ne može sigurno nastaviti i izaći će.</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" does not exist.</source>
@@ -1998,8 +1998,8 @@ Adresa: %4
         <translation>Greška pri čitanju masternode konfiguracijske datoteke: %1</translation>
     </message>
     <message>
-        <source>Sapphire didn't yet exit safely...</source>
-        <translation>Sapphire nije ugašen sigurno...</translation>
+        <source>Coin4Trade didn't yet exit safely...</source>
+        <translation>Coin4Trade nije ugašen sigurno...</translation>
     </message>
     <message>
         <source>Contact</source>
@@ -3553,7 +3553,7 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Masternode je računalo koje pokreće full node Sapphire novčanik sa
+Masternode je računalo koje pokreće full node Coin4Trade novčanik sa
 zahtjevanih 10,000 SAPP-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
@@ -4321,8 +4321,8 @@ Jeste li sigurni?
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Sapphire is shutting down...</source>
-        <translation>Sapphire se zatvara...</translation>
+        <source>Coin4Trade is shutting down...</source>
+        <translation>Coin4Trade se zatvara...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -4351,8 +4351,8 @@ Jeste li sigurni?
         <translation>Učitavanje...</translation>
     </message>
     <message>
-        <source>Sapphire</source>
-        <translation>Sapphire</translation>
+        <source>Coin4Trade</source>
+        <translation>Coin4Trade</translation>
     </message>
 </context>
 <context>
@@ -4861,9 +4861,9 @@ se nova sigurnosna kopija.
     </message>
     <message>
         <source>Welcome to
-Sapphire Wallet</source>
+Coin4Trade Wallet</source>
         <translation>Dobrodošli u
-        Sapphire temeljni novčanik</translation>
+        Coin4Trade temeljni novčanik</translation>
     </message>
     <message>
         <source>SAPP is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
@@ -4913,8 +4913,8 @@ Sapphire Wallet</source>
         <translation>Pridržavajte se na navedenu adresu da biste slušali veze JSON-RPC. Koristite [host]: port notation za IPv6. Ova se opcija može odrediti više puta (zadano: vezati se na sva sučelja)</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Sapphire is probably already running.</source>
-        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Sapphire vjerojatno već radi.</translation>
+        <source>Cannot obtain a lock on data directory %s. Coin4Trade is probably already running.</source>
+        <translation>Nije moguće dobiti zaključavanje na direktoriju podataka %s. Coin4Trade vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Continuously rate-limit free transactions to &lt;n&gt;*1000 bytes per minute (default:%u)</source>
@@ -5065,8 +5065,8 @@ Sapphire Wallet</source>
         <translation>Ukupna duljina teksta mrežne verzije (%i) prelazi maksimalnu duljinu (%i). Smanjite broj ili veličinu uacommentsa.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Sapphire is probably already running.</source>
-        <translation>Nije moguće vezati se na %s na ovom računalu. Sapphire vjerojatno već radi.</translation>
+        <source>Unable to bind to %s on this computer. Coin4Trade is probably already running.</source>
+        <translation>Nije moguće vezati se na %s na ovom računalu. Coin4Trade vjerojatno već radi.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: %s)</source>
@@ -5081,8 +5081,8 @@ Sapphire Wallet</source>
         <translation>Upozorenje: -paytxfee je vrlo visoka! To je transakcijska naknada koju ćete platiti ako šaljete transakciju.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Sapphire will not work properly.</source>
-        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Sapphire neće raditi ispravno.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong Coin4Trade will not work properly.</source>
+        <translation>Upozorenje: Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Coin4Trade neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -5286,8 +5286,8 @@ Sapphire Wallet</source>
         <translation>Informacije</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. Sapphire is shutting down.</source>
-        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Sapphire se zatvara.</translation>
+        <source>Initialization sanity check failed. Coin4Trade is shutting down.</source>
+        <translation>Provjera ispravnosti inicijalizacije nije uspjela. Coin4Trade se zatvara.</translation>
     </message>
     <message>
         <source>Insufficient funds</source>
@@ -5554,8 +5554,8 @@ Sapphire Wallet</source>
         <translation>Priprema za resinkronizaciju...</translation>
     </message>
     <message>
-        <source>Please check that your computer's date and time are correct! If your clock is wrong Sapphire will not work properly.</source>
-        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Sapphire neće raditi ispravno.</translation>
+        <source>Please check that your computer's date and time are correct! If your clock is wrong Coin4Trade will not work properly.</source>
+        <translation>Provjerite jesu li datum i vrijeme vašeg računala točni! Ako je vaš sat pogrešan, Coin4Trade neće raditi ispravno.</translation>
     </message>
     <message>
         <source>Specify location of debug log file: this can be an absolute path or a path relative to the data directory (default: %s)</source>
@@ -5876,8 +5876,8 @@ Sapphire Wallet</source>
         <translation>Novčanik %s nalazi se izvan direktorija podataka %s</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Sapphire to complete</source>
-        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Sapphire</translation>
+        <source>Wallet needed to be rewritten: restart Coin4Trade to complete</source>
+        <translation>Potrebno je prepisati novčanik: ponovo pokrenite Coin4Trade</translation>
     </message>
     <message>
         <source>Wallet options:</source>

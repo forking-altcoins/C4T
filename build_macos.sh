@@ -31,6 +31,6 @@ fi
     cd ..
 
 # Create zip file of binaries
-    cp SAPP/src/sapphired SAPP/src/sapphire-cli SAPP/src/sapphire-tx SAPP/src/qt/sapphire-qt SAPP/Sapphire-Core.dmg .
-    zip SAPP-MacOS.zip sapphired sapphire-cli sapphire-tx sapphire-qt Sapphire-Core.dmg
-    rm -f sapphired sapphire-cli sapphire-tx sapphire-qt Sapphire-Core.dmg
+    cp SAPP/src/sapphired SAPP/src/sapphire-cli SAPP/src/sapphire-tx SAPP/src/qt/sapphire-qt SAPP/Coin4Trade-Core.dmg .
+    zip SAPP-MacOS.zip sapphired sapphire-cli sapphire-tx sapphire-qt Coin4Trade-Core.dmg
+    rm -f sapphired sapphire-cli sapphire-tx sapphire-qt Coin4Trade-Core.dmg

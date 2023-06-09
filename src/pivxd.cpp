@@ -29,8 +29,8 @@
  *
  * \section intro_sec Introduction
  *
- * This is the developer documentation of the reference client for an experimental new digital currency called Sapphire (https://sappcoin.com/),
- * which enables instant payments to anyone, anywhere in the world. Sapphire uses peer-to-peer technology to operate
+ * This is the developer documentation of the reference client for an experimental new digital currency called Coin4Trade (https://sappcoin.com/),
+ * which enables instant payments to anyone, anywhere in the world. Coin4Trade uses peer-to-peer technology to operate
  * with no central authority: managing transactions and issuing money are carried out collectively by the network.
  *
  * The software is a community-driven open source project, released under the MIT license.
@@ -68,13 +68,13 @@ bool AppInit(int argc, char* argv[])
 
     // Process help and version before taking care about datadir
     if (mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Sapphire Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Coin4Trade Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n";
 
         if (mapArgs.count("-version")) {
             strUsage += LicenseInfo();
         } else {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  Sapphired [options]                     " + _("Start Sapphire Daemon") + "\n";
+                        "  Coin4Traded [options]                     " + _("Start Coin4Trade Daemon") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
         }
@@ -110,17 +110,17 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "Sapphire:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "Coin4Trade:"))
                 fCommandLine = true;
 
         if (fCommandLine) {
-            fprintf(stderr, "Error: There is no RPC client functionality in Sapphired anymore. Use the Sapphire-cli utility instead.\n");
+            fprintf(stderr, "Error: There is no RPC client functionality in Coin4Traded anymore. Use the Coin4Trade-cli utility instead.\n");
             exit(1);
         }
 #ifndef WIN32
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon) {
-            fprintf(stdout, "Sapphire server starting\n");
+            fprintf(stdout, "Coin4Trade server starting\n");
 
             // Daemonize
             pid_t pid = fork();
@@ -166,7 +166,7 @@ int main(int argc, char* argv[])
 {
     SetupEnvironment();
 
-    // Connect Sapphired signal handlers
+    // Connect Coin4Traded signal handlers
     noui_connect();
 
     return (AppInit(argc, argv) ? 0 : 1);

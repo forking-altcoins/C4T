@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Sapphire"
-            VALUE "FileDescription",    "sapphired (OSS daemon/client for Sapphire)"
+            VALUE "CompanyName",        "Coin4Trade"
+            VALUE "FileDescription",    "sapphired (OSS daemon/client for Coin4Trade)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "sapphired"
             VALUE "LegalCopyright",     COPYRIGHT_STR

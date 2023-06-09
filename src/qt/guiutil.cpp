@@ -745,7 +745,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         // Write a sapphire.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Sapphire\n";
+        optionFile << "Name=Coin4Trade\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";

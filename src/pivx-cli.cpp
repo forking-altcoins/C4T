@@ -72,10 +72,10 @@ static bool AppInitRPC(int argc, char* argv[])
     //
     ParseParameters(argc, argv);
     if (argc < 2 || mapArgs.count("-?") || mapArgs.count("-help") || mapArgs.count("-version")) {
-        std::string strUsage = _("Sapphire RPC client version") + " " + FormatFullVersion() + "\n";
+        std::string strUsage = _("Coin4Trade RPC client version") + " " + FormatFullVersion() + "\n";
         if (!mapArgs.count("-version")) {
             strUsage += "\n" + _("Usage:") + "\n" +
-                        "  sapphire-cli [options] <command> [params]  " + _("Send command to Sapphire") + "\n" +
+                        "  sapphire-cli [options] <command> [params]  " + _("Send command to Coin4Trade") + "\n" +
                         "  sapphire-cli [options] help                " + _("List commands") + "\n" +
                         "  sapphire-cli [options] help <command>      " + _("Get help for a command") + "\n";
 

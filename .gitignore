@@ -16,7 +16,7 @@ src/bench/bench___decenomy__
 src/test/test___decenomy__
 src/qt/test/test___decenomy__-qt
 
-# Sapphire
+# Coin4Trade
 src/bench/bench_sapphire
 src/sapphire-cli
 src/sapphire-tx
@@ -70,7 +70,7 @@ src/trittium-cli
 src/trittium-tx
 src/trittiumd
 
-# Sapphire
+# Coin4Trade
 src/sapphire
 src/sapphired
 src/sapphire-cli

@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Sapphire"
-            VALUE "FileDescription",    "sapphire-tx (CLI Sapphire transaction editor utility)"
+            VALUE "CompanyName",        "Coin4Trade"
+            VALUE "FileDescription",    "sapphire-tx (CLI Coin4Trade transaction editor utility)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "sapphire-tx"
             VALUE "LegalCopyright",     COPYRIGHT_STR
