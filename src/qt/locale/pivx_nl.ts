@@ -4476,7 +4476,7 @@ Weet je zeker dat?
         <translation>Coin4Trade is aan het afsluiten...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Sluit de computer niet af voordat dit venster verdwenen is.</translation>
     </message>
 </context>

@@ -4484,8 +4484,8 @@ Are you sure?
         <translation>Coin4Trade is shutting down...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Do not shut down the computer until this window disappears.</translation>
+        <source>Do not shut down the computer until this window dic4tears.</source>
+        <translation>Do not shut down the computer until this window dic4tears.</translation>
     </message>
 </context>
 <context>

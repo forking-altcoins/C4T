@@ -3978,7 +3978,7 @@ Jesteś pewny?
         <translation>Coin4Trade się wyłącza ...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Nie wyłączaj komputera, dopóki to okno nie zniknie.</translation>
     </message>
 </context>

@@ -5499,8 +5499,8 @@ Are you sure?
     </message>
     <message>
         <location line="+1"/>
-        <source>Do not shut down the computer until this window disappears.</source>
-        <translation>Do not shut down the computer until this window disappears.</translation>
+        <source>Do not shut down the computer until this window dic4tears.</source>
+        <translation>Do not shut down the computer until this window dic4tears.</translation>
     </message>
 </context>
 <context>

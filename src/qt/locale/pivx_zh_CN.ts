@@ -4101,7 +4101,7 @@ Are you sure?
         <translation>Coin4Trade 核心正在关闭...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>在此窗口消失之前不要关闭计算机。</translation>
     </message>
 </context>

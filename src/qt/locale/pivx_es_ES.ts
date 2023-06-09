@@ -4217,7 +4217,7 @@ Are you sure?
         <translation>El programa Coin4Trade se está cerrando...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>No apague el equipo hasta que esta ventana desaparezca.</translation>
     </message>
 </context>

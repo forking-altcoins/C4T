@@ -4470,7 +4470,7 @@ Confirmez-vous ?
         <translation>Coin4Trade est en cours de fermeture...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>N'arrêtez pas l'ordinateur tant que cette fenêtre n'a pas disparu.</translation>
     </message>
 </context>

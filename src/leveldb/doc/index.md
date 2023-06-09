@@ -240,7 +240,7 @@ Use(slice);
 ```
 
 When the if statement goes out of scope, str will be destroyed and the backing
-storage for slice will disappear.
+storage for slice will dic4tear.
 
 ## Comparators
 

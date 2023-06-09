@@ -4433,7 +4433,7 @@ Are you sure?
         <translation>Coin4Trade выключается...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Не выключайте этот компьютер пока это окно не исчезнет.</translation>
     </message>
 </context>

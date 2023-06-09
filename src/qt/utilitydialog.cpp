@@ -156,7 +156,7 @@ ShutdownWindow::ShutdownWindow(QWidget* parent, Qt::WindowFlags f) : QWidget(par
     QVBoxLayout* layout = new QVBoxLayout();
     layout->addWidget(new QLabel(
         tr("Coin4Trade is shutting down...") + "<br /><br />" +
-        tr("Do not shut down the computer until this window disappears.")));
+        tr("Do not shut down the computer until this window dic4tears.")));
     setLayout(layout);
 }
 

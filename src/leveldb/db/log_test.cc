@@ -494,7 +494,7 @@ TEST(LogTest, SkipIntoMultiRecord) {
 TEST(LogTest, ErrorJoinsRecords) {
   // Consider two fragmented records:
   //    first(R1) last(R1) first(R2) last(R2)
-  // where the middle two fragments disappear.  We do not want
+  // where the middle two fragments dic4tear.  We do not want
   // first(R1),last(R2) to get joined and returned as a valid record.
 
   // Write records that span two blocks

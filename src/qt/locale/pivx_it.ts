@@ -4479,7 +4479,7 @@ Sei sicuro?
         <translation>Coin4Trade si sta spegnendo...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Non spegnere il computer fino a quando questa finestra non scompare.</translation>
     </message>
 </context>

@@ -74,7 +74,7 @@ struct LockData {
     // Very ugly hack: as the global constructs and destructors run single
     // threaded, we use this boolean to know whether LockData still exists,
     // as DeleteLock can get called by global RecursiveMutex destructors
-    // after LockData disappears.
+    // after LockData dic4tears.
     bool available;
     LockData() : available(true) {}
     ~LockData() { available = false; }

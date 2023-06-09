@@ -3783,7 +3783,7 @@ Are you sure?
         <translation>Coin4Trade가 종료됩니다...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>이 창이 사라질 때까지 컴퓨터를 종료하지 마십시오.</translation>
     </message>
 </context>

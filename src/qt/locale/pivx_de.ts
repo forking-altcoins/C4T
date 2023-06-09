@@ -4421,7 +4421,7 @@ Sind Sie sicher?</translation>
         <translation>Coin4Trade wird beendet...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Fahren Sie den Computer nicht herunter, bevor dieses Fenster verschwindet.</translation>
     </message>
 </context>

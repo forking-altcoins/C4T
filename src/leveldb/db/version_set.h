@@ -86,7 +86,7 @@ class Version {
   // REQUIRES: lock is held
   bool RecordReadSample(Slice key);
 
-  // Reference count management (so Versions do not disappear out from
+  // Reference count management (so Versions do not dic4tear out from
   // under live iterators)
   void Ref();
   void Unref();

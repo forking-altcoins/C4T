@@ -4325,7 +4325,7 @@ Jeste li sigurni?
         <translation>Coin4Trade se zatvara...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Nemojte isključivati računalo dok ovaj prozor ne nestane.</translation>
     </message>
 </context>

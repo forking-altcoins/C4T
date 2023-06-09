@@ -3724,7 +3724,7 @@ Emin misiniz?
         <translation>Coin4Trade kapanıyor ...</translation>
     </message>
     <message>
-        <source>Do not shut down the computer until this window disappears.</source>
+        <source>Do not shut down the computer until this window dic4tears.</source>
         <translation>Bu pencere kaybolmadan Bilgisayarı kapatmayın.</translation>
     </message>
 </context>

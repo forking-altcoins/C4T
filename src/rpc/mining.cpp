@@ -761,7 +761,7 @@ UniValue estimatesmartfee(const JSONRPCRequest& request)
     if (request.fHelp || request.params.size() != 1)
         throw std::runtime_error(
                 "estimatesmartfee nblocks\n"
-                "\nDEPRECATED. WARNING: This interface is unstable and may disappear or change!\n"
+                "\nDEPRECATED. WARNING: This interface is unstable and may dic4tear or change!\n"
                 "\nEstimates the approximate fee per kilobyte needed for a transaction to begin\n"
                 "confirmation within nblocks blocks if possible and return the number of blocks\n"
                 "for which the estimate is valid.\n"

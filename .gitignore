@@ -7,7 +7,7 @@ reset-files.bash
 *.exe
 configure~
 
-# DSW
+# Coin4Trade
 src/__forking-altcoins__
 src/__forking-altcoins__d
 src/__forking-altcoins__-cli
