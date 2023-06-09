@@ -30,7 +30,7 @@ Build-Depends: debhelper,
 Standards-Version: 3.9.2
 Homepage: https://sappcoin.com
 Vcs-Git: git://github.com/decenomy/C4T.git
-Vcs-Browser: https://github.com/decenomy/C4T
+Vcs-Browser: https://github.com/forking-altcoins/C4T
 
 Package: coin4traded
 Architecture: any

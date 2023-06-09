@@ -26,7 +26,7 @@ Drag Coin4Trade-Qt to your applications folder, and then run Coin4Trade-Qt.
 
 ### Need Help?
 
-* See the documentation at the [Coin4Trade Wiki](https://github.com/decenomy/C4T/tree/master/doc)
+* See the documentation at the [Coin4Trade Wiki](https://github.com/forking-altcoins/C4T/tree/master/doc)
 for help and more information.
 * Join our Discord server [Discord Server](https://discord.gg/zgcXB76)
 
@@ -48,7 +48,7 @@ The Coin4Trade repo's [root README](/README.md) contains relevant information on
 - [Multiwallet Qt Development](multiwallet-qt.md)
 - [Release Notes](release-notes.md)
 - [Release Process](release-process.md)
-- [Source Code Documentation (External Link)](https://github.com/decenomy/C4T/tree/master/doc)
+- [Source Code Documentation (External Link)](https://github.com/forking-altcoins/C4T/tree/master/doc)
 - [Translation Process](translation_process.md)
 - [Unit Tests](unit-tests.md)
 - [Unauthenticated REST Interface](REST-interface.md)
