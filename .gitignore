@@ -8,13 +8,13 @@ reset-files.bash
 configure~
 
 # DSW
-src/__decenomy__
-src/__decenomy__d
-src/__decenomy__-cli
-src/__decenomy__-tx
-src/bench/bench___decenomy__
-src/test/test___decenomy__
-src/qt/test/test___decenomy__-qt
+src/__forking-altcoins__
+src/__forking-altcoins__d
+src/__forking-altcoins__-cli
+src/__forking-altcoins__-tx
+src/bench/bench___forking-altcoins__
+src/test/test___forking-altcoins__
+src/qt/test/test___forking-altcoins__-qt
 
 # Coin4Trade
 src/bench/bench_coin4trade
@@ -266,7 +266,7 @@ src/qt/test/moc*.cpp
 *.o-*
 *.patch
 .pivx
-.__decenomy__
+.__forking-altcoins__
 *.a
 *.pb.cc
 *.pb.h
@@ -286,7 +286,7 @@ src/qt/test/moc*.cpp
 *.qm
 Makefile
 pivx-qt
-__decenomy__-qt
+__forking-altcoins__-qt
 Jackpot-Qt.app
 background.tiff*
 
@@ -298,7 +298,7 @@ target/
 # Unit-tests
 Makefile.test
 pivx-qt_test
-__decenomy__-qt_test
+__forking-altcoins__-qt_test
 src/test/buildenv.py
 
 # Resources cpp
@@ -315,7 +315,7 @@ build
 *.gcno
 /*.info
 test_pivx.coverage/
-test___decenomy__.coverage/
+test___forking-altcoins__.coverage/
 total.coverage/
 coverage_percent.txt
 
@@ -347,9 +347,9 @@ moc_*
 ui_*
 build*
 pivxd.*
-__decenomy__d.*
+__forking-altcoins__d.*
 pivxd-new-gui.*
-__decenomy__d-new-gui.*
+__forking-altcoins__d-new-gui.*
 
 # for Visual Studio Code
 

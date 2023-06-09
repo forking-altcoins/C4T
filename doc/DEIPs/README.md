@@ -13,7 +13,7 @@ We use the same general guidelines for introducing a new DEIP as specified in [B
 * Instead of the BIP editor, initiate contact with the DECENOMY development team and your request should be routed to a DEIP editor(s). The DEIP workflow mimics the DIP/BIP workflow.
 * Recommended licenses include the MIT license
 * Markdown format is the preferred format for DEIPs
-* Following a discussion, the proposal should be submitted to the DEIPs git repository as a pull request. This draft must be written in BIP/DIP/DEIP style as described in [BIP 2](https://github.com/bitcoin/bips/blob/master/bip-0002.mediawiki), and named with an alias such as "dip-johndoe-infinitedecenomy" until the editor has assigned it a DEIP number (authors MUST NOT self-assign DEIP numbers).
+* Following a discussion, the proposal should be submitted to the DEIPs git repository as a pull request. This draft must be written in BIP/DIP/DEIP style as described in [BIP 2](https://github.com/bitcoin/bips/blob/master/bip-0002.mediawiki), and named with an alias such as "dip-johndoe-infiniteforking-altcoins" until the editor has assigned it a DEIP number (authors MUST NOT self-assign DEIP numbers).
 * Having a DEIP here does not make it a formally accepted standard until its status becomes Final or Active.
 
 ## DECENOMY Improvement Proposal Summary
