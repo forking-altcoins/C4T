@@ -814,7 +814,7 @@ void CoinControlDialog::updateView()
             if (haveDest) {
                 sAddress = QString::fromStdString(EncodeDestination(outputAddress));
 
-                // if listMode or change => show SAPP address. In tree mode, address is not shown again for direct wallet address outputs
+                // if listMode or change => show C4T address. In tree mode, address is not shown again for direct wallet address outputs
                 if (!treeMode || (!(sAddress == sWalletAddress)))
                     itemOutput->setText(COLUMN_ADDRESS, sAddress);
                 else

@@ -454,7 +454,7 @@
             <enum>Qt::NoFocus</enum>
            </property>
            <property name="text">
-            <string>How to get SAPP</string>
+            <string>How to get C4T</string>
            </property>
           </widget>
          </item>
@@ -519,7 +519,7 @@
             <item>
              <widget class="QLabel" name="labelMessage">
               <property name="text">
-               <string>Amount of SAPP staked.</string>
+               <string>Amount of C4T staked.</string>
               </property>
              </widget>
             </item>
@@ -567,7 +567,7 @@
                 <item>
                     <widget class="PrivateQLabel" name="labelAmountPiv">
                         <property name="text">
-                            <string notr="true">0 SAPP</string>
+                            <string notr="true">0 C4T</string>
                         </property>
                         <property name="alignment">
                             <set>Qt::AlignCenter</set>
@@ -694,7 +694,7 @@
                 <item>
                  <widget class="QLabel" name="labelPiv">
                   <property name="text">
-                   <string notr="true">SAPP</string>
+                   <string notr="true">C4T</string>
                   </property>
                  </widget>
                 </item>
@@ -736,7 +736,7 @@
                 <item>
                     <widget class="QLabel" name="labelMNRewards">
                         <property name="text">
-                            <string>SAPP MN</string>
+                            <string>C4T MN</string>
                         </property>
                     </widget>
                 </item>

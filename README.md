@@ -4,14 +4,14 @@ Coin4Trade wallet repository
 ### Coin Specs
  
 • PoW Algorithm: Quark   
-• Premine: 300,000 SAPP   
+• Premine: 300,000 C4T   
 • PoW Blocks: 1 - 500   
 • PoS Blocks: Starting from 501   
 • Block Time: 60 Seconds    
 • Maturity: 100 Confirmations   
-• Prefix: SAPP addresses start with the capital letter "S"   
+• Prefix: C4T addresses start with the capital letter "S"   
 • Ports: 45328 (p2p) / 45329 (rpc)   
-• Explorer https://explorer.decenomy.net/SAPP/blocks   
+• Explorer https://explorer.decenomy.net/C4T/blocks   
 • Website https://sappcoin.com/
 
 ### Rewards Breakdown

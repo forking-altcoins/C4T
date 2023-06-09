@@ -114,12 +114,12 @@
         <translation>Alıcı Adres</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Bunlar ödemeleri göndermek için olan SAPP adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
+        <source>These are your C4T addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Bunlar ödemeleri göndermek için olan C4T adreslerinizdir.Coinleri göndermeden önce her zaman gönderilen miktarı ve adresi kontrol edin</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Bunlar ödemeleri almak için olan SAPP adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
+        <source>These are your C4T addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Bunlar ödemeleri almak için olan C4T adreslerinizdirHer işlem için yeni bir adres kullanmanız önerilir.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -348,8 +348,8 @@ Stake için kaldırın</translation>
         <translation>İPTAL</translation>
     </message>
     <message>
-        <source>SAPP will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SAPPs from being stolen by malware infecting your computer.</source>
-        <translation>SAPP şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, SAPP'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
+        <source>C4T will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your C4Ts from being stolen by malware infecting your computer.</source>
+        <translation>C4T şifreleme işlemini tamamlamak için şimdi kapanacaktır. Cüzdanınızı şifrelemenin, C4T'lerinizi bilgisayarınıza bulaşan kötücül yazılımlar tarafından çalınmasına tamamen engelleyemediğini unutmayın</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -433,8 +433,8 @@ Stake için kaldırın</translation>
         <translation>Koin Seçimi</translation>
     </message>
     <message>
-        <source>Select SAPP Outputs to Spend</source>
-        <translation>Harcama için SAPP Çıktılarını Seçin</translation>
+        <source>Select C4T Outputs to Spend</source>
+        <translation>Harcama için C4T Çıktılarını Seçin</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -461,8 +461,8 @@ Stake için kaldırın</translation>
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>0.00 SAPP</source>
-        <translation>0.00 SAPP</translation>
+        <source>0.00 C4T</source>
+        <translation>0.00 C4T</translation>
     </message>
     <message>
         <source>0</source>
@@ -699,8 +699,8 @@ Stake için kaldırın</translation>
         <translation>Filtrele</translation>
     </message>
     <message>
-        <source>Amount of SAPP staked.</source>
-        <translation>Stake edilmiş SAPP miktarı</translation>
+        <source>Amount of C4T staked.</source>
+        <translation>Stake edilmiş C4T miktarı</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -795,8 +795,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Gönderen adresini düzenle</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SAPP address.</source>
-        <translation>Girilen "%1" adresi geçerli bir SAPP adresi değil.</translation>
+        <source>The entered address "%1" is not a valid C4T address.</source>
+        <translation>Girilen "%1" adresi geçerli bir C4T adresi değil.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -915,8 +915,8 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
         <translation>Program ilk başlatıldığında Coin4Trade'un verilerini nerede saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin4Trade, SAPP blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
+        <source>Coin4Trade will download and store a copy of the C4T block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade, C4T blok zincirinin bir kopyasını indirecek ve depolayacaktır. Bu dizinde en az %1GB veri saklanacak ve zamanla büyüyecektir. Ayrıca cüzdanınız da bu dizinde saklanır.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1036,7 +1036,7 @@ Cüzdanınız senkronize olduktan ve harcanmamış bakiyeniz yeterli miktarda on
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of collateral amount will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 SAPP'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10.000 C4T'lik bir transfer &lt;/p&gt;&lt;p&gt;yeni ve boş bir adrese yapılacaktır.&lt;/p&gt;&lt;p&gt;Adres Masternode'unuz ismi ile etiketlenecektir.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1315,8 +1315,8 @@ Emin misiniz?</translation>
         <translation>Doğrulanmamış değişikliğin harcamasını devre dışı bırakırsanız, bir işlemdeki değişiklik&lt;br/&gt;Bu işlem en az bir onay alıncaya kadar kullanılamaz.&lt;br/&gt;Bu aynı zamanda bakiyenizin nasıl hesaplandığını etkiler.</translation>
     </message>
     <message>
-        <source>Automatically open the SAPP client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Yönelticideki SAPP istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
+        <source>Automatically open the C4T client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Yönelticideki C4T istemci bağlantı noktasını otomatik olarak açın. Bu, yalnızca yönlendiriciniz UPnP'yi destekliyorsa ve etkinleştirilmişse çalışır.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1335,12 +1335,12 @@ Emin misiniz?</translation>
         <translation>Uzman</translation>
     </message>
     <message>
-        <source>Automatically start SAPP after logging in to the system.</source>
-        <translation>Sisteme giriş yaptıktan sonra otomatik olarak SAPP'i başlatın.</translation>
+        <source>Automatically start C4T after logging in to the system.</source>
+        <translation>Sisteme giriş yaptıktan sonra otomatik olarak C4T'i başlatın.</translation>
     </message>
     <message>
-        <source>&amp;Start SAPP on system login</source>
-        <translation>&amp; Sistem oturum açma işleminde SAPP'i başlat</translation>
+        <source>&amp;Start C4T on system login</source>
+        <translation>&amp; Sistem oturum açma işleminde C4T'i başlat</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1367,8 +1367,8 @@ Emin misiniz?</translation>
         <translation>&amp;Ağ</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SAPP.</source>
-        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, SAPP yeniden başlatıldıktan sonra geçerli olur.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting C4T.</source>
+        <translation>Kullanıcı arabirimi dili burada ayarlanabilir. Bu ayar, C4T yeniden başlatıldıktan sonra geçerli olur.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1389,8 +1389,8 @@ Emin misiniz?</translation>
         <translation>Stake bölme eşiği</translation>
     </message>
     <message>
-        <source>Connect to the SAPP network through a SOCKS5 proxy.</source>
-        <translation>Bir SOCKS5 proxy vasıtasıyla SAPP ağına bağlanın.</translation>
+        <source>Connect to the C4T network through a SOCKS5 proxy.</source>
+        <translation>Bir SOCKS5 proxy vasıtasıyla C4T ağına bağlanın.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1635,8 +1635,8 @@ Adres: %4
         <translation>Coin4Trade başlatılamıyor: tıkla ve ödeme işleyicisi</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
-        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir SAPP adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid C4T address or malformed URI parameters.</source>
+        <translation>URI ayrıştırılamaz! Bunun nedeni, geçersiz bir C4T adresi veya hatalı biçimlendirilmiş URI parametrelerinden kaynaklanabilir.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1761,8 +1761,8 @@ Adres: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. SAPP can no longer continue safely and will quit.</source>
-        <translation>Onarılamaz bir hata oluştu. SAPP güvenli bir şekilde çalışamaz, kapanacaktır.</translation>
+        <source>A fatal error occurred. C4T can no longer continue safely and will quit.</source>
+        <translation>Onarılamaz bir hata oluştu. C4T güvenli bir şekilde çalışamaz, kapanacaktır.</translation>
     </message>
     <message>
         <source>Coin4Trade</source>
@@ -1900,8 +1900,8 @@ Adres: %4
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the SAPP debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Geçerli veri dizininden SAPP hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
+        <source>Open the C4T debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Geçerli veri dizininden C4T hata ayıklama günlük dosyasını açın. Bu, büyük günlük dosyaları için birkaç saniye sürebilir.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2120,8 +2120,8 @@ Adres: %4
         <translation>Dışa:</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>SAPP RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>C4T RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2360,8 +2360,8 @@ Adres: %4
         <translation>Miktar</translation>
     </message>
     <message>
-        <source>SAPP</source>
-        <translation>SAPP</translation>
+        <source>C4T</source>
+        <translation>C4T</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -2415,8 +2415,8 @@ Adres: %4
         <translation>Özel fark adresi</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" SAPP address</source>
-        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" SAPP adresine gider</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" C4T address</source>
+        <translation>Giriş ve çıkış değerleri arasındaki kalan tutar "fark" C4T adresine gider</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2779,8 +2779,8 @@ Verify that you have installed a predetermined text editor.</source>
 Önceden belirlenmiş bir text editleme programınız olup olmadığını kontrol ediniz.</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>SAPP RPC konsola hoşgeldiniz</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>C4T RPC konsola hoşgeldiniz</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -2900,43 +2900,43 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>Form</translation>
     </message>
     <message>
-        <source>1) What is SAPP?</source>
-        <translation>1)SAPP nedir?</translation>
+        <source>1) What is C4T?</source>
+        <translation>1)C4T nedir?</translation>
     </message>
     <message>
-        <source>2) Why are my SAPP unspendable?</source>
-        <translation>2) SAPP'lerim neden harcanabilir değil?</translation>
+        <source>2) Why are my C4T unspendable?</source>
+        <translation>2) C4T'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>1</source>
         <translation>1</translation>
     </message>
     <message>
-        <source>What is SAPP?</source>
-        <translation>SAPP Nedir?</translation>
+        <source>What is C4T?</source>
+        <translation>C4T Nedir?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           SAPP is a form of digital online money using blockchain technology
+                           C4T is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  SAPP incorporates market leading security &amp;
+                           zero fees.  C4T incorporates market leading security &amp;
                            privacy.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           SAPP utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of SAPP to participate in earning block rewards
+                           C4T utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of C4T to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to earn additional income regulary.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           SAPP blockchain teknolojisini kullanan bir dijital online para birimidir
+                           C4T blockchain teknolojisini kullanan bir dijital online para birimidir
                            global olarak anında ve sıfıra yakın ücretlerle transfer edilebilir
-                           SAPP sektördeki en ileri güvenlik ve gizliliğe sahip olmakla birlikte.
+                           C4T sektördeki en ileri güvenlik ve gizliliğe sahip olmakla birlikte.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           SAPP bir  Proof of Stake (PoS) konsensüs algoritma sistemi kullanmaktadır,
-bu sayede SAPP sahipleri blok ödülü kazanımına katılabilmektedir
+                           C4T bir  Proof of Stake (PoS) konsensüs algoritma sistemi kullanmaktadır,
+bu sayede C4T sahipleri blok ödülü kazanımına katılabilmektedir
                            ağı diğer tam düğüm sahibi cüzdanlarla birlikte güvenli hale getirirler
                            ayrıca Masternode oluşturarak tekliflere oy verirler.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -2947,25 +2947,25 @@ bu sayede SAPP sahipleri blok ödülü kazanımına katılabilmektedir
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my SAPP unspendable?</source>
-        <translation>SAPP'lerim neden harcanabilir değil?</translation>
+        <source>Why are my C4T unspendable?</source>
+        <translation>C4T'lerim neden harcanabilir değil?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received SAPP requires 6 confirmations on the network
+                           Newly received C4T requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your SAPP wallet also needs to be completely synchronized
+                           Your C4T wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Yeni alınmış SAPP'lerin harcanabilr hale gelmesi için ağdan 6 onay
+                           Yeni alınmış C4T'lerin harcanabilr hale gelmesi için ağdan 6 onay
                            alması gerekmektedir, bu işlem yaklaşık olarak 6 dakika sürer.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           SAPP cüzdanınızın ağdaki bakiyesini görebilmesi ve harcayabilmesi
+                           C4T cüzdanınızın ağdaki bakiyesini görebilmesi ve harcayabilmesi
                            için tamamen senkronize olması gerekmektedir.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </translation>
@@ -2993,7 +2993,7 @@ bu sayede SAPP sahipleri blok ödülü kazanımına katılabilmektedir
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node SAPP wallet with a
+                           A masternode is a computer running a full node C4T wallet with a
                            required amount of secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3013,10 +3013,10 @@ bu sayede SAPP sahipleri blok ödülü kazanımına katılabilmektedir
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in SAPP Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in C4T Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the SAPP network&lt;/li&gt;
+                           &lt;li&gt;Help secure the C4T network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3032,7 +3032,7 @@ bu sayede SAPP sahipleri blok ödülü kazanımına katılabilmektedir
                          </source>
         <translation>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Tam düğüm SAPP cüzdanını çalıştıran, gereken 10,000 SAPP
+                           Tam düğüm C4T cüzdanını çalıştıran, gereken 10,000 C4T
                            teminat bakiyesini barındırarak ağa ekstra hizmetler sunan ve
                            karşılığında da her blok ödülünden düzenli olarak pay alan bir
                            bilgisayardır.Bu hizmetler aşağıdaki gibidir:
@@ -3052,17 +3052,17 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
                            Masternode Avantajları:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;SAPP yönetimine katılın&lt;/li&gt;
+                           &lt;li&gt;C4T yönetimine katılın&lt;/li&gt;
                            &lt;li&gt;Masternode Ödülleri kazanın&lt;/li&gt;
                            &lt;li&gt;İlerde satabileceğiniz bir varlık opsiyonu&lt;/li&gt;
-                           &lt;li&gt;SAPP ağını güvenliğine destek olun&lt;/li&gt;
+                           &lt;li&gt;C4T ağını güvenliğine destek olun&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
                            Gereksinimler:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Her Masternod için ayrı 10,000 SAPP
+                           &lt;li&gt;Her Masternod için ayrı 10,000 C4T
                            &lt;li&gt;Core cüzdan içinde saklanmalıdır.&lt;/li&gt;
                            &lt;li&gt;Atanmış IP adresi gerekmektedir. &lt;/li&gt;
                            &lt;li&gt;Masternode cüzdanının online olması&lt;/li&gt;
@@ -3193,8 +3193,8 @@ işletim maliyetleri sonrası pasif bir gelir sunar.
         <translation>Komut onay parça sayısı</translation>
     </message>
     <message>
-        <source>Start SAPP on system login</source>
-        <translation>Sistem açılışında SAPP'i başlat</translation>
+        <source>Start C4T on system login</source>
+        <translation>Sistem açılışında C4T'i başlat</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3273,8 +3273,8 @@ Emin misiniz?
         <translation>CheckBox</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SAPP addresses after it matures.</source>
-        <translation>ÇokluGönder olgunlaşmış masternode ve staking ödüllerinizin 100% 'üne kadarını diğer SAPP adreslerine otomatik olarak göndermenizi sağlar. </translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other C4T addresses after it matures.</source>
+        <translation>ÇokluGönder olgunlaşmış masternode ve staking ödüllerinizin 100% 'üne kadarını diğer C4T adreslerine otomatik olarak göndermenizi sağlar. </translation>
     </message>
     <message>
         <source>Active</source>
@@ -3653,8 +3653,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>SSS</translation>
     </message>
     <message>
-        <source>About SAPP</source>
-        <translation>SAPP Hakkında</translation>
+        <source>About C4T</source>
+        <translation>C4T Hakkında</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4103,20 +4103,20 @@ Coin4Trade Wallet</source>
 Hoşgeldiniz</translation>
     </message>
     <message>
-        <source>SAPP is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>SAPP Proof of Stake tabanlı dünyadaki en yenilikçi blockchain teknolojisidir. Yüksek tecrübeye sahip yazılımcılar ve kriptograflardan oluşan bir ekip tarafından geliştirilmiştir.</translation>
+        <source>C4T is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>C4T Proof of Stake tabanlı dünyadaki en yenilikçi blockchain teknolojisidir. Yüksek tecrübeye sahip yazılımcılar ve kriptograflardan oluşan bir ekip tarafından geliştirilmiştir.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - SAPP believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Manifestomuzda yazdığı gibi: Gizlilik, pazarlık yapılamayacak temel bir insan hakkıdır; kullanıcılarına istedikleri zaman ve istedikleri kişiyle verilerini paylaşma özgürlüğü verir - SAPP özerkliğe inanır.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - C4T believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Manifestomuzda yazdığı gibi: Gizlilik, pazarlık yapılamayacak temel bir insan hakkıdır; kullanıcılarına istedikleri zaman ve istedikleri kişiyle verilerini paylaşma özgürlüğü verir - C4T özerkliğe inanır.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is SAPP's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternode ağı dağıtık yönetim ve hazine yönetimini sağlayan SAPP blockchaini üzerindeki ikinci katmandır.</translation>
+        <source>The masternode network is C4T's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Masternode ağı dağıtık yönetim ve hazine yönetimini sağlayan C4T blockchaini üzerindeki ikinci katmandır.</translation>
     </message>
     <message>
-        <source>How SAPP respects your privacy?</source>
-        <translation>SAPP gizliliğinize nasıl saygı duyar?</translation>
+        <source>How C4T respects your privacy?</source>
+        <translation>C4T gizliliğinize nasıl saygı duyar?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -4550,8 +4550,8 @@ Hoşgeldiniz</translation>
         <translation>Whitelist içinde belirtilen geçersiz netmask: '%s'</translation>
     </message>
     <message>
-        <source>Recalculating SAPP supply...</source>
-        <translation>SAPP tedariği tekrar hesaplanıyor...</translation>
+        <source>Recalculating C4T supply...</source>
+        <translation>C4T tedariği tekrar hesaplanıyor...</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
@@ -4562,8 +4562,8 @@ Hoşgeldiniz</translation>
         <translation>Bu ön-sürümdeki bir test programıdır - riski kabullenerek kullanınız - staking ve ticaret uygulamalarında kullanmayın.</translation>
     </message>
     <message>
-        <source>Disable all SAPP specific functionality (Masternodes) (0-1, default: %u)</source>
-        <translation>SAPP spesifik tüm fonksiyonaliteyi devre dışı bırak (Masternodes) (0-1, varsayılan: %u)</translation>
+        <source>Disable all C4T specific functionality (Masternodes) (0-1, default: %u)</source>
+        <translation>C4T spesifik tüm fonksiyonaliteyi devre dışı bırak (Masternodes) (0-1, varsayılan: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>

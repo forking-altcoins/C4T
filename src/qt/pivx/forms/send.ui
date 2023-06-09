@@ -81,7 +81,7 @@
             <item>
              <widget class="QLabel" name="labelSubtitle1">
               <property name="text">
-               <string>Send public coins (SAPP)</string>
+               <string>Send public coins (C4T)</string>
               </property>
              </widget>
             </item>
@@ -141,7 +141,7 @@
              <string notr="true">margin-left:8px;</string>
             </property>
             <property name="text">
-             <string>SAPP address or contact label</string>
+             <string>C4T address or contact label</string>
             </property>
            </widget>
           </item>

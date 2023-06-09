@@ -33,11 +33,11 @@ esac
 	sudo apt install git zip unzip build-essential libtool bsdmainutils autotools-dev autoconf pkg-config automake python3 libqt5svg5-dev -y
 
 # Clone code from official Github repository
-	rm -rf SAPP
-	git clone https://github.com/sappcoin-com/SAPP.git
+	rm -rf C4T
+	git clone https://github.com/sappcoin-com/C4T.git
 
 # Entering directory
-	cd SAPP
+	cd C4T
 
 # Compile dependencies
 	cd depends
@@ -51,6 +51,6 @@ esac
 	cd ..
 
 # Create zip file of binaries
-	cp SAPP/src/coin4traded SAPP/src/coin4trade-cli SAPP/src/coin4trade-tx SAPP/src/qt/coin4trade-qt .
-	zip SAPP-$(git describe --abbrev=0 --tags | sed s/v//)-Linux.zip coin4traded coin4trade-cli coin4trade-tx coin4trade-qt
+	cp C4T/src/coin4traded C4T/src/coin4trade-cli C4T/src/coin4trade-tx C4T/src/qt/coin4trade-qt .
+	zip C4T-$(git describe --abbrev=0 --tags | sed s/v//)-Linux.zip coin4traded coin4trade-cli coin4trade-tx coin4trade-qt
 	rm -f coin4traded coin4trade-cli coin4trade-tx coin4trade-qt

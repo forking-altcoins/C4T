@@ -610,7 +610,7 @@ void TopBar::loadWalletModel()
     connect(walletModel, &WalletModel::encryptionStatusChanged, this, &TopBar::refreshStatus);
     // Ask for passphrase if needed
     connect(walletModel, &WalletModel::requireUnlock, this, &TopBar::unlockWallet);
-    // update the display unit, to not use the default ("SAPP")
+    // update the display unit, to not use the default ("C4T")
     updateDisplayUnit();
 
     refreshStatus();
@@ -741,7 +741,7 @@ void TopBar::updateBalances(const interfaces::WalletBalances& newBalance)
 
     CAmount nAvailableBalance = newBalance.balance - nLockedBalance;
 
-    // SAPP
+    // C4T
     // Top
     ui->labelAmountTopPiv->setText(GUIUtil::formatBalance(nAvailableBalance, nDisplayUnit));
     // Expanded

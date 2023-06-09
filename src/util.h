@@ -39,7 +39,7 @@ extern const char * const PIVX_PID_FILENAME;
 extern const char * const PIVX_MASTERNODE_CONF_FILENAME;
 extern const char * const DEFAULT_DEBUGLOGFILE;
 
-//SAPP only features
+//C4T only features
 
 extern bool fMasterNode;
 extern bool fStaking;

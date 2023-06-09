@@ -307,7 +307,7 @@ public:
     // Staker status (last hashed block and time)
     CStakerStatus* pStakerStatus = nullptr;
 
-    // User-defined fee SAPP/kb
+    // User-defined fee C4T/kb
     bool fUseCustomFee;
     CAmount nCustomFee;
 

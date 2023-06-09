@@ -313,7 +313,7 @@ WalletModel::SendCoinsReturn WalletModel::prepareTransaction(WalletModelTransact
                 return InvalidAmount;
             }
             total += subtotal;
-        } else { // User-entered SAPP address / amount:
+        } else { // User-entered C4T address / amount:
             if (!validateAddress(rcp.address)) {
                 return InvalidAddress;
             }
@@ -730,11 +730,11 @@ bool WalletModel::updateAddressBookPurpose(const QString &addressStr, const std:
 bool WalletModel::getKeyId(const CTxDestination& address, CKeyID& keyID)
 {
     if (!IsValidDestination(address))
-        return error("Invalid SAPP address");
+        return error("Invalid C4T address");
 
     const CKeyID* inKeyID = boost::get<CKeyID>(&address);
     if (!inKeyID)
-        return error("Unable to get KeyID from SAPP address");
+        return error("Unable to get KeyID from C4T address");
 
     keyID = *inKeyID;
     return true;

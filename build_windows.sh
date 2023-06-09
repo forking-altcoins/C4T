@@ -12,11 +12,11 @@ fi
 	echo "1" | sudo update-alternatives --config x86_64-w64-mingw32-g++
 
 # Clone code from official Github repository
-	rm -rf SAPP
-	git clone https://github.com/sappcoin-com/SAPP.git
+	rm -rf C4T
+	git clone https://github.com/sappcoin-com/C4T.git
 
 # Entering directory
-	cd SAPP
+	cd C4T
 
 # Disable WSL support for Win32 applications.
 sudo bash -c "echo 0 > /proc/sys/fs/binfmt_misc/status"
@@ -33,8 +33,8 @@ sudo bash -c "echo 0 > /proc/sys/fs/binfmt_misc/status"
 	cd ..
 
 # Create zip file of binaries
-	cp SAPP/src/coin4traded.exe SAPP/src/coin4trade-cli.exe SAPP/src/coin4trade-tx.exe SAPP/src/qt/coin4trade-qt.exe .
-	zip SAPP-Windows.zip coin4traded.exe coin4trade-cli.exe coin4trade-tx.exe coin4trade-qt.exe
+	cp C4T/src/coin4traded.exe C4T/src/coin4trade-cli.exe C4T/src/coin4trade-tx.exe C4T/src/qt/coin4trade-qt.exe .
+	zip C4T-Windows.zip coin4traded.exe coin4trade-cli.exe coin4trade-tx.exe coin4trade-qt.exe
 	rm -f coin4traded.exe coin4trade-cli.exe coin4trade-tx.exe coin4trade-qt.exe
 
 # Enable WSL support for Win32 applications.

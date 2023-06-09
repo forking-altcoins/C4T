@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
 Name=Coin4Trade
-Comment= SAPP P2P Cryptocurrency
-Comment[fr]= SAPP, monnaie virtuelle cryptographique pair à pair
-Comment[tr]= SAPP, eşten eşe kriptografik sanal para birimi
+Comment= C4T P2P Cryptocurrency
+Comment[fr]= C4T, monnaie virtuelle cryptographique pair à pair
+Comment[tr]= C4T, eşten eşe kriptografik sanal para birimi
 Exec=coin4trade-qt %u
 Terminal=false
 Type=Application

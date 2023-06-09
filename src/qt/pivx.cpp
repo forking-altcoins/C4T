@@ -178,7 +178,7 @@ private:
     void handleRunawayException(const std::exception* e);
 };
 
-/** Main SAPP application object */
+/** Main C4T application object */
 class BitcoinApplication : public QApplication
 {
     Q_OBJECT

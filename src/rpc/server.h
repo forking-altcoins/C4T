@@ -128,7 +128,7 @@ public:
 };
 
 /**
- * SAPP RPC command dispatcher.
+ * C4T RPC command dispatcher.
  */
 class CRPCTable
 {

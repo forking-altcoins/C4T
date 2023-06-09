@@ -29,8 +29,8 @@ Build-Depends: debhelper,
  dh-systemd
 Standards-Version: 3.9.2
 Homepage: https://sappcoin.com
-Vcs-Git: git://github.com/decenomy/SAPP.git
-Vcs-Browser: https://github.com/decenomy/SAPP
+Vcs-Git: git://github.com/decenomy/C4T.git
+Vcs-Browser: https://github.com/decenomy/C4T
 
 Package: coin4traded
 Architecture: any

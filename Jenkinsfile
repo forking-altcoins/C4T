@@ -5,7 +5,7 @@ pipeline {
     environment {
         NAME = 'Coin4Trade'
         BASE_NAME = 'coin4trade'
-        ZIP_NAME = 'SAPP'
+        ZIP_NAME = 'C4T'
     }
 
     stages {

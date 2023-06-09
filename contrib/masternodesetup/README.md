@@ -3,8 +3,8 @@
 # Coin4Trade Masternode Setup Guide
 ***
 ## Required
-1) **SAPP collateral value at current block** ([consult the collateral table](../../README.md#rewards-breakdown))
-2) **Local Wallet https://github.com/decenomy/SAPP/releases**
+1) **C4T collateral value at current block** ([consult the collateral table](../../README.md#rewards-breakdown))
+2) **Local Wallet https://github.com/decenomy/C4T/releases**
 3) **VPS with UBUNTU 18.04** (it is possible to work on other versions but it is not tested)
 4) **Putty https://www.putty.org/**
 5) **Text editor on your local pc to save data for copy/paste**
@@ -30,7 +30,7 @@ You will then receive your private key, save it in a txt to use it later.
 * Once logged in your vps, *copy/paste* each line one by one with *Enter*
 
 ```
-wget -q https://raw.githubusercontent.com/decenomy/SAPP/master/contrib/masternodesetup/masternodesetup.sh
+wget -q https://raw.githubusercontent.com/decenomy/C4T/master/contrib/masternodesetup/masternodesetup.sh
 ```
 
 ```

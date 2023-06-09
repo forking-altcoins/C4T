@@ -122,12 +122,12 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Это ваши SAPP-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
+        <source>These are your C4T addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши C4T-адреса для отправки платежей. Перед отправкой монет всегда проверяйте сумму и адрес получателя.</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Это ваши SAPP-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
+        <source>These are your C4T addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши C4T-адреса для получения платежей. Для каждой транзакции рекомендуется использовать новый адрес получения.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -363,8 +363,8 @@ for staking</source>
         <translation>ОТМЕНА</translation>
     </message>
     <message>
-        <source>SAPP will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SAPPs from being stolen by malware infecting your computer.</source>
-        <translation>SAPP сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши SAPP от кражи с использованием вредоносного ПО.</translation>
+        <source>C4T will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your C4Ts from being stolen by malware infecting your computer.</source>
+        <translation>C4T сейчас закроется, чтобы завершить процесс шифрования. Помните, что шифрование вашего кошелька не может полностью защитить ваши C4T от кражи с использованием вредоносного ПО.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -464,8 +464,8 @@ for staking</source>
         <translation>Выбор монеты</translation>
     </message>
     <message>
-        <source>Select SAPP Outputs to Spend</source>
-        <translation>Выберите SAPP выходы для расходов</translation>
+        <source>Select C4T Outputs to Spend</source>
+        <translation>Выберите C4T выходы для расходов</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -492,8 +492,8 @@ for staking</source>
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>0.00 SAPP</source>
-        <translation>0.00 SAPP </translation>
+        <source>0.00 C4T</source>
+        <translation>0.00 C4T </translation>
     </message>
     <message>
         <source>0</source>
@@ -722,8 +722,8 @@ for staking</source>
         <translation>Обзор истории вашего аккаунта</translation>
     </message>
     <message>
-        <source>How to get SAPP</source>
-        <translation>Как получить SAPP</translation>
+        <source>How to get C4T</source>
+        <translation>Как получить C4T</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -746,8 +746,8 @@ for staking</source>
         <translation>Сортировать по</translation>
     </message>
     <message>
-        <source>Amount of SAPP staked.</source>
-        <translation>Сумма добытых SAPP </translation>
+        <source>Amount of C4T staked.</source>
+        <translation>Сумма добытых C4T </translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -842,8 +842,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SAPP address.</source>
-        <translation>Введенный адрес "%1" не является SAPP адресом.</translation>
+        <source>The entered address "%1" is not a valid C4T address.</source>
+        <translation>Введенный адрес "%1" не является C4T адресом.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -966,8 +966,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>Поскольку это первый запуск программы, вы можете выбрать, где будут храниться данные Coin4Trade.</translation>
     </message>
     <message>
-        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin4Trade загрузит и сохранит копию цепочки блоков SAPP. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
+        <source>Coin4Trade will download and store a copy of the C4T block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade загрузит и сохранит копию цепочки блоков C4T. Каталог будет занимать около %1GB и со временем размер будет увеличиваться. Кроме того, в этом каталоге будет храниться кошелек.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1111,7 +1111,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of collateral amount will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;На новый пустой адрес в вашем кошельке&lt;/p&gt;&lt;p&gt; будет сделана транзакция в 10 000 SAPP. &lt;/p&gt;&lt;p&gt;Адрес отмечен под именем мастерноды.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;На новый пустой адрес в вашем кошельке&lt;/p&gt;&lt;p&gt; будет сделана транзакция в 10 000 C4T. &lt;/p&gt;&lt;p&gt;Адрес отмечен под именем мастерноды.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1554,8 +1554,8 @@ NODES</source>
         <translation>Отключив проведение неподтвержденных изменений все изменения о транзакции &lt;br/&gt;не будут использованы пока транзакция не получит хотя бы одно подтверждение.&lt;br/&gt;Также это влияет на расчет вашего баланса.</translation>
     </message>
     <message>
-        <source>Automatically open the SAPP client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматически открыть клиентский порт SAPP через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
+        <source>Automatically open the C4T client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть клиентский порт C4T через роутер. Ваш роутер должен поддерживать UPnP, а сам сервис должен быть включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1574,12 +1574,12 @@ NODES</source>
         <translation>Эксперт</translation>
     </message>
     <message>
-        <source>Automatically start SAPP after logging in to the system.</source>
-        <translation>Автоматически запускать SAPP после входа в систему.</translation>
+        <source>Automatically start C4T after logging in to the system.</source>
+        <translation>Автоматически запускать C4T после входа в систему.</translation>
     </message>
     <message>
-        <source>&amp;Start SAPP on system login</source>
-        <translation>&amp;Запускать SAPP при входе в систему</translation>
+        <source>&amp;Start C4T on system login</source>
+        <translation>&amp;Запускать C4T при входе в систему</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1606,8 +1606,8 @@ NODES</source>
         <translation>&amp;Сеть</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SAPP.</source>
-        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска SAPP.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting C4T.</source>
+        <translation>Здесь можно выставить язык интерфейса. Изменения вступят в силу после перезапуска C4T.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1628,8 +1628,8 @@ NODES</source>
         <translation>Порог разделения доли:</translation>
     </message>
     <message>
-        <source>Connect to the SAPP network through a SOCKS5 proxy.</source>
-        <translation>Подключиться к сети SAPP через SOCKS5 прокси.</translation>
+        <source>Connect to the C4T network through a SOCKS5 proxy.</source>
+        <translation>Подключиться к сети C4T через SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1874,8 +1874,8 @@ Address: %4
         <translation>Не удалось запустить coin4trade: обработчик click-to-pay </translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
-        <translation>URI не интерпретируется! Причиной этому может быть неверный SAPP адрес или неверные параметеры URI.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid C4T address or malformed URI parameters.</source>
+        <translation>URI не интерпретируется! Причиной этому может быть неверный C4T адрес или неверные параметеры URI.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1960,8 +1960,8 @@ Address: %4
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>Enter SAPP address (e.g. %1)</source>
-        <translation>Введите адрес SAPP (например, %1)</translation>
+        <source>Enter C4T address (e.g. %1)</source>
+        <translation>Введите адрес C4T (например, %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2004,8 +2004,8 @@ Address: %4
         <translation>%1 мс</translation>
     </message>
     <message>
-        <source>A fatal error occurred. SAPP can no longer continue safely and will quit.</source>
-        <translation>Произошла фатальная ошибка. SAPP больше не может безопасно продолжать работу и завершит работу.</translation>
+        <source>A fatal error occurred. C4T can no longer continue safely and will quit.</source>
+        <translation>Произошла фатальная ошибка. C4T больше не может безопасно продолжать работу и завершит работу.</translation>
     </message>
     <message>
         <source>Coin4Trade</source>
@@ -2239,8 +2239,8 @@ Address: %4
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the SAPP debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Открыть протокол отладки SAPP. Это может занять некоторе время, если файл протокола очень большой.</translation>
+        <source>Open the C4T debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Открыть протокол отладки C4T. Это может занять некоторе время, если файл протокола очень большой.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2460,8 +2460,8 @@ Address: %4
         <translation>Вывод:</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>Добро пожаловать в окружение SAPP RPC.</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>Добро пожаловать в окружение C4T RPC.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2602,8 +2602,8 @@ Address: %4
         <translation>Нет адресов</translation>
     </message>
     <message>
-        <source>Scan the QR code or copy the address to receive SAPP</source>
-        <translation>Сканируйте QR-код или скопируйте адрес для получения SAPP</translation>
+        <source>Scan the QR code or copy the address to receive C4T</source>
+        <translation>Сканируйте QR-код или скопируйте адрес для получения C4T</translation>
     </message>
     <message>
         <source>Add Label</source>
@@ -2732,12 +2732,12 @@ Address: %4
         <translation>Сумма</translation>
     </message>
     <message>
-        <source>SAPP</source>
-        <translation>SAPP</translation>
+        <source>C4T</source>
+        <translation>C4T</translation>
     </message>
     <message>
-        <source>Instead of sharing only a SAPP address, you can create a payment request, bundling up more information</source>
-        <translation>Вместо того, чтобы делиться только адресом SAPP, вы можете создать запрос на оплату, связывая больше информации</translation>
+        <source>Instead of sharing only a C4T address, you can create a payment request, bundling up more information</source>
+        <translation>Вместо того, чтобы делиться только адресом C4T, вы можете создать запрос на оплату, связывая больше информации</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -2815,8 +2815,8 @@ Address: %4
         <translation>Смена адреса</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" SAPP address</source>
-        <translation>Остаточная часть значения, полученного от значения входов минус выходов, идет на «изменение» адреса SAPP</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" C4T address</source>
+        <translation>Остаточная часть значения, полученного от значения входов минус выходов, идет на «изменение» адреса C4T</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2842,8 +2842,8 @@ Address: %4
         <translation>рекомендуемые</translation>
     </message>
     <message>
-        <source>SAPP/kilobyte</source>
-        <translation>SAPP/килобайт</translation>
+        <source>C4T/kilobyte</source>
+        <translation>C4T/килобайт</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3114,9 +3114,9 @@ Remember to write it down and store it safely, otherwise you might lose access t
         <translation>Инструмент BIP38</translation>
     </message>
     <message>
-        <source>Encrypt your SAPP addresses (key pair actually) using BIP38 encryption.
+        <source>Encrypt your C4T addresses (key pair actually) using BIP38 encryption.
 Using this mechanism you can share your keys without middle-man risk, only need to store your passphrase safely</source>
-        <translation>Зашифруйте свои адреса SAPP (фактически, пару ключей), используя шифрование BIP38.
+        <translation>Зашифруйте свои адреса C4T (фактически, пару ключей), используя шифрование BIP38.
 С помощью этого механизма вы можете делиться своими ключами без риска посредника, вам нужно только безопасно хранить вашу парольную фразу</translation>
     </message>
     <message>
@@ -3152,8 +3152,8 @@ Using this mechanism you can share your keys without middle-man risk, only need 
         <translation>Расшифровать ключ</translation>
     </message>
     <message>
-        <source>SAPP address</source>
-        <translation>Адрес SAPP</translation>
+        <source>C4T address</source>
+        <translation>Адрес C4T</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3285,8 +3285,8 @@ Verify that you have installed a predetermined text editor.</source>
 Убедитесь, что вы установили заранее установленный текстовый редактор.</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>Добро пожаловать в окружение SAPP RPC.</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>Добро пожаловать в окружение C4T RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3469,12 +3469,12 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>Вид</translation>
     </message>
     <message>
-        <source>1) What is SAPP?</source>
-        <translation>1) Что такое SAPP?</translation>
+        <source>1) What is C4T?</source>
+        <translation>1) Что такое C4T?</translation>
     </message>
     <message>
-        <source>2) Why are my SAPP unspendable?</source>
-        <translation>2) Почему мои SAPP невозможно потратить?</translation>
+        <source>2) Why are my C4T unspendable?</source>
+        <translation>2) Почему мои C4T невозможно потратить?</translation>
     </message>
     <message>
         <source>https://sappcoin.com/</source>
@@ -3485,31 +3485,31 @@ There was an error trying to save the address list to %1. Please try again.</sou
         <translation>1</translation>
     </message>
     <message>
-        <source>What is SAPP?</source>
-        <translation>Что такое SAPP?</translation>
+        <source>What is C4T?</source>
+        <translation>Что такое C4T?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           SAPP is a form of digital online money using blockchain technology
+                           C4T is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  SAPP incorporates market leading security &amp;
+                           zero fees.  C4T incorporates market leading security &amp;
                            privacy.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           SAPP utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of SAPP to participate in earning block rewards
+                           C4T utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of C4T to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to earn additional income regulary.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-SAPP - это форма цифровых онлайн-денег, использующая технологию блокчейн,
+C4T - это форма цифровых онлайн-денег, использующая технологию блокчейн,
 которая может быть легко переведена по всему миру, мгновенно и с практически
-нулевой комиссией. SAPP включает в себя лидирующую на рынке защиту и
+нулевой комиссией. C4T включает в себя лидирующую на рынке защиту и
 «конфиденциальность».
 &lt;/p&gt;&lt;p align="justify"&gt;
-SAPP использует консенсус PoS (Proof of Stake), позволяя всем владельцам SAPP участвовать в заработке вознаграждений
+C4T использует консенсус PoS (Proof of Stake), позволяя всем владельцам C4T участвовать в заработке вознаграждений
 при этом обеспечивая безопасность сети с помощью кошельков с полными узлами, а также позволяет
 запускать мастерноды для создания предложений и голосования по ним.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
@@ -3519,25 +3519,25 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my SAPP unspendable?</source>
-        <translation>Почему мои SAPP невозможно потратить?</translation>
+        <source>Why are my C4T unspendable?</source>
+        <translation>Почему мои C4T невозможно потратить?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received SAPP requires 6 confirmations on the network
+                           Newly received C4T requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your SAPP wallet also needs to be completely synchronized
+                           Your C4T wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Недавно полученным SAPP требуется 6 подтверждений в сети,
+Недавно полученным C4T требуется 6 подтверждений в сети,
 чтобы получить право быть расходуемыми. Это может занять примерно 6 минут.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Ваш кошелек SAPP также должен быть полностью синхронизирован,
+Ваш кошелек C4T также должен быть полностью синхронизирован,
 чтобы видеть баланс и расходовать его в сети.
  &lt;/p&gt;&lt;/body&gt;&lt;/html&gt; </translation>
     </message>
@@ -3546,8 +3546,8 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
         <translation>3</translation>
     </message>
     <message>
-        <source>How do I stake SAPP?</source>
-        <translation>Как мне запустить стекинг SAPP?</translation>
+        <source>How do I stake C4T?</source>
+        <translation>Как мне запустить стекинг C4T?</translation>
     </message>
     <message>
         <source>4</source>
@@ -3578,7 +3578,7 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node SAPP wallet with a
+                           A masternode is a computer running a full node C4T wallet with a
                            required amount of secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3598,10 +3598,10 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in SAPP Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in C4T Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the SAPP network&lt;/li&gt;
+                           &lt;li&gt;Help secure the C4T network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3616,7 +3616,7 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
-Мастернода - это компьютер, на котором запущен базовый кошелек SAPP с полным узлом и для которого требуется обеспечение в 10000 SAPP для обеспечения дополнительных услуг сети и, в свою очередь, регулярного получения части вознаграждения за блок. Эти услуги в себя включают:
+Мастернода - это компьютер, на котором запущен базовый кошелек C4T с полным узлом и для которого требуется обеспечение в 10000 C4T для обеспечения дополнительных услуг сети и, в свою очередь, регулярного получения части вознаграждения за блок. Эти услуги в себя включают:
 
 Децентрализованное управление (Голосование по предложениям)
 Децентрализованная система бюджетирования (Казначейство)
@@ -3627,14 +3627,14 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
 
 Привилегии мастерноды:
 
-Участие в управлении SAPP
+Участие в управлении C4T
 Получение вознаграждений за мастерноду
 Товарные опционы для будущей продажи
-Помощь в защите сети SAPP
+Помощь в защите сети C4T
 
 Требования:
 
-10 000 SAPP для каждой мастерноды
+10 000 C4T для каждой мастерноды
 Должен храниться в основном кошельке
 Требуется выделенный IP-адрес
 Кошелек мастерноды должен оставаться в сети</translation>
@@ -3644,8 +3644,8 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
         <translation>Часто задаваемые вопросы</translation>
     </message>
     <message>
-        <source>3) How do I stake SAPP?</source>
-        <translation>3) Как мне запустить стекинг SAPP?</translation>
+        <source>3) How do I stake C4T?</source>
+        <translation>3) Как мне запустить стекинг C4T?</translation>
     </message>
     <message>
         <source>4) Where I should go if I need support?</source>
@@ -3822,8 +3822,8 @@ SAPP использует консенсус PoS (Proof of Stake), позвол�
         <translation>Количество потоков проверки скрипта</translation>
     </message>
     <message>
-        <source>Start SAPP on system login</source>
-        <translation>Запускать SAPP при входе в систему</translation>
+        <source>Start C4T on system login</source>
+        <translation>Запускать C4T при входе в систему</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3910,8 +3910,8 @@ Are you sure?
         <translation>Флажок</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SAPP addresses after it matures.</source>
-        <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов SAPP после его созревания.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other C4T addresses after it matures.</source>
+        <translation>MultiSend позволяет автоматически отправлять до 100% ваших вознаграждений от стекинга или мастернод в список других адресов C4T после его созревания.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -4037,8 +4037,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>Сообщение</translation>
     </message>
     <message>
-        <source>SAPP address or contact label</source>
-        <translation>SAPP адрес или лейбл контакта</translation>
+        <source>C4T address or contact label</source>
+        <translation>C4T адрес или лейбл контакта</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4358,8 +4358,8 @@ Check one or both of the check boxes to send on stake and/or masternode rewards<
         <translation>ЧаВо</translation>
     </message>
     <message>
-        <source>About SAPP</source>
-        <translation>О SAPP</translation>
+        <source>About C4T</source>
+        <translation>О C4T</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4983,20 +4983,20 @@ Coin4Trade Wallet</source>
 в основной кошелек Coin4Trade</translation>
     </message>
     <message>
-        <source>SAPP is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>SAPP - самая инновационная в мире технология на основе блокчейна Proof of Stake. Разработана командой опытных разработчиков и криптографов.</translation>
+        <source>C4T is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>C4T - самая инновационная в мире технология на основе блокчейна Proof of Stake. Разработана командой опытных разработчиков и криптографов.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - SAPP believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь SAPP верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - C4T believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Как говорится в нашем манифесте: конфиденциальность является не подлежащим обсуждению основным правом человека; это дает пользователям свободу делиться своими данными в любое время и с кем угодно, ведь C4T верит в собственный суверенитет.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is SAPP's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Сеть мастернод - это сеть второго уровня SAPP поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
+        <source>The masternode network is C4T's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Сеть мастернод - это сеть второго уровня C4T поверх блокчейна, которая позволяет нашему ДАО обеспечивать децентрализованное управление и казначейство.</translation>
     </message>
     <message>
-        <source>How SAPP respects your privacy?</source>
-        <translation>Как SAPP уважает вашу конфиденциальность?</translation>
+        <source>How C4T respects your privacy?</source>
+        <translation>Как C4T уважает вашу конфиденциальность?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5434,8 +5434,8 @@ Coin4Trade Wallet</source>
         <translation>Недопустимая сетевая маска, указанная в -whitelist: '%s'</translation>
     </message>
     <message>
-        <source>Recalculating SAPP supply...</source>
-        <translation>Перерасчет предложения SAPP...</translation>
+        <source>Recalculating C4T supply...</source>
+        <translation>Перерасчет предложения C4T...</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
@@ -5446,8 +5446,8 @@ Coin4Trade Wallet</source>
         <translation>Это предварительная версия сборки - используйте на свой страх и риск - не используйте для ставок или коммерческих приложений!</translation>
     </message>
     <message>
-        <source>Disable all SAPP specific functionality (Masternodes) (0-1, default: %u)</source>
-        <translation>Отключите все специфические функции SAPP (Masternodes) (0-1, по умолчанию: %u)</translation>
+        <source>Disable all C4T specific functionality (Masternodes) (0-1, default: %u)</source>
+        <translation>Отключите все специфические функции C4T (Masternodes) (0-1, по умолчанию: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
@@ -5702,8 +5702,8 @@ Coin4Trade Wallet</source>
         <translation>Комиссия (в %s/Кбайт) меньше этого значения считается с нулевой комиссией за создание транзакции (по умолчанию: %s)</translation>
     </message>
     <message>
-        <source>Minimum positive amount (in SAPP) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
-        <translation>Минимальная положительная сумма (в SAPP), разрешенная GUI и RPC для порога разделения стекинга (по умолчанию: %s)</translation>
+        <source>Minimum positive amount (in C4T) allowed by GUI and RPC for the stake split threshold (default: %s)</source>
+        <translation>Минимальная положительная сумма (в C4T), разрешенная GUI и RPC для порога разделения стекинга (по умолчанию: %s)</translation>
     </message>
     <message>
         <source>Please check that your computer's date and time are correct! If your clock is wrong Coin4Trade will not work properly.</source>
@@ -6155,12 +6155,12 @@ Coin4Trade Wallet</source>
         <translation>Отправить</translation>
     </message>
     <message>
-        <source>Send public coins (SAPP)</source>
-        <translation>Отправить монеты (SAPP)</translation>
+        <source>Send public coins (C4T)</source>
+        <translation>Отправить монеты (C4T)</translation>
     </message>
     <message>
-        <source>SAPP address or contact label</source>
-        <translation>SAPP адрес или лейбл контакта</translation>
+        <source>C4T address or contact label</source>
+        <translation>C4T адрес или лейбл контакта</translation>
     </message>
     <message>
         <source>Amount</source>

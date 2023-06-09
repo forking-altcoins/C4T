@@ -122,12 +122,12 @@
         <translation>Adrese za primanje</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>To su vaše SAPP adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
+        <source>These are your C4T addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>To su vaše C4T adrese za slanje plaćanja. Uvijek provjerite iznos i adresu primatelja prije slanja novca.</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>To su vaše SAPP adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
+        <source>These are your C4T addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>To su vaše C4T adrese za primanje uplata. Preporuča se upotreba nove adrese primatelja za svaku transakciju.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -360,8 +360,8 @@ za staking</translation>
         <translation>PONIŠTI</translation>
     </message>
     <message>
-        <source>SAPP will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SAPPs from being stolen by malware infecting your computer.</source>
-        <translation>SAPP će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše SAPP od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
+        <source>C4T will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your C4Ts from being stolen by malware infecting your computer.</source>
+        <translation>C4T će se sada zatvoriti kako bi se dovršio proces šifriranja. Ne zaboravite da šifriranje Vašeg novčanika ne može u potpunosti zaštititi vaše C4T od krađje zlonamjernog softvera koji zarazi vaše računalo.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -457,8 +457,8 @@ za staking</translation>
         <translation>Odabir novčića</translation>
     </message>
     <message>
-        <source>Select SAPP Outputs to Spend</source>
-        <translation>Odaberi SAPP za potrošiti</translation>
+        <source>Select C4T Outputs to Spend</source>
+        <translation>Odaberi C4T za potrošiti</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -485,8 +485,8 @@ za staking</translation>
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>0.00 SAPP</source>
-        <translation>0.00 SAPP</translation>
+        <source>0.00 C4T</source>
+        <translation>0.00 C4T</translation>
     </message>
     <message>
         <source>0</source>
@@ -707,8 +707,8 @@ za staking</translation>
         <translation>Statistika stakinga</translation>
     </message>
     <message>
-        <source>How to get SAPP</source>
-        <translation>Kako dobiti SAPP</translation>
+        <source>How to get C4T</source>
+        <translation>Kako dobiti C4T</translation>
     </message>
     <message>
         <source>Sort by</source>
@@ -731,8 +731,8 @@ za staking</translation>
         <translation>Filtriraj prema</translation>
     </message>
     <message>
-        <source>Amount of SAPP staked.</source>
-        <translation>Iznos SAPP koji se stakea.</translation>
+        <source>Amount of C4T staked.</source>
+        <translation>Iznos C4T koji se stakea.</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -827,8 +827,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Uredi adresu pošiljatelja</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SAPP address.</source>
-        <translation>Unesena adresa "%1" nije ispravna SAPP adresa.</translation>
+        <source>The entered address "%1" is not a valid C4T address.</source>
+        <translation>Unesena adresa "%1" nije ispravna C4T adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -951,8 +951,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Budući da je prvi put pokrenut program, možete odabrati gdje će Coin4Trade pohraniti svoje podatke.</translation>
     </message>
     <message>
-        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin4Trade preuzima i pohranjuje kopiju SAPP blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
+        <source>Coin4Trade will download and store a copy of the C4T block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade preuzima i pohranjuje kopiju C4T blok-lanca. Barem će %1GB podataka biti pohranjeno u ovom direktoriju i to će s vremenom rasti. Novčanik će također biti pohranjena u ovom direktoriju.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1075,8 +1075,8 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
         <translation>Stvori novi Masternode Controller</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a SAPP Masternode you must dedicate a collateral amount of SAPP (the unit of SAPP) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti SAPP Masternode, morate odvojiti 10,000 SAPP (jedinica SAPP-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a C4T Masternode you must dedicate a collateral amount of C4T (the unit of C4T) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Da biste stvoriti C4T Masternode, morate odvojiti 10,000 C4T (jedinica C4T-a) prema mreži (međjutim, ti novčići su i dalje vaši i nikad neće napustiti vaše vlasništvo). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt; Možete isključiti node i otključati novčiće u bilo kojem trenutku.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1096,7 +1096,7 @@ Automatski će se pokrenuti čim novčanik dobije dovoljno potvrda o neiskorišt
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of collateral amount will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 SAPP će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Transakcija od 10,000 C4T će biti napravljena&lt;/p&gt;&lt;p&gt;u novu praznu adresu u Vašem novčaniku.&lt;/p&gt;&lt;p&gt;Adresa je označena pod imenom Masternode-a.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1520,8 +1520,8 @@ NODEOVI</translation>
         <translation>Ako onemogućite potrošnju nepotvrđjenog ostatka, ostatak od transakcije &lt;br/&gt;ne može se koristiti dok ta transakcija nema barem jednu potvrdu. &lt;br/&gt;Ovo takođjer utječe na izračun vašeg salda.</translation>
     </message>
     <message>
-        <source>Automatically open the SAPP client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatski otvorite SAPP klijentski ulaz na ruteru. To funkcionira samo kada vaš ruter podržava UPnP i omogućen je.</translation>
+        <source>Automatically open the C4T client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatski otvorite C4T klijentski ulaz na ruteru. To funkcionira samo kada vaš ruter podržava UPnP i omogućen je.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1540,12 +1540,12 @@ NODEOVI</translation>
         <translation>Stručnjak</translation>
     </message>
     <message>
-        <source>Automatically start SAPP after logging in to the system.</source>
-        <translation>Automatski pokrenite SAPP nakon prijave u sustav.</translation>
+        <source>Automatically start C4T after logging in to the system.</source>
+        <translation>Automatski pokrenite C4T nakon prijave u sustav.</translation>
     </message>
     <message>
-        <source>&amp;Start SAPP on system login</source>
-        <translation>&amp;Pokrenite SAPP pri pokretanju sustava</translation>
+        <source>&amp;Start C4T on system login</source>
+        <translation>&amp;Pokrenite C4T pri pokretanju sustava</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1572,8 +1572,8 @@ NODEOVI</translation>
         <translation>&amp;Mreža</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SAPP.</source>
-        <translation>Jezik korisničkog sučelja možete postaviti ovdje. Postavke će stupiti na snagu nakon ponovnog pokretanja SAPP novčanika.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting C4T.</source>
+        <translation>Jezik korisničkog sučelja možete postaviti ovdje. Postavke će stupiti na snagu nakon ponovnog pokretanja C4T novčanika.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1594,8 +1594,8 @@ NODEOVI</translation>
         <translation>Prag razdvajanja Stake-a:</translation>
     </message>
     <message>
-        <source>Connect to the SAPP network through a SOCKS5 proxy.</source>
-        <translation>Povežite se s SAPP mrežom putem SOCKS5 proxy poslužitelja.</translation>
+        <source>Connect to the C4T network through a SOCKS5 proxy.</source>
+        <translation>Povežite se s C4T mrežom putem SOCKS5 proxy poslužitelja.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1840,8 +1840,8 @@ Adresa: %4
         <translation>Ne može se pokrenuti coin4trade: clik-to-pay handler</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
-        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom SAPP adresom ili nepravilnim URI parametrima.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid C4T address or malformed URI parameters.</source>
+        <translation>URI se ne može analizirati! To može biti uzrokovana nevažećom C4T adresom ili nepravilnim URI parametrima.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1930,8 +1930,8 @@ Adresa: %4
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>Enter SAPP address (e.g. %1)</source>
-        <translation>Upišite SAPP adresu (npr. %1)</translation>
+        <source>Enter C4T address (e.g. %1)</source>
+        <translation>Upišite C4T adresu (npr. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1974,8 +1974,8 @@ Adresa: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. SAPP can no longer continue safely and will quit.</source>
-        <translation>Dogodila se fatalna pogreška. SAPP ne može sigurno nastaviti i izaći će.</translation>
+        <source>A fatal error occurred. C4T can no longer continue safely and will quit.</source>
+        <translation>Dogodila se fatalna pogreška. C4T ne može sigurno nastaviti i izaći će.</translation>
     </message>
     <message>
         <source>Coin4Trade</source>
@@ -2209,8 +2209,8 @@ Adresa: %4
         <translation>Block chain</translation>
     </message>
     <message>
-        <source>Open the SAPP debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorite SAPP debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
+        <source>Open the C4T debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorite C4T debug log datoteku iz aktualnog direktorija podataka. To može potrajati nekoliko sekundi za velike datoteke zapisnika.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2429,8 +2429,8 @@ Adresa: %4
         <translation>Iz:</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>Dobrodošli na SAPP RPC konzolu.</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>Dobrodošli na C4T RPC konzolu.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2693,8 +2693,8 @@ Adresa: %4
         <translation>Iznos</translation>
     </message>
     <message>
-        <source>SAPP</source>
-        <translation>SAPP</translation>
+        <source>C4T</source>
+        <translation>C4T</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -2772,8 +2772,8 @@ Adresa: %4
         <translation>Prilagođjena adresa za ostatak</translation>
     </message>
     <message>
-        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" SAPP address</source>
-        <translation>Ostatak vrijednosti koja proizlazi iz ulaza umanjen za izlaznu vrijednost ide na SAPP adresu za "ostatak"</translation>
+        <source>The remainder of the value resultant from the inputs minus the outputs value goes to the "change" C4T address</source>
+        <translation>Ostatak vrijednosti koja proizlazi iz ulaza umanjen za izlaznu vrijednost ide na C4T adresu za "ostatak"</translation>
     </message>
     <message>
         <source>SAVE</source>
@@ -2799,8 +2799,8 @@ Adresa: %4
         <translation>Preporučeno</translation>
     </message>
     <message>
-        <source>SAPP/kilobyte</source>
-        <translation>SAPP/kilobajt</translation>
+        <source>C4T/kilobyte</source>
+        <translation>C4T/kilobajt</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -3083,8 +3083,8 @@ Do you want to continue?</source>
         <translation>DEŠIFRIRAJ KLJUČ</translation>
     </message>
     <message>
-        <source>SAPP address</source>
-        <translation>SAPP adresa</translation>
+        <source>C4T address</source>
+        <translation>C4T adresa</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3216,8 +3216,8 @@ Verify that you have installed a predetermined text editor.</source>
 Provjerite jeste li instalirali unaprijed određjeni uređjivač teksta.</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>Dobrodošli na SAPP RPC konzolu.</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>Dobrodošli na C4T RPC konzolu.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3401,12 +3401,12 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>Obrazac</translation>
     </message>
     <message>
-        <source>1) What is SAPP?</source>
-        <translation>1) Što je SAPP?</translation>
+        <source>1) What is C4T?</source>
+        <translation>1) Što je C4T?</translation>
     </message>
     <message>
-        <source>2) Why are my SAPP unspendable?</source>
-        <translation>2) Zašto se moji SAPP ne mogu potrošiti?</translation>
+        <source>2) Why are my C4T unspendable?</source>
+        <translation>2) Zašto se moji C4T ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>https://sappcoin.com/</source>
@@ -3417,31 +3417,31 @@ Došlo je do greške prilikom spremanja popisa adresa u %1. Molimo pokušajte po
         <translation>1</translation>
     </message>
     <message>
-        <source>What is SAPP?</source>
-        <translation>Što je SAPP?</translation>
+        <source>What is C4T?</source>
+        <translation>Što je C4T?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           SAPP is a form of digital online money using blockchain technology
+                           C4T is a form of digital online money using blockchain technology
                            that can be easily transferred globally, instantly, and with near
-                           zero fees.  SAPP incorporates market leading security &amp;
+                           zero fees.  C4T incorporates market leading security &amp;
                            privacy.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           SAPP utilizes a Proof of Stake (PoS) consensus system algorithm,
-                           allowing all owners of SAPP to participate in earning block rewards
+                           C4T utilizes a Proof of Stake (PoS) consensus system algorithm,
+                           allowing all owners of C4T to participate in earning block rewards
                            while securing the network with full node wallets, as well as to
                            run Masternodes to earn additional income regulary.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-SAPP je oblik digitalnog online novca koji koristi blockchain tehnologiju
+C4T je oblik digitalnog online novca koji koristi blockchain tehnologiju
 koji se lako može slati i primati globalno, trenutno, i gotovo bez naknade.
-SAPP uključuje vodeću sigurnost i privatnost.
+C4T uključuje vodeću sigurnost i privatnost.
 &lt;/p&gt;&lt;p align="justify"&gt;
-SAPP koristi algoritam konsenzusa Proof of Stake (PoS),
-omogućujući svim vlasnicima SAPP-a sudjelovanje u zarađi blokovih nagrada
+C4T koristi algoritam konsenzusa Proof of Stake (PoS),
+omogućujući svim vlasnicima C4T-a sudjelovanje u zarađi blokovih nagrada
 dok osiguravaju mrežu full node novčanicima, kao i
 vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
@@ -3452,25 +3452,25 @@ vodjenje Masternode-ova za stvaranje i glasanje o prijedlozima.
         <translation>2</translation>
     </message>
     <message>
-        <source>Why are my SAPP unspendable?</source>
-        <translation>Zašto se moji SAPP ne mogu potrošiti?</translation>
+        <source>Why are my C4T unspendable?</source>
+        <translation>Zašto se moji C4T ne mogu potrošiti?</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           Newly received SAPP requires 6 confirmations on the network
+                           Newly received C4T requires 6 confirmations on the network
                            to become eligible for spending which can take ~6 minutes.
                            &lt;/p&gt;&lt;p align="justify"&gt;
-                           Your SAPP wallet also needs to be completely synchronized
+                           Your C4T wallet also needs to be completely synchronized
                            to see and spend balances on the network.
                            &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
                          </source>
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-Novoprimljeni SAPP zahtjeva 6 potvrda na mreži
+Novoprimljeni C4T zahtjeva 6 potvrda na mreži
 da bi se mogao potrošiti što može potrajati ~6 minuta.
 &lt;/p&gt;&lt;p align="justify"&gt;
-Vaš SAPP novčanik takođjer treba biti u potpunosti sinkroniziran
+Vaš C4T novčanik takođjer treba biti u potpunosti sinkroniziran
 da biste vidjeli i mogli potrošiti sredstva na mreži.
 &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
 </translation>
@@ -3480,8 +3480,8 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
         <translation>3</translation>
     </message>
     <message>
-        <source>How do I stake SAPP?</source>
-        <translation>Kako stakeat SAPP?</translation>
+        <source>How do I stake C4T?</source>
+        <translation>Kako stakeat C4T?</translation>
     </message>
     <message>
         <source>4</source>
@@ -3509,12 +3509,12 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;A Masternode Controller wallet is where the collateral amount can reside during a Controller-Remote masternode setup. It is a wallet that can activate the remote masternode wallet(s) and allows you to keep your collateral coins offline while the remote masternode remains online. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 SAPP može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;Masternode Controller novčanik je mjesto gdje zalog od 10,000 C4T može stajati tijekom Controller-Remote podešavanja masternode-a. To je novčanik koji može aktivirati Remote masternode novčanik(e) i omogućiti Vam držanje zaloga novčića offline dok Remote masternode novčanik ostaje online.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>
                            &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
-                           A masternode is a computer running a full node SAPP wallet with a
+                           A masternode is a computer running a full node C4T wallet with a
                            required amount of secured collateral to provide extra services
                            to the network and in return, receive a portion of the block reward
                            regularly.  These services include:
@@ -3534,10 +3534,10 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
                            Masternode Perks:
                            &lt;/p&gt;&lt;p align="justify"&gt;
                            &lt;ul&gt;
-                           &lt;li&gt;Participate in SAPP Governance&lt;/li&gt;
+                           &lt;li&gt;Participate in C4T Governance&lt;/li&gt;
                            &lt;li&gt;Earn Masternode Rewards&lt;/li&gt;
                            &lt;li&gt;Commodity option for future sale&lt;/li&gt;
-                           &lt;li&gt;Help secure the SAPP network&lt;/li&gt;
+                           &lt;li&gt;Help secure the C4T network&lt;/li&gt;
                            &lt;/ul&gt;
                            &lt;/p&gt;&lt;p align="justify"&gt;
 
@@ -3554,7 +3554,7 @@ da biste vidjeli i mogli potrošiti sredstva na mreži.
         <translation>
 &lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align="justify"&gt;
 Masternode je računalo koje pokreće full node Coin4Trade novčanik sa
-zahtjevanih 10,000 SAPP-a osiguranog zaloga da pruži dodatne usluge
+zahtjevanih 10,000 C4T-a osiguranog zaloga da pruži dodatne usluge
 mreži, i zauzvrat redovito primi dio nagrade blokova.
 Te usluge uključuju:
 &lt;/p&gt;&lt;p align="justify"&gt;
@@ -3573,17 +3573,17 @@ vlasnicima masternode-ova umanjeno za troškove održavanja.
 Povlastice masternode-ova:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;Sudjelovanje u upravljanju SAPP-a&lt;/li&gt;
+&lt;li&gt;Sudjelovanje u upravljanju C4T-a&lt;/li&gt;
 &lt;li&gt;Zaradjivanje Masternode nagrada&lt;/li&gt;
 &lt;li&gt;Robna opcija za buduću prodaju&lt;/li&gt;
-&lt;li&gt;Pomaže u osiguravanju SAPP mreže&lt;/li&gt;
+&lt;li&gt;Pomaže u osiguravanju C4T mreže&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/p&gt;&lt;p align="justify"&gt;
 
 Zahtjevi:
 &lt;/p&gt;&lt;p align="justify"&gt;
 &lt;ul&gt;
-&lt;li&gt;10,000 SAPP po svakom Masternode-u&lt;/li&gt;
+&lt;li&gt;10,000 C4T po svakom Masternode-u&lt;/li&gt;
 &lt;li&gt;Mora biti pohranjem u Core novčaniku&lt;/li&gt;
 &lt;li&gt;Mora biti jedinstvena IP adresa&lt;/li&gt;
 &lt;li&gt;Masternode novčanik treba ostati online&lt;/li&gt;
@@ -3758,8 +3758,8 @@ Zahtjevi:
         <translation>Number of script verification threads</translation>
     </message>
     <message>
-        <source>Start SAPP on system login</source>
-        <translation>Pokrenite SAPP pri pokretanju računala</translation>
+        <source>Start C4T on system login</source>
+        <translation>Pokrenite C4T pri pokretanju računala</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3846,8 +3846,8 @@ Jeste li sigurni?
         <translation>PotvrdniOkvir</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SAPP addresses after it matures.</source>
-        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade masternode na popis drugih SAPP adresa nakon što sazriju.</translation>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other C4T addresses after it matures.</source>
+        <translation>MultiSend vam omogućuje da automatski pošaljete do 100% svog uloga ili nagrade masternode na popis drugih C4T adresa nakon što sazriju.</translation>
     </message>
     <message>
         <source>Active</source>
@@ -3969,8 +3969,8 @@ Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili masterno
         <translation>Poruka</translation>
     </message>
     <message>
-        <source>SAPP address or contact label</source>
-        <translation>SAPP adresa ili naziv kontakta</translation>
+        <source>C4T address or contact label</source>
+        <translation>C4T adresa ili naziv kontakta</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -4254,8 +4254,8 @@ Označite jedan ili oba polja za potvrdu da biste poslali staking i/ili masterno
         <translation>Najčešće postavljena pitanja</translation>
     </message>
     <message>
-        <source>About SAPP</source>
-        <translation>O SAPP-u</translation>
+        <source>About C4T</source>
+        <translation>O C4T-u</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4866,20 +4866,20 @@ Coin4Trade Wallet</source>
         Coin4Trade temeljni novčanik</translation>
     </message>
     <message>
-        <source>SAPP is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>SAPP je najinovativnija blockchain tehnologija na svijetu bazirana na Proof of Stake tehnologiji. Razvijena je od strane vrlo iskusnih programera i kriptografa.</translation>
+        <source>C4T is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>C4T je najinovativnija blockchain tehnologija na svijetu bazirana na Proof of Stake tehnologiji. Razvijena je od strane vrlo iskusnih programera i kriptografa.</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - SAPP believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što kaže naš manifest: Privatnost je temeljno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - SAPP vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - C4T believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kao što kaže naš manifest: Privatnost je temeljno ljudsko pravo o kojemu se ne pregovara; korisnicima daje slobodu dijeljenja svojih podataka kad god i s kim god žele - C4T vjeruje u suverenitet.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>The masternode network is SAPP's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
-        <translation>Masternode mreža je mreža drugog sloja SAPP-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
+        <source>The masternode network is C4T's second layer network on top of the blockchain that enables our DAO to provide decentralized governance and a treasury.</source>
+        <translation>Masternode mreža je mreža drugog sloja C4T-a na vrhu blockchaina koja omogućuje našem DAO-u pružanje decentraliziranog upravljanja i riznice.</translation>
     </message>
     <message>
-        <source>How SAPP respects your privacy?</source>
-        <translation>Kako SAPP poštuje Vašu privatnost?</translation>
+        <source>How C4T respects your privacy?</source>
+        <translation>Kako C4T poštuje Vašu privatnost?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -5318,8 +5318,8 @@ Coin4Trade Wallet</source>
         <translation>Nevažeća mrežna maska specificirana u kategoriji -whitelist: '%s'</translation>
     </message>
     <message>
-        <source>Recalculating SAPP supply...</source>
-        <translation>Preračunavanje SAPP-a u optjecaju...</translation>
+        <source>Recalculating C4T supply...</source>
+        <translation>Preračunavanje C4T-a u optjecaju...</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
@@ -5330,8 +5330,8 @@ Coin4Trade Wallet</source>
         <translation>Ovo je priprema za testiranje prije puštanja - upotrebljavajte na vlastiti rizik - nemojte ga koristiti za staking ili trgovinske aplikacije!</translation>
     </message>
     <message>
-        <source>Disable all SAPP specific functionality (Masternodes) (0-1, default: %u)</source>
-        <translation>Onemogući sve specifične funkcije SAPP (Masternodes) (0-1, zadano: %u)</translation>
+        <source>Disable all C4T specific functionality (Masternodes) (0-1, default: %u)</source>
+        <translation>Onemogući sve specifične funkcije C4T (Masternodes) (0-1, zadano: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
@@ -5931,12 +5931,12 @@ Coin4Trade Wallet</source>
         <translation>Pošalji</translation>
     </message>
     <message>
-        <source>Send public coins (SAPP)</source>
-        <translation>Pošalji javne novčiće (SAPP)</translation>
+        <source>Send public coins (C4T)</source>
+        <translation>Pošalji javne novčiće (C4T)</translation>
     </message>
     <message>
-        <source>SAPP address or contact label</source>
-        <translation>SAPP adresa ili naziv kontakta</translation>
+        <source>C4T address or contact label</source>
+        <translation>C4T adresa ili naziv kontakta</translation>
     </message>
     <message>
         <source>Amount</source>

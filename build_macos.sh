@@ -7,11 +7,11 @@ then
 fi
 
 # Clone code from official Github repository
-    rm -rf SAPP
-    git clone https://github.com/sappcoin-com/SAPP.git
+    rm -rf C4T
+    git clone https://github.com/sappcoin-com/C4T.git
 
 # Entering directory
-    cd SAPP
+    cd C4T
 
 # Compile dependencies
     cd depends
@@ -31,6 +31,6 @@ fi
     cd ..
 
 # Create zip file of binaries
-    cp SAPP/src/coin4traded SAPP/src/coin4trade-cli SAPP/src/coin4trade-tx SAPP/src/qt/coin4trade-qt SAPP/Coin4Trade-Core.dmg .
-    zip SAPP-MacOS.zip coin4traded coin4trade-cli coin4trade-tx coin4trade-qt Coin4Trade-Core.dmg
+    cp C4T/src/coin4traded C4T/src/coin4trade-cli C4T/src/coin4trade-tx C4T/src/qt/coin4trade-qt C4T/Coin4Trade-Core.dmg .
+    zip C4T-MacOS.zip coin4traded coin4trade-cli coin4trade-tx coin4trade-qt Coin4Trade-Core.dmg
     rm -f coin4traded coin4trade-cli coin4trade-tx coin4trade-qt Coin4Trade-Core.dmg

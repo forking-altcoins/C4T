@@ -1,4 +1,4 @@
-# Valgrind suppressions file for  SAPP.
+# Valgrind suppressions file for  C4T.
 #
 # Includes known Valgrind warnings in our dependencies that cannot be fixed
 # in-tree.

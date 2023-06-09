@@ -33,7 +33,7 @@ bool TransactionRecord::decomposeCoinStake(const CWallet* wallet, const CWalletT
     const uint256& hash = wtx.GetHash();
     TransactionRecord sub(hash, wtx.GetTxTime(), wtx.GetTotalSize());
     if (isminetype mine = wallet->IsMine(wtx.vout[1])) {
-        // SAPP stake reward
+        // C4T stake reward
         CTxDestination address;
         if (!ExtractDestination(wtx.vout[1].scriptPubKey, address))
             return true;
@@ -73,7 +73,7 @@ bool TransactionRecord::decomposeCreditTransaction(const CWallet* wallet, const 
             sub.credit = txout.nValue;
             sub.involvesWatchAddress = mine & ISMINE_WATCH_ONLY;
             if (ExtractDestination(txout.scriptPubKey, address) && IsMine(*wallet, address)) {
-                // Received by SAPP Address
+                // Received by C4T Address
                 sub.type = TransactionRecord::RecvWithAddress;
                 sub.address = EncodeDestination(address);
             } else {
@@ -153,7 +153,7 @@ bool TransactionRecord::decomposeDebitTransaction(const CWallet* wallet, const C
             //This is most likely only going to happen when resyncing deterministic wallet without the knowledge of the
             //private keys that the change was sent to. Do not display a "sent to" here.
             
-            // Sent to SAPP Address
+            // Sent to C4T Address
             sub.type = TransactionRecord::SendToAddress;
             sub.address = EncodeDestination(address);
         } else {

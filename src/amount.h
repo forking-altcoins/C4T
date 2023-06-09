@@ -15,14 +15,14 @@
 
 extern const std::string CURRENCY_UNIT;
 
-/** Amount in SAPP (Can be negative) */
+/** Amount in C4T (Can be negative) */
 typedef int64_t CAmount;
 
 static const CAmount COIN = 100000000;
 static const CAmount CENT = 1000000;
 
 /**
- * Fee rate in SAPP per kilobyte: CAmount / kB
+ * Fee rate in C4T per kilobyte: CAmount / kB
  */
 class CFeeRate
 {

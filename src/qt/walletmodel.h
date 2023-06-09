@@ -103,7 +103,7 @@ public:
     }
 };
 
-/** Interface to SAPP wallet from Qt view code. */
+/** Interface to C4T wallet from Qt view code. */
 class WalletModel : public QObject
 {
     Q_OBJECT

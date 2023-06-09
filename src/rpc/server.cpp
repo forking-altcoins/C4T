@@ -359,7 +359,7 @@ static const CRPCCommand vRPCCommands[] =
         { "hidden",             "waitforblock",           &waitforblock,           true },
         { "hidden",             "waitforblockheight",     &waitforblockheight,     true },
 
-        /* SAPP features */
+        /* C4T features */
         {"coin4trade", "listmasternodes", &listmasternodes, true },
         {"coin4trade", "getmasternodecount", &getmasternodecount, true },
         {"coin4trade", "createmasternodebroadcast", &createmasternodebroadcast, true },

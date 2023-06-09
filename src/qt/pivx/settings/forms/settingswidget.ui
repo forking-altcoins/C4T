@@ -952,7 +952,7 @@
                          <enum>Qt::NoFocus</enum>
                         </property>
                         <property name="text">
-                         <string>    About SAPP</string>
+                         <string>    About C4T</string>
                         </property>
                         <property name="checkable">
                          <bool>false</bool>

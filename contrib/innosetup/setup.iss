@@ -5,7 +5,7 @@
 #define MyAppPublisher "2022 DECENOMY Core Developers"
 #define MyAppURL "https://sappcoin.com"
 #define MyAppExeName "coin4trade-qt.exe"
-#define MyAppExtraData "https://explorer.decenomy.net/bootstraps/SAPP/bootstrap.zip"
+#define MyAppExtraData "https://explorer.decenomy.net/bootstraps/C4T/bootstrap.zip"
 #define MyAppVersion GetVersionNumbersString(".\package\" + MyAppExeName)
 
 #include ReadReg(HKLM, 'Software\WOW6432Node\Mitrich Software\Inno Download Plugin', 'InstallDir') + '\idp.iss'

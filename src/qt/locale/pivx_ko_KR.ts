@@ -114,12 +114,12 @@
         <translation>받을 주소</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>이 주소들은 송금할 SAPP 주소입니다. 송금하기 전 항상 금액과 주소를 확인해주세요.</translation>
+        <source>These are your C4T addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>이 주소들은 송금할 C4T 주소입니다. 송금하기 전 항상 금액과 주소를 확인해주세요.</translation>
     </message>
     <message>
-        <source>These are your SAPP addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>이 주소들은 입금 받을 SAPP 주소입니다. 매 거래마다 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
+        <source>These are your C4T addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>이 주소들은 입금 받을 C4T 주소입니다. 매 거래마다 새로운 입금 주소를 사용하는 것이 좋습니다.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -345,8 +345,8 @@ for staking</source>
         <translation>취소</translation>
     </message>
     <message>
-        <source>SAPP will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your SAPPs from being stolen by malware infecting your computer.</source>
-        <translation>SAPP는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 SAPPs 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
+        <source>C4T will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your C4Ts from being stolen by malware infecting your computer.</source>
+        <translation>C4T는 이제 암호화 프로세스를 마치기 위해 닫힐것입니다. 지갑을 암호화하더라도 맬웨어로 인한 C4Ts 의 도난당하는 것을 완벽하게 보호 할 수는 없습니다.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -430,8 +430,8 @@ for staking</source>
         <translation>코인 선택</translation>
     </message>
     <message>
-        <source>Select SAPP Outputs to Spend</source>
-        <translation>사용할 SAPP 아웃풋 선택</translation>
+        <source>Select C4T Outputs to Spend</source>
+        <translation>사용할 C4T 아웃풋 선택</translation>
     </message>
     <message>
         <source>Dust:</source>
@@ -458,8 +458,8 @@ for staking</source>
         <translation>금액</translation>
     </message>
     <message>
-        <source>0.00 SAPP</source>
-        <translation>0.00 SAPP</translation>
+        <source>0.00 C4T</source>
+        <translation>0.00 C4T</translation>
     </message>
     <message>
         <source>0</source>
@@ -700,8 +700,8 @@ for staking</source>
         <translation>Filter by</translation>
     </message>
     <message>
-        <source>Amount of SAPP staked.</source>
-        <translation>스테이킹 된 SAPP양</translation>
+        <source>Amount of C4T staked.</source>
+        <translation>스테이킹 된 C4T양</translation>
     </message>
     <message>
         <source>Please wait until the wallet is fully synced to see your correct balance</source>
@@ -795,8 +795,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>보내는 주소 수정</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid SAPP address.</source>
-        <translation>입력된 주소 "%1"는 올바른 SAPP 주소가 아닙니다.</translation>
+        <source>The entered address "%1" is not a valid C4T address.</source>
+        <translation>입력된 주소 "%1"는 올바른 C4T 주소가 아닙니다.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -919,8 +919,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>이 프로그램이 처음 실행되었으므로 Coin4Trade가 데이터를 저장할 위치를 선택할 수 있습니다.</translation>
     </message>
     <message>
-        <source>Coin4Trade will download and store a copy of the SAPP block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Coin4Trade는 SAPP 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
+        <source>Coin4Trade will download and store a copy of the C4T block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>Coin4Trade는 C4T 블록체인을 다운로드하여 저장합니다. 최소 %1GB의 데이터가 디렉토리에 저장되며 시간이 지날수록 증가합니다. 또한 지갑도 해당 디렉토리에 저장됩니다.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1039,8 +1039,8 @@ It will start automatically as soon as the wallet has enough confirmations on an
         <translation>새로운 마스터노드 컨트롤러 만들기</translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a SAPP Masternode you must dedicate a collateral amount of SAPP (the unit of SAPP) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAPP 마스터노드를 생성하기 위해서는 10,000 SAPP (SAPP 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;To create a C4T Masternode you must dedicate a collateral amount of C4T (the unit of C4T) to the network (however, these coins are still yours and will never leave your possession). &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;You can deactivate the node and unlock the coins at any time.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;C4T 마스터노드를 생성하기 위해서는 10,000 C4T (C4T 단위)를 네트워크에 예치해야 합니다. (예치한 코인은 계속 본인의 소유입니다.) &lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;언제든지 노드를 비활성화 시키고 코인을 잠금해제할 수 있습니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Set Masternode Name</source>
@@ -1060,7 +1060,7 @@ It will start automatically as soon as the wallet has enough confirmations on an
     </message>
     <message>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;A transaction of collateral amount will be made&lt;/p&gt;&lt;p&gt;to a new empty address in your wallet.&lt;/p&gt;&lt;p&gt;The Address is labeled under the master node's name.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 SAPP의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;10,000 C4T의 트랜잭션은&lt;/p&gt;&lt;p&gt;지갑의 새로운 빈 주소로 만들어질 것입니다.&lt;/p&gt;&lt;p&gt;그 주소는 마스터노드 이름에 따라 레이블링됩니다.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
         <source>Address of the node that must always be online running the actual master node.</source>
@@ -1434,8 +1434,8 @@ Are you sure?</source>
         <translation>확인되지 않은 잔엑을 사용하지 않도록 설정하면 해당 트랜잭션에 하나 이상의 컨펌이 진행되야&lt;br/&gt;트랜잭션의 잔액을 전송할 수 있습니다.&lt;br/&gt;또한 이것은 잔액 계산 방식에도 영향을 줍니다.</translation>
     </message>
     <message>
-        <source>Automatically open the SAPP client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>라우터에서 SAPP 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
+        <source>Automatically open the C4T client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>라우터에서 C4T 클라이언트 포트를 자동으로 엽니다. 이 기능은 라우터가 UPnP를 지원하고 활성화 된 경우에만 사용할 수 있습니다.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1454,12 +1454,12 @@ Are you sure?</source>
         <translation>전문적</translation>
     </message>
     <message>
-        <source>Automatically start SAPP after logging in to the system.</source>
-        <translation>시스템 로그인 후 SAPP을 자동으로 시작합니다.</translation>
+        <source>Automatically start C4T after logging in to the system.</source>
+        <translation>시스템 로그인 후 C4T을 자동으로 시작합니다.</translation>
     </message>
     <message>
-        <source>&amp;Start SAPP on system login</source>
-        <translation>&amp;시스템 로그인시 SAPP 시작</translation>
+        <source>&amp;Start C4T on system login</source>
+        <translation>&amp;시스템 로그인시 C4T 시작</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1486,8 +1486,8 @@ Are you sure?</source>
         <translation>&amp;네트워크</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting SAPP.</source>
-        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 SAPP을 다시 시작한 후에 적용됩니다.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting C4T.</source>
+        <translation>사용자 인터페이스 언어를 설정할 수 있습니다. 이 설정은 C4T을 다시 시작한 후에 적용됩니다.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1508,8 +1508,8 @@ Are you sure?</source>
         <translation>Stake split threshold:</translation>
     </message>
     <message>
-        <source>Connect to the SAPP network through a SOCKS5 proxy.</source>
-        <translation>SOCKS5 프록시를 통해 SAPP 네트워크에 연결해주세요.</translation>
+        <source>Connect to the C4T network through a SOCKS5 proxy.</source>
+        <translation>SOCKS5 프록시를 통해 C4T 네트워크에 연결해주세요.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1754,8 +1754,8 @@ Address: %4
         <translation>coin4trade을 시작할 수 없습니다: 결제하기 위한 클릭 처리</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid SAPP address or malformed URI parameters.</source>
-        <translation>URI를 분석할 수 없습니다! 이는 잘못된 SAPP 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid C4T address or malformed URI parameters.</source>
+        <translation>URI를 분석할 수 없습니다! 이는 잘못된 C4T 주소 또는 URI 매개변수 손상으로 인해 발생할 수 있습니다.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1840,8 +1840,8 @@ Address: %4
         <translation>금액</translation>
     </message>
     <message>
-        <source>Enter SAPP address (e.g. %1)</source>
-        <translation>SAPP 주소 입력(예 : %1)</translation>
+        <source>Enter C4T address (e.g. %1)</source>
+        <translation>C4T 주소 입력(예 : %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1884,8 +1884,8 @@ Address: %4
         <translation>%1 ms</translation>
     </message>
     <message>
-        <source>A fatal error occurred. SAPP can no longer continue safely and will quit.</source>
-        <translation>치명적인 오류가 발생하였습니다. SAPP는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
+        <source>A fatal error occurred. C4T can no longer continue safely and will quit.</source>
+        <translation>치명적인 오류가 발생하였습니다. C4T는 더 이상 안전하게 계속될 수 없으며, 곧 종료됩니다.</translation>
     </message>
     <message>
         <source>Coin4Trade</source>
@@ -2039,8 +2039,8 @@ Address: %4
         <translation>블록체인</translation>
     </message>
     <message>
-        <source>Open the SAPP debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>현재 데이터 디렉토리에서 SAPP 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
+        <source>Open the C4T debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>현재 데이터 디렉토리에서 C4T 디버그 로그 파일을 엽니다. 로그 파일이 클 경우, 약간의 시간이 걸릴 수 있습니다.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2260,8 +2260,8 @@ Address: %4
         <translation>출력:</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>SAPP RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>C4T RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>&amp;Disconnect Node</source>
@@ -2508,8 +2508,8 @@ Address: %4
         <translation>금액</translation>
     </message>
     <message>
-        <source>SAPP</source>
-        <translation>SAPP</translation>
+        <source>C4T</source>
+        <translation>C4T</translation>
     </message>
     <message>
         <source>D7VFR83SQbiezrW72hjcWJtcfip5krte2Z </source>
@@ -2594,8 +2594,8 @@ Address: %4
         <translation>권장</translation>
     </message>
     <message>
-        <source>SAPP/kilobyte</source>
-        <translation>SAPP/Kilobyte</translation>
+        <source>C4T/kilobyte</source>
+        <translation>C4T/Kilobyte</translation>
     </message>
     <message>
         <source>0.00 KB</source>
@@ -2830,8 +2830,8 @@ Address: %4
         <translation>키 암호 해재</translation>
     </message>
     <message>
-        <source>SAPP address</source>
-        <translation>SAPP 주소</translation>
+        <source>C4T address</source>
+        <translation>C4T 주소</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -2947,8 +2947,8 @@ Verify that you have installed a predetermined text editor.</source>
 미리 결정된 텍스트 에디터를 인스톨했는지 확인하세요.</translation>
     </message>
     <message>
-        <source>Welcome to the SAPP RPC console.</source>
-        <translation>SAPP RPC 콘솔에 오신 것을 환영합니다.</translation>
+        <source>Welcome to the C4T RPC console.</source>
+        <translation>C4T RPC 콘솔에 오신 것을 환영합니다.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and %1 to clear screen.</source>
@@ -3262,8 +3262,8 @@ Verify that you have installed a predetermined text editor.</source>
         <translation>스크립트 검증 스레드 개수</translation>
     </message>
     <message>
-        <source>Start SAPP on system login</source>
-        <translation>시스템 로그인시 SAPP 지갑 시작</translation>
+        <source>Start C4T on system login</source>
+        <translation>시스템 로그인시 C4T 지갑 시작</translation>
     </message>
     <message>
         <source>Minimize to the tray instead of the taskbar</source>
@@ -3350,7 +3350,7 @@ Are you sure?
         <translation>체크박스</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SAPP addresses after it matures.</source>
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other C4T addresses after it matures.</source>
         <translation>멀티 전송 기능은 확인된 새로 받은 스테이킹 혹은 마스터노드 보상을 100% 전부 까지 지정된 다른 주소로 자동 전송할수 있는 기능입니다.</translation>
     </message>
     <message>
@@ -3443,8 +3443,8 @@ Please check the address and try again.</source>
         <translation>메세지</translation>
     </message>
     <message>
-        <source>SAPP address or contact label</source>
-        <translation>SAPP 주소 / 연락처 라벨</translation>
+        <source>C4T address or contact label</source>
+        <translation>C4T 주소 / 연락처 라벨</translation>
     </message>
     <message>
         <source>Enter address</source>
@@ -3712,8 +3712,8 @@ Please check the address and try again.</source>
         <translation>FAQ</translation>
     </message>
     <message>
-        <source>About SAPP</source>
-        <translation>SAPP 정보</translation>
+        <source>About C4T</source>
+        <translation>C4T 정보</translation>
     </message>
     <message>
         <source>Settings</source>
@@ -4236,16 +4236,16 @@ Coin4Trade Wallet</source>
 Coin4Trade Wallet</translation>
     </message>
     <message>
-        <source>SAPP is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
-        <translation>SAPP 는 많은 경험과 뛰어난 실력을 겸비한 개발자와 암호학자로 구성된 팀이 개발하는 연신적인 Proof of Stake 블록체인 기술을 자랑하는 오픈소스 프로젝트 입니다. </translation>
+        <source>C4T is the world’s most innovative Proof of Stake blockchain based technology. Developed by a team of highly experienced developers and cryptographers.</source>
+        <translation>C4T 는 많은 경험과 뛰어난 실력을 겸비한 개발자와 암호학자로 구성된 팀이 개발하는 연신적인 Proof of Stake 블록체인 기술을 자랑하는 오픈소스 프로젝트 입니다. </translation>
     </message>
     <message>
-        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - SAPP believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
-        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;SAPP 는 Manifesto 선언서에 적힌대로: 프라이버시는 협상이 불가능한 인간의 기본적인 인권중 하나이다. 이로 인해 그 언제나 그 누구에게나 데이터를 공유할수 있는 자유를 얻게 될것이다. SAPP 프로젝트는 개인 독립을 추구한다. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
+        <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;As our manifesto says: Privacy is a non-negotiable basic human right; it grants users the freedom to share their data whenever and with whomever they want - C4T believes in self sovereignty.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
+        <translation>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;C4T 는 Manifesto 선언서에 적힌대로: 프라이버시는 협상이 불가능한 인간의 기본적인 인권중 하나이다. 이로 인해 그 언제나 그 누구에게나 데이터를 공유할수 있는 자유를 얻게 될것이다. C4T 프로젝트는 개인 독립을 추구한다. &lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</translation>
     </message>
     <message>
-        <source>How SAPP respects your privacy?</source>
-        <translation>SAPP 가 당신의 프라이버시를 존중하는 방법은?</translation>
+        <source>How C4T respects your privacy?</source>
+        <translation>C4T 가 당신의 프라이버시를 존중하는 방법은?</translation>
     </message>
     <message>
         <source>What is a Masternode?</source>
@@ -4659,8 +4659,8 @@ Coin4Trade Wallet</translation>
         <translation>-whitelist: '%s' 에 지정된 넷마스크가 유효하지 않습니다.</translation>
     </message>
     <message>
-        <source>Recalculating SAPP supply...</source>
-        <translation>SAPP 공급 재계산중...</translation>
+        <source>Recalculating C4T supply...</source>
+        <translation>C4T 공급 재계산중...</translation>
     </message>
     <message>
         <source>Selected coins value is less than payment target</source>
@@ -4671,8 +4671,8 @@ Coin4Trade Wallet</translation>
         <translation>이것은 사전 릴리스 테스트 빌드입니다 - 사용상 책임은 귀하에게 있습니다. - staking이나 상업적인 용도로는 절대 사용하지 마십시오!</translation>
     </message>
     <message>
-        <source>Disable all SAPP specific functionality (Masternodes) (0-1, default: %u)</source>
-        <translation>SAPP의 모든 특정 기능들을 비활성화합니다(마스터노드) (0-1, 기본값: %u)</translation>
+        <source>Disable all C4T specific functionality (Masternodes) (0-1, default: %u)</source>
+        <translation>C4T의 모든 특정 기능들을 비활성화합니다(마스터노드) (0-1, 기본값: %u)</translation>
     </message>
     <message>
         <source>Error: Unsupported argument -checklevel found. Checklevel must be level 4.</source>
@@ -5206,8 +5206,8 @@ Coin4Trade Wallet</translation>
         <translation>보내기</translation>
     </message>
     <message>
-        <source>SAPP address or contact label</source>
-        <translation>SAPP 주소 / 연락처 라벨</translation>
+        <source>C4T address or contact label</source>
+        <translation>C4T 주소 / 연락처 라벨</translation>
     </message>
     <message>
         <source>Amount</source>
