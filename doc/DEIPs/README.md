@@ -20,7 +20,7 @@ We use the same general guidelines for introducing a new DEIP as specified in [B
 
 Number | Layer | Title | Owner | Type | Status
 --- | --- | --- | --- | --- | ---
-[0](DEIP0000.md) |  | DEIP Template | Decenomy Development | Informational | Final
+[0](DEIP0000.md) |  | DEIP Template | Coin4Trade Development | Informational | Final
 
 ## License
 
