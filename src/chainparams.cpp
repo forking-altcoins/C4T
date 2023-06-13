@@ -52,7 +52,7 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "10/May/2021 The Coin4Trade Launched!";
+    const char* pszTimestamp = "Mon May 10 2021 05:10:21 GMT+0000 - start blockchain C4T.";
     const CScript genesisOutputScript = CScript() << ParseHex("0492cba7ef34b88082b790613eaa2d2dff924e2f134230f38c59b5b1bd44db1dbedad29ce6e861eb36c1e7e5cbfd74c5887fe116db0f67c954bf507be5472a4aca") << OP_CHECKSIG; // main pub
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
@@ -69,7 +69,7 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256S("0x00000eabbb0320115f4cf21a32d158ad9526eef0ae5185ec0b03101cee064e72"))
+    (0, uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"))
 
 ;
 
@@ -124,7 +124,7 @@ public:
         uint256 TempHashHolding = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
         uint256 BestBlockHash = uint256S("0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         for (int i=0;i<40000000;i++) {
-             genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e0ffff0, 1, 250 * COIN);
+             genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e0ffff0, 1, 0 * COIN);
              //genesis.hashPrevBlock = TempHashHolding;
              consensus.hashGenesisBlock = genesis.GetHash();
 
@@ -154,10 +154,10 @@ public:
          exit(0);
 		*/
 
-        genesis = CreateGenesisBlock(1620623421, 863129, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 658859, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000eabbb0320115f4cf21a32d158ad9526eef0ae5185ec0b03101cee064e72"));
-        assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   
@@ -261,10 +261,10 @@ public:
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
 
-        genesis = CreateGenesisBlock(1556165178, 2894113, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 658859, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000eabbb0320115f4cf21a32d158ad9526eef0ae5185ec0b03101cee064e72"));
-        assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // coin4trade starting difficulty is 1 / 2^12
@@ -286,8 +286,8 @@ public:
         // spork keys
         consensus.strSporkPubKey = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
         consensus.strSporkPubKeyOld = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
-        consensus.nTime_EnforceNewSporkKey = 1556165178;    //!> August 26, 2019 11:00:00 PM GMT
-        consensus.nTime_RejectOldSporkKey = 1556165178;     //!> September 26, 2019 11:00:00 PM GMT
+        consensus.nTime_EnforceNewSporkKey = 1620623421;    //!> August 26, 2019 11:00:00 PM GMT
+        consensus.nTime_RejectOldSporkKey = 1620623421;     //!> September 26, 2019 11:00:00 PM GMT
 
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight                   = Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
@@ -357,10 +357,10 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
 
-        genesis = CreateGenesisBlock(1605314006, 18440, 0x1effffff, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 658859, 0x1effffff, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x00000eabbb0320115f4cf21a32d158ad9526eef0ae5185ec0b03101cee064e72"));
-        assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // coin4trade starting difficulty is 1 / 2^12
