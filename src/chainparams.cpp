@@ -228,8 +228,8 @@ public:
         // Note that of those with the service bits flag, most only support a subset of possible options
         vSeeds.emplace_back(CDNSSeedData("",  "", true));
 
-        base58Prefixes[PUBKEY_ADDRESS]  = std::vector<unsigned char>(1, 63);
-        base58Prefixes[SCRIPT_ADDRESS]  = std::vector<unsigned char>(1, 18);
+        base58Prefixes[PUBKEY_ADDRESS]  = std::vector<unsigned char>(1, 28);
+        base58Prefixes[SCRIPT_ADDRESS]  = std::vector<unsigned char>(1, 30);
         base58Prefixes[SECRET_KEY]      = std::vector<unsigned char>(1, 25);
         base58Prefixes[EXT_PUBLIC_KEY]  = boost::assign::list_of(0x02)(0x2D)(0x25)(0x63).convert_to_container<std::vector<unsigned char> >();
         base58Prefixes[EXT_SECRET_KEY]  = boost::assign::list_of(0x02)(0x21)(0x31)(0x2B).convert_to_container<std::vector<unsigned char> >();
