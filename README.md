@@ -10,7 +10,7 @@ Coin4Trade wallet repository
 • Block Time: 60 Seconds    
 • Maturity: 100 Confirmations   
 • Prefix: C4T addresses start with the capital letter "S"   
-• Ports: 45328 (p2p) / 45329 (rpc)   
+• Ports: 19333 (p2p) / 19666 (rpc)   
 • Explorer https://explorer.forking-altcoins.net/C4T/blocks   
 • Website https://coin4trade.ml/
 
