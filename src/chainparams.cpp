@@ -52,8 +52,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "25/Apr/2019 The SapphireCoin Launched!";
-    const CScript genesisOutputScript = CScript() << ParseHex("04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f") << OP_CHECKSIG;
+    const char* pszTimestamp = "10/May/2021 The Coin4Trade Launched!";
+    const CScript genesisOutputScript = CScript() << ParseHex("0492cba7ef34b88082b790613eaa2d2dff924e2f134230f38c59b5b1bd44db1dbedad29ce6e861eb36c1e7e5cbfd74c5887fe116db0f67c954bf507be5472a4aca") << OP_CHECKSIG; // main pub
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -69,17 +69,17 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256S("00000eef0583695d6da23a78bab1c39939bbb54cf9bd5f0d4881c8eef364cd26"))
+    (0, uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"))
 
 ;
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1673365725, // * UNIX timestamp of last checkpoint block
-    13608754,   // * total number of transactions between genesis and last checkpoint
+    1620623421, // * UNIX timestamp of last checkpoint block
+    0,   // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the UpdateTip debug.log lines)
-    2880        // * estimated number of transactions per day after checkpoint
+    1440        // * estimated number of transactions per day after checkpoint
 };
 
 static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
@@ -88,18 +88,18 @@ static Checkpoints::MapCheckpoints mapCheckpointsTestnet =
 
 static const Checkpoints::CCheckpointData dataTestnet = {
     &mapCheckpointsTestnet,
-    1605265870,
     0,
-    100};
+    0,
+    0};
 
 static Checkpoints::MapCheckpoints mapCheckpointsRegtest =
     boost::assign::map_list_of(0, uint256S("0x0"));
 
 static const Checkpoints::CCheckpointData dataRegtest = {
     &mapCheckpointsRegtest,
-    1605265870,
     0,
-    100};
+    0,
+    0};
 
 class CMainParams : public CChainParams
 {
@@ -157,8 +157,8 @@ public:
 
         genesis = CreateGenesisBlock(1556165178, 2894113, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000eef0583695d6da23a78bab1c39939bbb54cf9bd5f0d4881c8eef364cd26"));
-        assert(genesis.hashMerkleRoot == uint256S("0x62179b80cc4da52f1ff4bad5d690836a3a663d14d5581a63822963bf1613041b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   
@@ -178,14 +178,14 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04d45416e4a64b1b051e2a2ebd80ced5efe148cf5fbcb70e56860957675a2da1a21fd522c42c1ed18a1ec42641589a09cf3f58678d213825dc21798183a005a984";
+        consensus.strSporkPubKey = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
 
         // burn addresses
         consensus.mBurnAddresses = {
-            { "SXXXXXXXXXXXXXXXXXXXXXXXXXXXXFdBi4",      0 },
+            { "CXXXXXXXXXXXXXXXXXXXXXXXXXXXXBuRn0",      0 },
 
         };
 
@@ -193,26 +193,26 @@ public:
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight                   = Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_TESTDUMMY].nActivationHeight              = Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
         consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight                    = 501;
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight                 = 905001;
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight                  = 905101;
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].nActivationHeight     = 574500;
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].nActivationHeight      = 905201;
-        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight       = 905301;
-        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 905401;
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 905501;
-        consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].nActivationHeight          = 910001;
-        consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].nActivationHeight     = 1200001;
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight                 = 510;
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight                  = 520;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].nActivationHeight     = 505;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].nActivationHeight      = 530;
+        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight       = 540;
+        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 550;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 560;
+        consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].nActivationHeight          = 600;
+        consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].nActivationHeight     = 2628000;
 
-        consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("ef544e9c4181e103bdcaae6153aa90495f1f830a91368364c4b8b97a3782e579");
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("c36a49839903e01bc2d6c44f20516fd5f3d816cf2d16cd30c488986668bdf269");
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].hashActivationBlock                  = uint256S("2033cd79c94ef01e04c0b886944350af7af4ee2dcdf2bb2a8f417ea48dabecf3");
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].hashActivationBlock     = uint256S("f0cf896ad6fd9bfc188853d5354ddec23972f9854023f92a7e3ba0886f3ef4d9");
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].hashActivationBlock      = uint256S("502226d6ce3e3fd036452b59b0045ff478658b00a42fbf3434630cfe775d84ae");
-        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].hashActivationBlock       = uint256S("9002e71bbefb2a10d5208b7e8e0a2182d2b13a55585c595752454c65dc9cda02");
-        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].hashActivationBlock = uint256S("5b37c32d7c08cf98df958953dd4c32820f0609a4f4bed452fcb0811bec60500e");
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].hashActivationBlock     = uint256S("f6326f790d1c0d01843913b301b56dc0d984e9d76e0949669cbeebda37336cf7");
-        consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].hashActivationBlock          = uint256S("96dc6197a2d0cc2b9dfe5487b35f0d5b051d1dd958de19e00043897223c08ea4");
-        consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].hashActivationBlock     = uint256S("92330b37f9e362b521a77ebe3fb4a1dfedb8d055770bfa601eb0420c4d81b3f3");
+        consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].hashActivationBlock                  = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].hashActivationBlock     = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].hashActivationBlock      = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].hashActivationBlock       = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].hashActivationBlock = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].hashActivationBlock     = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].hashActivationBlock          = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].hashActivationBlock     = uint256S("0x0");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -264,8 +264,8 @@ public:
 
         genesis = CreateGenesisBlock(1556165178, 2894113, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000eef0583695d6da23a78bab1c39939bbb54cf9bd5f0d4881c8eef364cd26"));
-        assert(genesis.hashMerkleRoot == uint256S("0x62179b80cc4da52f1ff4bad5d690836a3a663d14d5581a63822963bf1613041b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // coin4trade starting difficulty is 1 / 2^12
@@ -285,8 +285,8 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "04d45416e4a64b1b051e2a2ebd80ced5efe148cf5fbcb70e56860957675a2da1a21fd522c42c1ed18a1ec42641589a09cf3f58678d213825dc21798183a005a984";
-        consensus.strSporkPubKeyOld = "04d45416e4a64b1b051e2a2ebd80ced5efe148cf5fbcb70e56860957675a2da1a21fd522c42c1ed18a1ec42641589a09cf3f58678d213825dc21798183a005a984";
+        consensus.strSporkPubKey = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
+        consensus.strSporkPubKeyOld = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
         consensus.nTime_EnforceNewSporkKey = 1556165178;    //!> August 26, 2019 11:00:00 PM GMT
         consensus.nTime_RejectOldSporkKey = 1556165178;     //!> September 26, 2019 11:00:00 PM GMT
 
@@ -294,12 +294,12 @@ public:
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight                   = Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_TESTDUMMY].nActivationHeight              = Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
         consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight                    = 501;
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight                 = 878611;
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight                  = 878631;
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].nActivationHeight      = 1541;
-        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight       = 1641;
-        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 1741;
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 1841;
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight                 = 510;
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight                  = 520;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].nActivationHeight      = 530;
+        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight       = 540;
+        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 550;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 560;
 
         consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                     = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                  = uint256S("0x0");
@@ -360,8 +360,8 @@ public:
 
         genesis = CreateGenesisBlock(1605314006, 18440, 0x1effffff, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x0000529df5fae941569b6466128042f5f036a8d1d380dd484a06e8a12fb275a3"));
-        assert(genesis.hashMerkleRoot == uint256S("0x62179b80cc4da52f1ff4bad5d690836a3a663d14d5581a63822963bf1613041b"));
+        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
+        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // coin4trade starting difficulty is 1 / 2^12
@@ -384,7 +384,7 @@ public:
         private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
         Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
         */
-        consensus.strSporkPubKey = "043969b1b0e6f327de37f297a015d37e2235eaaeeb3933deecd8162c075cee0207b13537618bde640879606001a8136091c62ec272dd0133424a178704e6e75bb7";
+        consensus.strSporkPubKey = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
