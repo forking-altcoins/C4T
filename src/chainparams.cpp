@@ -69,7 +69,7 @@ static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits
  */
 static Checkpoints::MapCheckpoints mapCheckpoints =
     boost::assign::map_list_of
-    (0, uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"))
+    (0, uint256S("0x000000d169d9f657dedc9ecfac49c98f0682b1745668b6f06577b7c1e7f7937d"))
 
 ;
 
@@ -109,7 +109,7 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 		
-		
+		/*
         //This is used inorder to mine the genesis block. Once found, we can use the nonce and block hash found to create a valid genesis block
 
         uint32_t nGenesisTime = 1620623421;
@@ -152,12 +152,12 @@ public:
          std::cout << "Genesis Merkle 0x" << genesis.hashMerkleRoot.GetHex() << std::endl;
 
          exit(0);
-		
+		*/
 
-        genesis = CreateGenesisBlock(1556165178, 2894113, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 1598912, 0x1e0ffff0, 1, 0 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
-        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000d169d9f657dedc9ecfac49c98f0682b1745668b6f06577b7c1e7f7937d"));
+        assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   
@@ -263,8 +263,8 @@ public:
 
         genesis = CreateGenesisBlock(1556165178, 2894113, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
-        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000d169d9f657dedc9ecfac49c98f0682b1745668b6f06577b7c1e7f7937d"));
+        assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
 
         consensus.fPowAllowMinDifficultyBlocks = false;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // coin4trade starting difficulty is 1 / 2^12
@@ -359,8 +359,8 @@ public:
 
         genesis = CreateGenesisBlock(1605314006, 18440, 0x1effffff, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
-        assert(consensus.hashGenesisBlock == uint256S("0x00000c336f469de0790c0839b973dcc3a44bf29d48d62fd338b447ceeecfb428"));
-        assert(genesis.hashMerkleRoot == uint256S("0xb81d2c30e2b0e7f2c5ce897498f529d824a68360cbd2d3cd385f00e1ecd505cb"));
+        assert(consensus.hashGenesisBlock == uint256S("0x000000d169d9f657dedc9ecfac49c98f0682b1745668b6f06577b7c1e7f7937d"));
+        assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
 
         consensus.fPowAllowMinDifficultyBlocks = true;
         consensus.powLimit   = ~UINT256_ZERO >> 20;   // coin4trade starting difficulty is 1 / 2^12
