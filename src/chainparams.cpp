@@ -109,7 +109,7 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 		
-		/*
+		
         //This is used inorder to mine the genesis block. Once found, we can use the nonce and block hash found to create a valid genesis block
 
         uint32_t nGenesisTime = 1620623421;
@@ -152,7 +152,7 @@ public:
          std::cout << "Genesis Merkle 0x" << genesis.hashMerkleRoot.GetHex() << std::endl;
 
          exit(0);
-		*/
+		
 
         genesis = CreateGenesisBlock(1556165178, 2894113, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
