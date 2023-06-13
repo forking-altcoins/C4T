@@ -109,7 +109,7 @@ public:
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
 		
-		/*
+		
         //This is used inorder to mine the genesis block. Once found, we can use the nonce and block hash found to create a valid genesis block
 
         uint32_t nGenesisTime = 1620623421;
@@ -124,7 +124,7 @@ public:
         uint256 TempHashHolding = uint256S("0x0000000000000000000000000000000000000000000000000000000000000000");
         uint256 BestBlockHash = uint256S("0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff");
         for (int i=0;i<40000000;i++) {
-             genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e0ffff0, 1, 0 * COIN);
+             genesis = CreateGenesisBlock(nGenesisTime, i, 0x1e0ffff0, 1, 250 * COIN);
              //genesis.hashPrevBlock = TempHashHolding;
              consensus.hashGenesisBlock = genesis.GetHash();
 
@@ -152,9 +152,9 @@ public:
          std::cout << "Genesis Merkle 0x" << genesis.hashMerkleRoot.GetHex() << std::endl;
 
          exit(0);
-		*/
+		
 
-        genesis = CreateGenesisBlock(1620623421, 1598912, 0x1e0ffff0, 1, 0 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 1598912, 0x1e0ffff0, 1, 250 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000000d169d9f657dedc9ecfac49c98f0682b1745668b6f06577b7c1e7f7937d"));
         assert(genesis.hashMerkleRoot == uint256S("0xfddc0c02e45ed87a7df593a69216cf21032222cc23c8e7fd32bea8972a9f12e0"));
