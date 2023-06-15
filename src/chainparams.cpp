@@ -52,8 +52,8 @@ static CBlock CreateGenesisBlock(const char* pszTimestamp, const CScript& genesi
  */
 static CBlock CreateGenesisBlock(uint32_t nTime, uint32_t nNonce, uint32_t nBits, int32_t nVersion, const CAmount& genesisReward)
 {
-    const char* pszTimestamp = "Mon May 10 2021 05:10:21 GMT+0000 - start blockchain C4T.";
-    const CScript genesisOutputScript = CScript() << ParseHex("0492cba7ef34b88082b790613eaa2d2dff924e2f134230f38c59b5b1bd44db1dbedad29ce6e861eb36c1e7e5cbfd74c5887fe116db0f67c954bf507be5472a4aca") << OP_CHECKSIG; // main pub
+    const char* pszTimestamp = "Mon May 10 2021 05:10:21 GMT+0000 The Coin4Trade Launched!";
+    const CScript genesisOutputScript = CScript() << ParseHex("0492cba7ef34b88082b790613eaa2d2dff924e2f134230f38c59b5b1bd44db1dbedad29ce6e861eb36c1e7e5cbfd74c5887fe116db0f67c954bf507be5472a4aca") << OP_CHECKSIG;
     return CreateGenesisBlock(pszTimestamp, genesisOutputScript, nTime, nNonce, nBits, nVersion, genesisReward);
 }
 
@@ -108,7 +108,7 @@ public:
     {
         networkID = CBaseChainParams::MAIN;
         strNetworkID = "main";
-        genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
 		/*
@@ -194,7 +194,7 @@ public:
         consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 550;
         consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 560;
         consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].nActivationHeight          = 600;
-        consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].nActivationHeight     = 2628000;
+        consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].nActivationHeight     = 1560001;
 
         consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("0x0");
@@ -219,7 +219,7 @@ public:
         nDefaultPort = 19333;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back(CDNSSeedData("",  "", true));
+        vSeeds.emplace_back(CDNSSeedData("127.0.0.1",  "127.0.0.1", true));
 
         base58Prefixes[PUBKEY_ADDRESS]  = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS]  = std::vector<unsigned char>(1, 30);
@@ -255,7 +255,7 @@ public:
         networkID = CBaseChainParams::TESTNET;
         strNetworkID = "test";
 
-        genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000007828991186a8addf2b0e63e4eb1d57c51a4005fed4656695db991cdebf3"));
         assert(genesis.hashMerkleRoot == uint256S("0x300c009c5a755f36ae2a04188b872639d4305d47327015bfc911f163b05e6149"));
@@ -351,7 +351,7 @@ public:
         networkID = CBaseChainParams::REGTEST;
         strNetworkID = "regtest";
 
-        genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 250 * COIN);
+        genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
         assert(consensus.hashGenesisBlock == uint256S("0x000007828991186a8addf2b0e63e4eb1d57c51a4005fed4656695db991cdebf3"));
         assert(genesis.hashMerkleRoot == uint256S("0x300c009c5a755f36ae2a04188b872639d4305d47327015bfc911f163b05e6149"));
@@ -371,12 +371,6 @@ public:
         consensus.nTargetTimespanV2 = 30 * 60;
         consensus.nTargetSpacing = 1 * 60;
         consensus.nTimeSlotLength = 15;
-
-        /* Spork Key for RegTest:
-        WIF private key: 932HEevBSujW2ud7RfB1YF91AFygbBRQj3de3LyaCRqNzKKgWXi
-        private key hex: bd4960dcbd9e7f2223f24e7164ecb6f1fe96fc3a416f5d3a830ba5720c84b8ca
-        Address: yCvUVd72w7xpimf981m114FSFbmAmne7j9
-        */
         consensus.strSporkPubKey = "04d8f61688636890fb9be1e93191150b3cd0aa36dae5e8bfadf8c5966bdfdb3f3c91c4682b66b78d8da492d32897c434fcf0e2aa26dbb3c7ee9c8a0a20ee387005";
         consensus.strSporkPubKeyOld = "";
         consensus.nTime_EnforceNewSporkKey = 0;
