@@ -111,7 +111,7 @@ public:
         genesis = CreateGenesisBlock(1620623421, 815751, 0x1e0ffff0, 1, 50 * COIN);
         consensus.hashGenesisBlock = genesis.GetHash();
 
-		/*
+		
         // calculate Genesis Block
         // Reset genesis
         consensus.hashGenesisBlock = uint256S("0x");
@@ -148,7 +148,7 @@ public:
             std::cout << "   merklehash: "  << genesis.hashMerkleRoot.ToString().c_str() << "\n";
         }
         std::cout << std::string("Finished calculating Mainnet Genesis Block:\n");
-		*/
+		
 
         assert(consensus.hashGenesisBlock == uint256S("0x000007828991186a8addf2b0e63e4eb1d57c51a4005fed4656695db991cdebf3"));
         assert(genesis.hashMerkleRoot == uint256S("0x300c009c5a755f36ae2a04188b872639d4305d47327015bfc911f163b05e6149"));
