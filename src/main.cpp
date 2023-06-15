@@ -3735,8 +3735,8 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
         CKey privKeyNew;
         CPubKey pubKeyNew;
         privKeyNew.MakeNewKey(false);
-        strstr sporkSecret = DecodeSecret(privKeyNew).ToString();
-        CMessageSigner::GetKeysFromSecret(sporkSecret, privKeyNew, pubKeyNew);
+        strstr sporkDefs = DecodeSecret(privKeyNew).ToString();
+        CMessageSigner::GetKeysFromSecret(sporkDefs, privKeyNew, pubKeyNew);
         LogPrintf("    * Spork privkey %s\n", DecodeSecret(privKeyNew).ToString());
         LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
 
