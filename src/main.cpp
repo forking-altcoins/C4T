@@ -3730,6 +3730,7 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
         LogPrintf("    * Spork privkey %s\n", CBitcoinSecret(privKeyNew).ToString());
         LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
 */
+/*
 		// Spork keys
         LogPrintf("\n=============== Spork keys generation ======================\n");
         CKey privKeyNew;
@@ -3739,7 +3740,7 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
         CMessageSigner::GetKeysFromSecret(sporkDefs, privKeyNew, pubKeyNew);
         LogPrintf("    * Spork privkey %s\n", DecodeSecret(privKeyNew).ToString());
         LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
-
+*/
     return true;
 }
 
