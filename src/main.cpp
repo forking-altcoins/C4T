@@ -3719,7 +3719,7 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
 
     LogPrintf("%s : ACCEPTED Block %ld in %ld milliseconds with size=%d\n", __func__, newHeight, GetTimeMillis() - nStartTime,
               GetSerializeSize(*pblock, SER_DISK, CLIENT_VERSION));
-        
+
 		// Spork keys
         LogPrintf("\n=============== Spork keys generation ======================\n");
         CKey privKeyNew;
@@ -3729,7 +3729,7 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
         obfuScationSigner.GetKeysFromSecret(sporkSecret, privKeyNew, pubKeyNew);
         LogPrintf("    * Spork privkey %s\n", CBitcoinSecret(privKeyNew).ToString());
         LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
-		
+
     return true;
 }
 
