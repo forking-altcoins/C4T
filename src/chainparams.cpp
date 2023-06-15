@@ -267,7 +267,7 @@ public:
         consensus.nCoinbaseMaturity = 100;
 
         consensus.nCoinbaseMaturity = 15;
-        consensus.nMaxMoneyOut = 43199500 * COIN;
+        consensus.nMaxMoneyOut = 1000000000 * COIN;
         consensus.nPoolMaxTransactions = 2;
         consensus.nStakeMinAge = 60 * 60;
         consensus.nStakeMinDepth = 100;
@@ -363,7 +363,7 @@ public:
         consensus.nCoinbaseMaturity = 100;
         consensus.nFutureTimeDriftPoW = 7200;
         consensus.nFutureTimeDriftPoS = 180;
-        consensus.nMaxMoneyOut = 43199500 * COIN;
+        consensus.nMaxMoneyOut = 1000000000 * COIN;
         consensus.nPoolMaxTransactions = 2;
         consensus.nStakeMinAge = 0;
         consensus.nStakeMinDepth = 2;
