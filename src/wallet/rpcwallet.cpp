@@ -551,8 +551,8 @@ UniValue makekeypair(const JSONRPCRequest& request)
     result.push_back(Pair("PrivateKey", HexStr<CPrivKey::iterator>(vchPrivKey.begin(), vchPrivKey.end())));
     result.push_back(Pair("PublicKey", HexStr(key.GetPubKey())));
     
-    DecodeSecret key;
-    result.push_back(Pair("PrivKeyBase58",key.ToString()));
+    EncodeSecret bkey(key);
+    result.push_back(Pair("PrivKeyBase58",bkey.ToString()));
     
     return result;
 }
