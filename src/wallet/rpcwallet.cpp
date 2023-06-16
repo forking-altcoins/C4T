@@ -533,15 +533,15 @@ UniValue getaccountaddress(const JSONRPCRequest& request)
 
 UniValue makekeypair(const JSONRPCRequest& request)
 {
-    if (fHelp || params.size() > 1)
+    if (request.fHelp || request.params.size() > 1)
         throw std::runtime_error(
             "makekeypair [prefix]\n"
             "Make a public/private key pair.\n"
             "[prefix] is optional preferred prefix for the public key.\n");
 
     std::string strPrefix = "";
-    if (params.size() > 0)
-        strPrefix = params[0].get_str();
+    if (request.params.size() > 0)
+        strPrefix = request.params[0].get_str();
  
     CKey key;
     key.MakeNewKey(false);
