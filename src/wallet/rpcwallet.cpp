@@ -531,7 +531,7 @@ UniValue getaccountaddress(const JSONRPCRequest& request)
     return ret;
 }
 
-UniValue makekeypair(const JSONRPCRequest& request, const CKey& key, const bkey)
+UniValue makekeypair(const JSONRPCRequest& request, const CKey& key)
 {
     if (request.fHelp || request.params.size() > 1)
         throw std::runtime_error(
