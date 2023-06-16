@@ -3719,28 +3719,6 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
 
     LogPrintf("%s : ACCEPTED Block %ld in %ld milliseconds with size=%d\n", __func__, newHeight, GetTimeMillis() - nStartTime,
               GetSerializeSize(*pblock, SER_DISK, CLIENT_VERSION));
-/*
-		// Spork keys
-        LogPrintf("\n=============== Spork keys generation ======================\n");
-        CKey privKeyNew;
-        CPubKey pubKeyNew;
-        privKeyNew.MakeNewKey(false);
-        stdstring sporkSecret = CBitcoinSecret(privKeyNew).ToString();
-        obfuScationSigner.GetKeysFromSecret(sporkSecret, privKeyNew, pubKeyNew);
-        LogPrintf("    * Spork privkey %s\n", CBitcoinSecret(privKeyNew).ToString());
-        LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
-*/
-/*
-		// Spork keys
-        LogPrintf("\n=============== Spork keys generation ======================\n");
-        CKey privKeyNew;
-        CPubKey pubKeyNew;
-        privKeyNew.MakeNewKey(false);
-        strstr sporkDefs = DecodeSecret(privKeyNew).ToString();
-        CMessageSigner::GetKeysFromSecret(sporkDefs, privKeyNew, pubKeyNew);
-        LogPrintf("    * Spork privkey %s\n", DecodeSecret(privKeyNew).ToString());
-        LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
-*/
     return true;
 }
 
