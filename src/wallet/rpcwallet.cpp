@@ -551,12 +551,41 @@ UniValue makekeypair(const JSONRPCRequest& request)
     result.push_back(Pair("PrivateKey", HexStr<CPrivKey::iterator>(vchPrivKey.begin(), vchPrivKey.end())));
     result.push_back(Pair("PublicKey", HexStr(key.GetPubKey())));
     
-    CBitcoinSecret bkey(key);
+    DecodeSecret bkey(key);
     result.push_back(Pair("PrivKeyBase58",bkey.ToString()));
     
     return result;
 }
 
+/*
+CKey DecodeSecret(const std::string& str)
+{
+    CKey key;
+    std::vector<unsigned char> data;
+    if (DecodeBase58Check(str, data)) {
+        const std::vector<unsigned char>& privkey_prefix = Params().Base58Prefix(CChainParams::SECRET_KEY);
+        if ((data.size() == 32 + privkey_prefix.size() || (data.size() == 33 + privkey_prefix.size() && data.back() == 1)) &&
+            std::equal(privkey_prefix.begin(), privkey_prefix.end(), data.begin())) {
+            bool compressed = data.size() == 33 + privkey_prefix.size();
+            key.Set(data.begin() + privkey_prefix.size(), data.begin() + privkey_prefix.size() + 32, compressed);
+        }
+    }
+    memory_cleanse(data.data(), data.size());
+    return key;
+}
+
+std::string EncodeSecret(const CKey& key)
+{
+    assert(key.IsValid());
+    std::vector<unsigned char> data = Params().Base58Prefix(CChainParams::SECRET_KEY);
+    data.insert(data.end(), key.begin(), key.end());
+    if (key.IsCompressed()) {
+        data.push_back(1);
+    }
+    std::string ret = EncodeBase58Check(data);
+    memory_cleanse(data.data(), data.size());
+    return ret;
+}*/
 /*
  UniValue results(UniValue::VARR);
     std::vector<COutput> vecOutputs;
