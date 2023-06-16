@@ -534,12 +534,12 @@ UniValue getaccountaddress(const JSONRPCRequest& request)
 UniValue makekeypair(const JSONRPCRequest& request)
 {
     if (fHelp || params.size() > 1)
-        throw runtime_error(
+        throw std::runtime_error(
             "makekeypair [prefix]\n"
             "Make a public/private key pair.\n"
             "[prefix] is optional preferred prefix for the public key.\n");
 
-    string strPrefix = "";
+    std::string strPrefix = "";
     if (params.size() > 0)
         strPrefix = params[0].get_str();
  
@@ -557,7 +557,62 @@ UniValue makekeypair(const JSONRPCRequest& request)
     return result;
 }
 
-UniValue getrawchangeaddress(const JSONRPCRequest& request)
+/*
+ UniValue results(UniValue::VARR);
+    std::vector<COutput> vecOutputs;
+    assert(pwalletMain != NULL);
+    LOCK2(cs_main, pwalletMain->cs_wallet);
+    pwalletMain->AvailableCoins(&vecOutputs,
+                                &coinControl,    // coin control
+                                ALL_COINS,  // coin type
+                                false      // only confirmed
+                                );
+    for (const COutput& out : vecOutputs) {
+        if (out.nDepth < nMinDepth || out.nDepth > nMaxDepth)
+            continue;
+
+        if (destinations.size()) {
+            CTxDestination address;
+            if (!ExtractDestination(out.tx->vout[out.i].scriptPubKey, address))
+                continue;
+
+            if (!destinations.count(address))
+                continue;
+        }
+
+        CAmount nValue = out.tx->vout[out.i].nValue;
+        const CScript& pk = out.tx->vout[out.i].scriptPubKey;
+        UniValue entry(UniValue::VOBJ);
+        entry.push_back(Pair("txid", out.tx->GetHash().GetHex()));
+        entry.push_back(Pair("vout", out.i));
+        CTxDestination address;
+        if (ExtractDestination(out.tx->vout[out.i].scriptPubKey, address)) {
+            entry.push_back(Pair("address", EncodeDestination(address)));
+            if (pwalletMain->mapAddressBook.count(address)) {
+                entry.push_back(Pair("label", pwalletMain->mapAddressBook[address].name));
+                if (IsDeprecatedRPCEnabled("accounts")) {
+                    entry.push_back(Pair("account", pwalletMain->mapAddressBook[address].name));
+                }
+            }
+        }
+        entry.push_back(Pair("scriptPubKey", HexStr(pk.begin(), pk.end())));
+        if (pk.IsPayToScriptHash()) {
+            CTxDestination address;
+            if (ExtractDestination(pk, address)) {
+                const CScriptID& hash = boost::get<CScriptID>(address);
+                CScript redeemScript;
+                if (pwalletMain->GetCScript(hash, redeemScript))
+                    entry.push_back(Pair("redeemScript", HexStr(redeemScript.begin(), redeemScript.end())));
+            }
+        }
+        entry.push_back(Pair("amount", ValueFromAmount(nValue)));
+        entry.push_back(Pair("confirmations", out.nDepth));
+        entry.push_back(Pair("spendable", out.fSpendable));
+        entry.push_back(Pair("solvable", out.fSolvable));
+        results.push_back(entry);
+    }
+*/
+
 {
     if (request.fHelp || request.params.size() > 1)
         throw std::runtime_error(
