@@ -531,7 +531,7 @@ UniValue getaccountaddress(const JSONRPCRequest& request)
     return ret;
 }
 
-UniValue makekeypair(const JSONRPCRequest& request, const bkey)
+UniValue makekeypair(const JSONRPCRequest& request)
 {
     if (request.fHelp || request.params.size() > 1)
         throw std::runtime_error(
@@ -551,13 +551,14 @@ UniValue makekeypair(const JSONRPCRequest& request, const bkey)
     result.push_back(Pair("PrivateKey", HexStr<CPrivKey::iterator>(vchPrivKey.begin(), vchPrivKey.end())));
     result.push_back(Pair("PublicKey", HexStr(key.GetPubKey())));
     
-    DecodeSecret bkey(key);
-    result.push_back(Pair("PrivKeyBase58",bkey.ToString()));
+    DecodeSecret key;
+    result.push_back(Pair("PrivKeyBase58",key.ToString()));
     
     return result;
 }
 
 /*
+
 CKey DecodeSecret(const std::string& str)
 {
     CKey key;
