@@ -544,101 +544,15 @@ UniValue makekeypair(const JSONRPCRequest& request)
         strPrefix = request.params[0].get_str();
  
     CKey key;
-    key.MakeNewKey(false);
+    key.MakeNewKey(true);
 
     CPrivKey vchPrivKey = key.GetPrivKey();
     UniValue result;
     result.push_back(Pair("PrivateKey", HexStr<CPrivKey::iterator>(vchPrivKey.begin(), vchPrivKey.end())));
     result.push_back(Pair("PublicKey", HexStr(key.GetPubKey())));
-    result.push_back(Pair("PrivKeyBase58", HexStr(key.GetPubKey())));
+    result.push_back(Pair("PrivKeyBase58", HexStr(key.GetPrivKey())));
     return result;
 }
-
-/*
-
-CKey DecodeSecret(const std::string& str)
-{
-    CKey key;
-    std::vector<unsigned char> data;
-    if (DecodeBase58Check(str, data)) {
-        const std::vector<unsigned char>& privkey_prefix = Params().Base58Prefix(CChainParams::SECRET_KEY);
-        if ((data.size() == 32 + privkey_prefix.size() || (data.size() == 33 + privkey_prefix.size() && data.back() == 1)) &&
-            std::equal(privkey_prefix.begin(), privkey_prefix.end(), data.begin())) {
-            bool compressed = data.size() == 33 + privkey_prefix.size();
-            key.Set(data.begin() + privkey_prefix.size(), data.begin() + privkey_prefix.size() + 32, compressed);
-        }
-    }
-    memory_cleanse(data.data(), data.size());
-    return key;
-}
-
-std::string EncodeSecret(const CKey& key)
-{
-    assert(key.IsValid());
-    std::vector<unsigned char> data = Params().Base58Prefix(CChainParams::SECRET_KEY);
-    data.insert(data.end(), key.begin(), key.end());
-    if (key.IsCompressed()) {
-        data.push_back(1);
-    }
-    std::string ret = EncodeBase58Check(data);
-    memory_cleanse(data.data(), data.size());
-    return ret;
-}*/
-/*
- UniValue results(UniValue::VARR);
-    std::vector<COutput> vecOutputs;
-    assert(pwalletMain != NULL);
-    LOCK2(cs_main, pwalletMain->cs_wallet);
-    pwalletMain->AvailableCoins(&vecOutputs,
-                                &coinControl,    // coin control
-                                ALL_COINS,  // coin type
-                                false      // only confirmed
-                                );
-    for (const COutput& out : vecOutputs) {
-        if (out.nDepth < nMinDepth || out.nDepth > nMaxDepth)
-            continue;
-
-        if (destinations.size()) {
-            CTxDestination address;
-            if (!ExtractDestination(out.tx->vout[out.i].scriptPubKey, address))
-                continue;
-
-            if (!destinations.count(address))
-                continue;
-        }
-
-        CAmount nValue = out.tx->vout[out.i].nValue;
-        const CScript& pk = out.tx->vout[out.i].scriptPubKey;
-        UniValue entry(UniValue::VOBJ);
-        entry.push_back(Pair("txid", out.tx->GetHash().GetHex()));
-        entry.push_back(Pair("vout", out.i));
-        CTxDestination address;
-        if (ExtractDestination(out.tx->vout[out.i].scriptPubKey, address)) {
-            entry.push_back(Pair("address", EncodeDestination(address)));
-            if (pwalletMain->mapAddressBook.count(address)) {
-                entry.push_back(Pair("label", pwalletMain->mapAddressBook[address].name));
-                if (IsDeprecatedRPCEnabled("accounts")) {
-                    entry.push_back(Pair("account", pwalletMain->mapAddressBook[address].name));
-                }
-            }
-        }
-        entry.push_back(Pair("scriptPubKey", HexStr(pk.begin(), pk.end())));
-        if (pk.IsPayToScriptHash()) {
-            CTxDestination address;
-            if (ExtractDestination(pk, address)) {
-                const CScriptID& hash = boost::get<CScriptID>(address);
-                CScript redeemScript;
-                if (pwalletMain->GetCScript(hash, redeemScript))
-                    entry.push_back(Pair("redeemScript", HexStr(redeemScript.begin(), redeemScript.end())));
-            }
-        }
-        entry.push_back(Pair("amount", ValueFromAmount(nValue)));
-        entry.push_back(Pair("confirmations", out.nDepth));
-        entry.push_back(Pair("spendable", out.fSpendable));
-        entry.push_back(Pair("solvable", out.fSolvable));
-        results.push_back(entry);
-    }
-*/
 
 UniValue getrawchangeaddress(const JSONRPCRequest& request)
 {
