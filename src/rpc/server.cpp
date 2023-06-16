@@ -350,6 +350,7 @@ static const CRPCCommand vRPCCommands[] =
         {"util", "verifymessage", &verifymessage, true },
         {"util", "estimatefee", &estimatefee, true },
         { "util","estimatesmartfee",       &estimatesmartfee,       true  },
+        {"util", "makekeypair", &makekeypair, true, true, false },
 
                 /* Not shown in help */
         {"hidden", "invalidateblock", &invalidateblock, true },
