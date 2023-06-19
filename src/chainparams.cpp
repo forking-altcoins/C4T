@@ -171,8 +171,8 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "045ceed4d793e547bd8f2aec1a9cdc215faac1885f668d25469d545df204d6ea8856bc3431c8256d5874a5f93b9dc1a365ad880c25312332ce55cd4b99bd2948a0";
-        consensus.strSporkPubKeyOld = "045ceed4d793e547bd8f2aec1a9cdc215faac1885f668d25469d545df204d6ea8856bc3431c8256d5874a5f93b9dc1a365ad880c25312332ce55cd4b99bd2948a0";
+        consensus.strSporkPubKey = "040c5b747fb2c2ec56ed874acf283482f4faf4992bf291c6ad878c22bad371d5a20d38bc03fcf2193f4fcbd0167b0d3c8b7400cbec8ad2725f434c8c01eb686df5";
+        consensus.strSporkPubKeyOld = "040c5b747fb2c2ec56ed874acf283482f4faf4992bf291c6ad878c22bad371d5a20d38bc03fcf2193f4fcbd0167b0d3c8b7400cbec8ad2725f434c8c01eb686df5";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
 
@@ -278,8 +278,8 @@ public:
         consensus.nTimeSlotLength = 15;
 
         // spork keys
-        consensus.strSporkPubKey = "045ceed4d793e547bd8f2aec1a9cdc215faac1885f668d25469d545df204d6ea8856bc3431c8256d5874a5f93b9dc1a365ad880c25312332ce55cd4b99bd2948a0";
-        consensus.strSporkPubKeyOld = "045ceed4d793e547bd8f2aec1a9cdc215faac1885f668d25469d545df204d6ea8856bc3431c8256d5874a5f93b9dc1a365ad880c25312332ce55cd4b99bd2948a0";
+        consensus.strSporkPubKey = "040c5b747fb2c2ec56ed874acf283482f4faf4992bf291c6ad878c22bad371d5a20d38bc03fcf2193f4fcbd0167b0d3c8b7400cbec8ad2725f434c8c01eb686df5";
+        consensus.strSporkPubKeyOld = "040c5b747fb2c2ec56ed874acf283482f4faf4992bf291c6ad878c22bad371d5a20d38bc03fcf2193f4fcbd0167b0d3c8b7400cbec8ad2725f434c8c01eb686df5";
         consensus.nTime_EnforceNewSporkKey = 1620623421;    //!> August 26, 2019 11:00:00 PM GMT
         consensus.nTime_RejectOldSporkKey = 1620623421;     //!> September 26, 2019 11:00:00 PM GMT
 
@@ -371,8 +371,8 @@ public:
         consensus.nTargetTimespanV2 = 30 * 60;
         consensus.nTargetSpacing = 1 * 60;
         consensus.nTimeSlotLength = 15;
-        consensus.strSporkPubKey = "045ceed4d793e547bd8f2aec1a9cdc215faac1885f668d25469d545df204d6ea8856bc3431c8256d5874a5f93b9dc1a365ad880c25312332ce55cd4b99bd2948a0";
-        consensus.strSporkPubKeyOld = "045ceed4d793e547bd8f2aec1a9cdc215faac1885f668d25469d545df204d6ea8856bc3431c8256d5874a5f93b9dc1a365ad880c25312332ce55cd4b99bd2948a0";
+        consensus.strSporkPubKey = "040c5b747fb2c2ec56ed874acf283482f4faf4992bf291c6ad878c22bad371d5a20d38bc03fcf2193f4fcbd0167b0d3c8b7400cbec8ad2725f434c8c01eb686df5";
+        consensus.strSporkPubKeyOld = "040c5b747fb2c2ec56ed874acf283482f4faf4992bf291c6ad878c22bad371d5a20d38bc03fcf2193f4fcbd0167b0d3c8b7400cbec8ad2725f434c8c01eb686df5";
         consensus.nTime_EnforceNewSporkKey = 0;
         consensus.nTime_RejectOldSporkKey = 0;
 
