@@ -22,14 +22,7 @@ if cmd == "backupwallet":
         print access.backupwallet(path)
     except:
         print "\n---An error occurred---\n"
- 
-if cmd == "makekeypair":
-    try:
-        path = raw_input("Enter destination path/filename: ")
-        print access.makekeypair(path)
-    except:
-        print "\n---An error occurred---\n"
-
+        
 elif cmd == "encryptwallet":
     try:
         pwd = getpass.getpass(prompt="Enter passphrase: ")
