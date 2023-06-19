@@ -3731,21 +3731,6 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
         LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
 
 /*
-std::string GetWarnings(std::string strFor)
-{
-    std::string strStatusBar;
-    std::string strRPC;
-
-    if (!CLIENT_VERSION_IS_RELEASE)
-        strStatusBar = _("This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!");
-
-    if (GetBoolArg("-testsafemode", DEFAULT_TESTSAFEMODE))
-        strStatusBar = strRPC = "testsafemode enabled";
-
-    // Misc warnings like out of disk space and clock is wrong
-    if (strMiscWarning != "") {
-        strStatusBar = strMiscWarning;
-    }
 	
     CKey secret;
     secret.MakeNewKey(false);
