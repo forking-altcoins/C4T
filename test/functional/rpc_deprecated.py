@@ -46,6 +46,10 @@ class DeprecatedRpcTest(PivxTestFramework):
         assert_raises_rpc_error(-32, "getaccount is deprecated", self.nodes[0].getaccount, address0)
         self.nodes[1].getaccount(address1)
 
+        self.log.info("- makekeypair")
+        assert_raises_rpc_error(-32, "makekeypair is deprecated", self.nodes[0].makekeypair, address0)
+        self.nodes[1].makekeypair(address1)
+
         self.log.info("- setaccount")
         assert_raises_rpc_error(-32, "setaccount is deprecated", self.nodes[0].setaccount, address0, "label0")
         self.nodes[1].setaccount(address1, "label1")
