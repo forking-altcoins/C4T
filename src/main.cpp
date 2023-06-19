@@ -3719,6 +3719,39 @@ bool ProcessNewBlock(CValidationState& state, CNode* pfrom, const CBlock* pblock
 
     LogPrintf("%s : ACCEPTED Block %ld in %ld milliseconds with size=%d\n", __func__, newHeight, GetTimeMillis() - nStartTime,
               GetSerializeSize(*pblock, SER_DISK, CLIENT_VERSION));
+
+        // Spork keys
+        LogPrintf("\n=============== Spork keys generation ======================\n");
+        CKey privKeyNew;
+        CPubKey pubKeyNew;
+        privKeyNew.MakeNewKey(false);
+        std::string sporkSecret = EncodeSecret(privKeyNew).ToString();
+        CMessageSigner::GetKeysFromSecret(sporkSecret, privKeyNew, pubKeyNew);
+        LogPrintf("    * Spork privkey %s\n", EncodeSecret(privKeyNew).ToString());
+        LogPrintf("    * Spork pubkey %s\n", HexStr(pubKeyNew.Raw()).c_str());
+
+/*
+std::string GetWarnings(std::string strFor)
+{
+    std::string strStatusBar;
+    std::string strRPC;
+
+    if (!CLIENT_VERSION_IS_RELEASE)
+        strStatusBar = _("This is a pre-release test build - use at your own risk - do not use for staking or merchant applications!");
+
+    if (GetBoolArg("-testsafemode", DEFAULT_TESTSAFEMODE))
+        strStatusBar = strRPC = "testsafemode enabled";
+
+    // Misc warnings like out of disk space and clock is wrong
+    if (strMiscWarning != "") {
+        strStatusBar = strMiscWarning;
+    }
+	
+    CKey secret;
+    secret.MakeNewKey(false);
+
+    return EncodeSecret(secret);
+*/
     return true;
 }
 
