@@ -196,10 +196,10 @@ public:
         consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].nActivationHeight          = 600;
         consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].nActivationHeight     = 1560001;
 
-        consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("0x0");
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("d9b3c81d54940f70c95213fc8186c6b28fae83ebc9a26ac97c6833c51e701ece");
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("28b3e0c230384857d51f650cfc000eda6e6a5b84b480c92bd60082f26f392265");
         consensus.vUpgrades[Consensus::UPGRADE_BIP65].hashActivationBlock                  = uint256S("0x0");
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].hashActivationBlock     = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].hashActivationBlock     = uint256S("68e4441c900d64bbe0dcc670c10432d8b45950b6eb3dbf0e153caa8a7ce0e259");
         consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].hashActivationBlock      = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].hashActivationBlock       = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].hashActivationBlock = uint256S("0x0");
@@ -219,7 +219,9 @@ public:
         nDefaultPort = 19333;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back(CDNSSeedData("127.0.0.1",  "127.0.0.1", true));
+        vSeeds.emplace_back(CDNSSeedData("77.223.98.12", "77.223.98.12", true));
+        vSeeds.emplace_back(CDNSSeedData("81.163.29.97", "81.163.29.97", true));
+        vSeeds.emplace_back(CDNSSeedData("45.8.249.77", "45.8.249.77", true));
 
         base58Prefixes[PUBKEY_ADDRESS]  = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS]  = std::vector<unsigned char>(1, 30);
