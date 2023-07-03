@@ -185,24 +185,24 @@ public:
         // Network upgrades
         consensus.vUpgrades[Consensus::BASE_NETWORK].nActivationHeight                   = Consensus::NetworkUpgrade::ALWAYS_ACTIVE;
         consensus.vUpgrades[Consensus::UPGRADE_TESTDUMMY].nActivationHeight              = Consensus::NetworkUpgrade::NO_ACTIVATION_HEIGHT;
-        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight                    = 501; // best=505065614a9adc347dfae4d5a5ea8ad6a4215a5263a35459a55249eb6efe6b21  height=501 version=3  tx=509
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight                 = 510; // best=bf506c54ea66dde2cbd6eadd3139594d5effcb3201698496263d58fd51dd7941  height=510 version=3  tx=527
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight                  = 520; // best=a8c879b1f4b6eed16992bbc852262ab787fed7448c351e3fe08bdccb253fb5be  height=520 version=5  tx=547
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].nActivationHeight     = 505; // best=ce19dd937746ff2e58277a1a306f4d5c13c636a65b29573664edda53c2f45cb2  height=505 version=3  tx=517
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].nActivationHeight      = 530; // best=5363da8e77e375f37417acc7734bc4e5e2b025365445ac202ff737c8c6541fe1  height=530 version=6  tx=567
-        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight       = 540; // best=80a39efe44a7740138100d3de6ef957636faef56e303911a0566a2aea59f891c  height=540 version=7  tx=587
-        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 550; // best=6332b01bbc3196514422b53aecc59016710815b4aef5777a838a5d3a8b4c8c87  height=550 version=7  tx=607
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 5600; //
-        consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].nActivationHeight          = 6000; //
+        consensus.vUpgrades[Consensus::UPGRADE_POS].nActivationHeight                    = 501;
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].nActivationHeight                 = 510;
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].nActivationHeight                  = 520;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].nActivationHeight     = 505;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].nActivationHeight      = 530;
+        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].nActivationHeight       = 540;
+        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].nActivationHeight = 550;
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].nActivationHeight     = 5600;
+        consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].nActivationHeight          = 6000;
         consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].nActivationHeight     = 1560001;
 
-        consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("505065614a9adc347dfae4d5a5ea8ad6a4215a5263a35459a55249eb6efe6b21");
-        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("bf506c54ea66dde2cbd6eadd3139594d5effcb3201698496263d58fd51dd7941");
-        consensus.vUpgrades[Consensus::UPGRADE_BIP65].hashActivationBlock                  = uint256S("a8c879b1f4b6eed16992bbc852262ab787fed7448c351e3fe08bdccb253fb5be");
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].hashActivationBlock     = uint256S("ce19dd937746ff2e58277a1a306f4d5c13c636a65b29573664edda53c2f45cb2");
-        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].hashActivationBlock      = uint256S("5363da8e77e375f37417acc7734bc4e5e2b025365445ac202ff737c8c6541fe1");
-        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].hashActivationBlock       = uint256S("80a39efe44a7740138100d3de6ef957636faef56e303911a0566a2aea59f891c");
-        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].hashActivationBlock = uint256S("6332b01bbc3196514422b53aecc59016710815b4aef5777a838a5d3a8b4c8c87");
+        consensus.vUpgrades[Consensus::UPGRADE_POS].hashActivationBlock                    = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_POS_V2].hashActivationBlock                 = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_BIP65].hashActivationBlock                  = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V1].hashActivationBlock     = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_STAKE_MODIFIER_V2].hashActivationBlock      = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_TIME_PROTOCOL_V2].hashActivationBlock       = uint256S("0x0");
+        consensus.vUpgrades[Consensus::UPGRADE_P2PKH_BLOCK_SIGNATURES].hashActivationBlock = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_STAKE_MIN_DEPTH_V2].hashActivationBlock     = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_CHECK_WORK_V2].hashActivationBlock          = uint256S("0x0");
         consensus.vUpgrades[Consensus::UPGRADE_MASTERNODE_RANK_V2].hashActivationBlock     = uint256S("0x0");
@@ -219,9 +219,9 @@ public:
         nDefaultPort = 19333;
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.emplace_back(CDNSSeedData("77.223.98.12", "77.223.98.12", true));
-        vSeeds.emplace_back(CDNSSeedData("81.163.29.97", "81.163.29.97", true));
-        vSeeds.emplace_back(CDNSSeedData("45.8.249.77", "45.8.249.77", true));
+        vSeeds.emplace_back(CDNSSeedData("", "", false));
+        vSeeds.emplace_back(CDNSSeedData("", "", false));
+        vSeeds.emplace_back(CDNSSeedData("", "", false));
 
         base58Prefixes[PUBKEY_ADDRESS]  = std::vector<unsigned char>(1, 28);
         base58Prefixes[SCRIPT_ADDRESS]  = std::vector<unsigned char>(1, 30);
