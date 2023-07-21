@@ -1,4 +1,31 @@
 /****************************************************************************************/
+/* Global color codes:                                                                  */
+/*                                                                                      */
+/* These color codes should be blanket find/replaced in every file of the build         */
+/* (all files need to be replaced....including the .ui, .cpp, .svg, any file type)      */
+/* Ensure to persist the spacing used in the rgba() and QColor() constructs as shown    */
+/*                                                                                      */
+/* standard lighter brand color:                   #ED1C24                              */
+/* standard darker brand color:                    #BC1B26                              */
+/* standard darker brand color as RGB                                                   */
+/*    with a 70% transparency indicator:           rgba(188, 27, 38, 0.7)               */
+/* dark tinted background brand color:             #110000                              */
+/*                                                                                      */
+/* staking chart POS color:                        #FFD599                              */
+/* staking chart POS color as RGB:                 QColor(255, 213, 153)                   */
+/* staking chart MN color:                         #BC1B26                              */
+/* staking chart MN color as RGB:                  QColor(192,100,22)                   */
+/*                                                                                      */
+/* dark theme background color:                    #000000                              */
+/****************************************************************************************/
+/*                                                                                      */
+/* Note: it's sometimes not easy to figure out all those screen elements, so unused     */
+/*       but valid ones are commented out, not removed, in case they will be needed     */
+/*       again in the future.                                                           */
+/*                                                                                      */
+/****************************************************************************************/
+
+/****************************************************************************************/
 /* Global color codes:  */
 /* dark-purple:#382f44  */
 /* transparent-purple: #e9e7ef (for inactive backgrounds)   */
